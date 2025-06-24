@@ -1,0 +1,28 @@
+name: Block PRs with specific labels
+
+on:
+  pull_request:
+    types: [opened, labeled, unlabeled, synchronize]
+
+jobs:
+  block_if_labeled:
+    name: Block PR if disallowed label is present 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for disallowed labels
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const disallowedLabels = ['aemy-running'];
+            const prLabels = await github.rest.issues.listLabelsOnIssue({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+            });
+
+            const found = prLabels.data.some(label => disallowedLabels.includes(label.name));
+            if (found) {
+              core.setFailed(`PR contains a disallowed label: ${disallowedLabels.join(', ')}`);
+            } else {
+              core.info('No disallowed labels found.');
+            }
