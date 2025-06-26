@@ -59,6 +59,9 @@ jobs:
             // Debug logging
             core.info(`🔍 Debug: Current labels: ${JSON.stringify(currentLabels)}`);
             core.info(`🔍 Debug: PR is draft: ${pr.draft}`);
+            core.info(`🔍 Debug: PR state: ${pr.state}`);
+            core.info(`🔍 Debug: PR mergeable: ${pr.mergeable}`);
+            core.info(`🔍 Debug: PR review decision: ${pr.review_decision || 'none'}`);
             core.info(`🔍 Debug: Has blocking labels: ${hasBlocking}`);
             core.info(`🔍 Debug: Has help label: ${hasHelp}`);
             core.info(`🔍 Debug: Has merge label: ${hasMerge}`);
@@ -74,8 +77,21 @@ jobs:
                   draft: true 
                 });
                 core.info(`✅ Update API call successful. Status: ${updateResult.status}`);
-                core.info(`✅ PR draft state after update: ${updateResult.data.draft}`);
-                core.notice(`ℹ️ PR marked as draft due to '${helpLabel}' label.`);
+                core.info(`✅ PR draft state in API response: ${updateResult.data.draft}`);
+                
+                // Re-fetch PR to verify the change took effect
+                const { data: updatedPr } = await github.rest.pulls.get({
+                  owner,
+                  repo,
+                  pull_number: prNumber,
+                });
+                core.info(`🔄 Re-fetched PR draft state: ${updatedPr.draft}`);
+                
+                if (updatedPr.draft) {
+                  core.notice(`ℹ️ PR successfully marked as draft due to '${helpLabel}' label.`);
+                } else {
+                  core.warning(`⚠️ API call succeeded but PR is still not in draft state. This may be due to PR review status or branch protection rules.`);
+                }
               } catch (error) {
                 core.error(`❌ Failed to mark PR as draft: ${error.message}`);
                 core.error(`❌ Error details: ${JSON.stringify(error.response?.data || error, null, 2)}`);
