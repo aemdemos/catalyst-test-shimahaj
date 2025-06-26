@@ -12,8 +12,7 @@ on:
       - unlabeled
       - ready_for_review
 
-permissions:
-  pull-requests: write
+permissions: write-all
 
 env:
   FAILING_LABELS: "amy-running,aemy-failed"
@@ -25,6 +24,7 @@ jobs:
     name: Manage PR draft status based on AEMY labels
     runs-on: ubuntu-latest
     steps:
+<<<<<<< issue-31
       - name: Toggle draft status if needed
         uses: actions/github-script@v7
         with:
@@ -69,3 +69,23 @@ jobs:
             } else {
               core.info(`ℹ️ No draft state change needed.`);
             }
+=======
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Mark PR as draft if needed
+        if: contains(github.event.pull_request.labels.*.name, 'aemy-help')
+        run: |
+          gh pr ready --undo ${{ github.event.pull_request.number }}
+          echo "PR #${{ github.event.pull_request.number }} marked as draft"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Mark PR ready for review if needed
+        if: contains(github.event.pull_request.labels.*.name, 'aemy-merge') && !contains(github.event.pull_request.labels.*.name, 'aemy-running') && !contains(github.event.pull_request.labels.*.name, 'aemy-failed')
+        run: |
+          gh pr ready ${{ github.event.pull_request.number }}
+          echo "PR #${{ github.event.pull_request.number }} marked ready for review"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+>>>>>>> main
