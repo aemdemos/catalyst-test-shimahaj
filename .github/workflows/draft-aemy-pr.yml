@@ -1,0 +1,63 @@
+# .github/workflows/draft-aemy-pr.yml
+# Manages PR draft state during AEMY workflow
+
+name: Auto-draft PR during AEMY run
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - labeled
+      - unlabeled
+      - ready_for_review
+
+permissions:
+  pull-requests: write
+
+env:
+  BLOCKING_LABELS: "aemy-running,aemy-failed"
+  AEMY_HELP_LABEL: "aemy-help"
+  AEMY_MERGE_LABEL: "aemy-merge"
+
+jobs:
+  manage_draft:
+    name: Manage PR draft status based on AEMY labels
+    runs-on: ubuntu-latest
+    steps:
+      - name: Toggle draft status if needed
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const blockingLabels = process.env.BLOCKING_LABELS.split(',').map(s => s.trim());
+            const helpLabel = process.env.AEMY_HELP_LABEL.trim();
+            const mergeLabel = process.env.AEMY_MERGE_LABEL.trim();
+
+            const prNumber = context.payload.pull_request.number;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            const { data: pr } = await github.rest.pulls.get({
+              owner,
+              repo,
+              pull_number: prNumber,
+            });
+
+            const currentLabels = pr.labels.map(l => l.name);
+            const hasBlocking = currentLabels.some(l => blockingLabels.includes(l));
+            const hasHelp = currentLabels.includes(helpLabel);
+            const hasMerge = currentLabels.includes(mergeLabel);
+
+            if (hasHelp && !pr.draft) {
+              await github.rest.pulls.update({ owner, repo, pull_number: prNumber, draft: true });
+              core.notice(`ℹ️ PR marked as draft due to '${helpLabel}' label.`);
+              return;
+            }
+
+            if (!hasBlocking && hasMerge && pr.draft) {
+              await github.rest.pulls.update({ owner, repo, pull_number: prNumber, draft: false });
+              core.notice(`✅ PR marked ready for review: AEMY processing complete and merge approved.`);
+            } else {
+              core.info(`ℹ️ No draft state change needed.`);
+            }

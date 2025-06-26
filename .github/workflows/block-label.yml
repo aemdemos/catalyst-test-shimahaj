@@ -13,7 +13,7 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const disallowedLabels = ['aemy-running', 'aemy-failed  '];
+            const disallowedLabels = ['aemy-running', 'aemy-failed'];
             const prLabels = await github.rest.issues.listLabelsOnIssue({
               owner: context.repo.owner,
               repo: context.repo.repo,
