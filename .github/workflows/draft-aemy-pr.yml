@@ -2,7 +2,7 @@
 # Manages PR draft state during AEMY workflow execution
 # Converts PRs to draft when AEMY is running and back to ready when AEMY completed and aemy-merge label is attached
 
-name: AEMY PR State Management
+name: aemy-pr-readiness-check
 
 on:
   pull_request:
