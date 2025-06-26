@@ -1,6 +1,7 @@
 # .github/workflows/draft-aemy-pr.yml
-# Manages PR draft state during AEMY workflow execution
-# Converts PRs to draft when AEMY is running and back to ready when AEMY completed and aemy-merge label is attached
+# AEMY processing readiness check - prevents merging during AEMY workflow execution
+# Converts PR to draft when AEMY starts, acts as status check that fails while AEMY runs/fails
+# Allows merge and marks PR ready when AEMY completes successfully with aemy-merge label
 
 name: aemy-pr-readiness-check
 
