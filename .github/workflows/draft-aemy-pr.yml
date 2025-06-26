@@ -70,14 +70,19 @@ jobs:
               core.info(`✅ Condition met: hasHelp (${hasHelp}) && !pr.draft (${!pr.draft})`);
               try {
                 core.info(`🔄 Attempting to mark PR #${prNumber} as draft...`);
-                const updateResult = await github.rest.pulls.update({ 
-                  owner, 
-                  repo, 
-                  pull_number: prNumber, 
-                  draft: true 
+                const updateResult = await github.graphql(`
+                  mutation($pullRequestId: ID!) {
+                    convertPullRequestToDraft(input: {pullRequestId: $pullRequestId}) {
+                      pullRequest {
+                        isDraft
+                      }
+                    }
+                  }
+                `, {
+                  pullRequestId: pr.node_id
                 });
-                core.info(`✅ Update API call successful. Status: ${updateResult.status}`);
-                core.info(`✅ PR draft state in API response: ${updateResult.data.draft}`);
+                core.info(`✅ GraphQL mutation successful`);
+                core.info(`✅ PR draft state in API response: ${updateResult.convertPullRequestToDraft.pullRequest.isDraft}`);
                 
                 // Re-fetch PR to verify the change took effect
                 const { data: updatedPr } = await github.rest.pulls.get({
