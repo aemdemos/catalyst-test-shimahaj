@@ -26,7 +26,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        
       - name: Mark PR as draft if needed
         if: contains(github.event.pull_request.labels.*.name, 'aemy-help')
         run: |
