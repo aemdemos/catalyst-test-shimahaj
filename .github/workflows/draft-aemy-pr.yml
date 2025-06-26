@@ -1,30 +1,28 @@
 # .github/workflows/draft-aemy-pr.yml
-# Manages PR draft state during AEMY workflow
+# AEMY processing readiness check - prevents merging during AEMY workflow execution
+# Converts PR to draft when AEMY starts, acts as status check that fails while AEMY runs/fails
+# Allows merge and marks PR ready when AEMY completes successfully with aemy-merge label
 
-name: Auto-draft PR during AEMY run
+name: aemy-pr-readiness-check
 
 on:
   pull_request:
-    types:
-      - opened
-      - reopened
-      - labeled
-      - unlabeled
-      - ready_for_review
+    types: [labeled, unlabeled]
 
-permissions: write-all
+permissions:
+  pull-requests: write
+  contents: read
 
 env:
-  FAILING_LABELS: "amy-running,aemy-failed"
-  AEMY_HELP_LABEL: "aemy-help"
-  AEMY_MERGE_LABEL: "aemy-merge"
+  BLOCKING_LABELS: "aemy-running,aemy-failed"
+  MERGE_LABEL: "aemy-merge"
 
 jobs:
-  manage_draft:
-    name: Manage PR draft status based on AEMY labels
+  manage-pr-state:
+    name: Manage PR Draft State
     runs-on: ubuntu-latest
+    
     steps:
-<<<<<<< issue-31
       - name: Toggle draft status if needed
         uses: actions/github-script@v7
         with:
@@ -69,23 +67,31 @@ jobs:
             } else {
               core.info(`ℹ️ No draft state change needed.`);
             }
-=======
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        
-      - name: Mark PR as draft if needed
-        if: contains(github.event.pull_request.labels.*.name, 'aemy-help')
+      - uses: actions/checkout@v4
+
+      - name: Convert PR to draft while AEMY is running
+        if: contains(github.event.pull_request.labels.*.name, 'aemy-running')
         run: |
-          gh pr ready --undo ${{ github.event.pull_request.number }}
-          echo "PR #${{ github.event.pull_request.number }} marked as draft"
+          gh pr ready --undo ${{ github.event.pull_request.number }} || exit 1
+          echo "✅ PR converted to draft"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: Mark PR ready for review if needed
-        if: contains(github.event.pull_request.labels.*.name, 'aemy-merge') && !contains(github.event.pull_request.labels.*.name, 'aemy-running') && !contains(github.event.pull_request.labels.*.name, 'aemy-failed')
+
+      - name: Prevent merge - PR not ready due to AEMY processing
+        if: |
+          contains(github.event.pull_request.labels.*.name, 'aemy-running') ||
+          contains(github.event.pull_request.labels.*.name, 'aemy-failed')
         run: |
-          gh pr ready ${{ github.event.pull_request.number }}
-          echo "PR #${{ github.event.pull_request.number }} marked ready for review"
+          echo "❌ Cannot merge: AEMY processing in progress or failed"
+          exit 1
+
+      - name: Mark PR ready for review after AEMY completion
+        if: |
+          contains(github.event.pull_request.labels.*.name, env.MERGE_LABEL) && 
+          !contains(github.event.pull_request.labels.*.name, 'aemy-running') &&
+          !contains(github.event.pull_request.labels.*.name, 'aemy-failed')
+        run: |
+          gh pr ready ${{ github.event.pull_request.number }} || exit 1
+          echo "✅ PR ready for review"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
->>>>>>> main
