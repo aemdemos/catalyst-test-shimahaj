@@ -36,7 +36,10 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Mark PR ready for review if needed
-        if: contains(github.event.pull_request.labels.*.name, 'aemy-merge') && !contains(github.event.pull_request.labels.*.name, 'aemy-running') && !contains(github.event.pull_request.labels.*.name, 'aemy-failed')
+        if: |
+          contains(github.event.pull_request.labels.*.name, 'aemy-merge') && 
+          !contains(github.event.pull_request.labels.*.name, 'aemy-running') && 
+          !contains(github.event.pull_request.labels.*.name, 'aemy-failed')
         run: |
           gh pr ready ${{ github.event.pull_request.number }}
           echo "PR #${{ github.event.pull_request.number }} marked ready for review"
