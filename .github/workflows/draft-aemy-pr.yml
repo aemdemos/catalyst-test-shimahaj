@@ -49,20 +49,12 @@ jobs:
             const hasHelp = currentLabels.includes(helpLabel);
             const hasMerge = currentLabels.includes(mergeLabel);
 
-            // Convert PR to draft using GitHub's dedicated endpoint for reliability
             if (hasHelp && !pr.draft) {
-              try {
-                await github.rest.pulls.convertToDraft({ owner, repo, pull_number: prNumber });
-                core.notice(`ℹ️ PR converted to draft due to '${helpLabel}' label.`);
-              } catch (e) {
-                core.warning(`convertToDraft failed (${e.message}); attempting fallback via update().`);
-                await github.rest.pulls.update({ owner, repo, pull_number: prNumber, draft: true });
-                core.notice(`ℹ️ PR marked as draft via fallback method.`);
-              }
+              await github.rest.pulls.update({ owner, repo, pull_number: prNumber, draft: true });
+              core.notice(`ℹ️ PR marked as draft due to '${helpLabel}' label.`);
               return;
             }
 
-            // Undraft PR when safe to merge
             if (!hasFailing && hasMerge && pr.draft) {
               await github.rest.pulls.update({ owner, repo, pull_number: prNumber, draft: false });
               core.notice(`✅ PR marked ready for review: AEMY processing complete and merge approved.`);
