@@ -31,13 +31,18 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            await github.rest.pulls.update({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.payload.pull_request.number,
-              draft: true
+            const result = await github.graphql(`
+              mutation($pullRequestId: ID!) {
+                convertPullRequestToDraft(input: {pullRequestId: $pullRequestId}) {
+                  pullRequest {
+                    isDraft
+                  }
+                }
+              }
+            `, {
+              pullRequestId: context.payload.pull_request.node_id
             });
-            console.log('PR marked as draft');
+            console.log('PR draft status:', result.convertPullRequestToDraft.pullRequest.isDraft);
       
       - name: Toggle draft status if needed
         uses: actions/github-script@v7
