@@ -4,3345 +4,2997 @@
   "urls": [
     {
       "url": "https://sive.rs/",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/",
       "id": "fbe24c3d0f0c6e2bdd3b0dd335e832df8fca681d"
     },
     {
       "url": "https://sive.rs/1090",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/1090",
       "id": "89e2957992272ea7d349ad699031a5ad6de93ca7"
     },
     {
       "url": "https://sive.rs/15-years",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/15-years",
       "id": "ea50d66d2820e9bae3ed6468af4d4f8103337c38"
     },
     {
-      "url": "https://sive.rs/1998-pk",
-      "source": "CRAWL",
-      "targetPath": "/1998-pk",
-      "id": "d3f2edb889b934cc858e8414dab8c9288368fcf9"
+      "url": "https://sive.rs/1idea",
+      "source": "SITEMAPS",
+      "targetPath": "/1idea",
+      "id": "e82d356b3e0fa4ca7049dca9b37012f819afe98f"
     },
     {
       "url": "https://sive.rs/1pct",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/1pct",
       "id": "5b1667e1540dd5d9c5658ed9cf02a18090117a8e"
     },
     {
-      "url": "https://sive.rs/2005-11-vv",
-      "source": "CRAWL",
-      "targetPath": "/2005-11-vv",
-      "id": "6e1ddf8427525db3ee09ed80119942018839aebc"
-    },
-    {
-      "url": "https://sive.rs/2008-10-vv",
-      "source": "CRAWL",
-      "targetPath": "/2008-10-vv",
-      "id": "fef38638a17efc8332b1ddc931537bf7fef4cc4c"
-    },
-    {
-      "url": "https://sive.rs/2008-12-ppdp",
-      "source": "CRAWL",
-      "targetPath": "/2008-12-ppdp",
-      "id": "bce8c86df605198addd6c47a4b0cd6f11cb40a1a"
-    },
-    {
-      "url": "https://sive.rs/2009-03-soundadvice",
-      "source": "CRAWL",
-      "targetPath": "/2009-03-soundadvice",
-      "id": "afed5ae825de92b900cd5a969bf151659a9d9877"
-    },
-    {
-      "url": "https://sive.rs/2009-09-mus",
-      "source": "CRAWL",
-      "targetPath": "/2009-09-mus",
-      "id": "8848a6cd56f86b06ecc6e7ef7ae2dc86670b0e19"
-    },
-    {
-      "url": "https://sive.rs/2009-10-newman",
-      "source": "CRAWL",
-      "targetPath": "/2009-10-newman",
-      "id": "8f6209d8e20da6869775d9733dcfa5b5f823ea51"
-    },
-    {
-      "url": "https://sive.rs/2009-12-bye",
-      "source": "CRAWL",
-      "targetPath": "/2009-12-bye",
-      "id": "41528f756e632ed6db30c05c56aa06f9b5b6de3c"
-    },
-    {
-      "url": "https://sive.rs/2010-07-actual",
-      "source": "CRAWL",
-      "targetPath": "/2010-07-actual",
-      "id": "89a80dc57426b2f498a568a6ddb1696ab3775d52"
-    },
-    {
-      "url": "https://sive.rs/2010-07-eday",
-      "source": "CRAWL",
-      "targetPath": "/2010-07-eday",
-      "id": "d312d71d1a7ea6d09d935919b358723f5870d84e"
-    },
-    {
-      "url": "https://sive.rs/2010-09-techzing",
-      "source": "CRAWL",
-      "targetPath": "/2010-09-techzing",
-      "id": "e83d9723eaf1200f1216094dd594bf801e08a368"
-    },
-    {
-      "url": "https://sive.rs/2011-04-charm",
-      "source": "CRAWL",
-      "targetPath": "/2011-04-charm",
-      "id": "5deb4fa571cd37c0ee225adbe80527c78612cda6"
-    },
-    {
-      "url": "https://sive.rs/2011-06-amber",
-      "source": "CRAWL",
-      "targetPath": "/2011-06-amber",
-      "id": "1cd7929f9313dd5f6c3d76090edb70e8f497b1d2"
-    },
-    {
-      "url": "https://sive.rs/2011-06-forbes",
-      "source": "CRAWL",
-      "targetPath": "/2011-06-forbes",
-      "id": "476f2889d8231b5f0ba21aa6e94c2139858cd784"
-    },
-    {
-      "url": "https://sive.rs/2011-06-mixergy",
-      "source": "CRAWL",
-      "targetPath": "/2011-06-mixergy",
-      "id": "1caa52f8a476a141aa55426cd346bb6a2694d6c8"
-    },
-    {
-      "url": "https://sive.rs/2011-06-slim",
-      "source": "CRAWL",
-      "targetPath": "/2011-06-slim",
-      "id": "2f7fbcf80ed4f7de7440a008cda48e541ff9536e"
-    },
-    {
-      "url": "https://sive.rs/2011-06-tardy",
-      "source": "CRAWL",
-      "targetPath": "/2011-06-tardy",
-      "id": "eee00e5392e5f6ada7241b878c628950085e8992"
-    },
-    {
-      "url": "https://sive.rs/2011-07-baer",
-      "source": "CRAWL",
-      "targetPath": "/2011-07-baer",
-      "id": "09a809d46a33751736f4aeb2c062e653424fb551"
-    },
-    {
-      "url": "https://sive.rs/2011-07-coffee",
-      "source": "CRAWL",
-      "targetPath": "/2011-07-coffee",
-      "id": "29e4e6dd82d5347d615b606022e6667a358e207d"
-    },
-    {
-      "url": "https://sive.rs/2011-07-duct",
-      "source": "CRAWL",
-      "targetPath": "/2011-07-duct",
-      "id": "149ecc307e322aeda6ecac408b3d6a3e10f44090"
-    },
-    {
-      "url": "https://sive.rs/2011-07-inspire",
-      "source": "CRAWL",
-      "targetPath": "/2011-07-inspire",
-      "id": "3c2a6b7e8fc5ea3477202ae7fd67e12e6b61cba6"
-    },
-    {
-      "url": "https://sive.rs/2011-07-joel",
-      "source": "CRAWL",
-      "targetPath": "/2011-07-joel",
-      "id": "deb777bb4529124974a8da17538bf3d2350e53b1"
-    },
-    {
-      "url": "https://sive.rs/2011-07-mentor",
-      "source": "CRAWL",
-      "targetPath": "/2011-07-mentor",
-      "id": "aaef81e54b1995bed536f9337216d73a9fc19d08"
-    },
-    {
-      "url": "https://sive.rs/2011-07-waking",
-      "source": "CRAWL",
-      "targetPath": "/2011-07-waking",
-      "id": "8691aa7cca2921212be311fc5fc45432344b3c4a"
-    },
-    {
-      "url": "https://sive.rs/2012-10-dinsmore",
-      "source": "CRAWL",
-      "targetPath": "/2012-10-dinsmore",
-      "id": "8d9d22be8519a9e5bf8bbdc533805e2ee716dd9f"
-    },
-    {
-      "url": "https://sive.rs/2013-01-conley",
-      "source": "CRAWL",
-      "targetPath": "/2013-01-conley",
-      "id": "f99297fd06f5592db1179444eed47047048058a7"
-    },
-    {
-      "url": "https://sive.rs/2013-09-drt",
-      "source": "CRAWL",
-      "targetPath": "/2013-09-drt",
-      "id": "be1d71d320aece61c3f5e61149eada210fdd5dcf"
-    },
-    {
-      "url": "https://sive.rs/2014-02-baker",
-      "source": "CRAWL",
-      "targetPath": "/2014-02-baker",
-      "id": "5939f6a8e8f506cd7976cebbd2eac67f216c80bd"
-    },
-    {
-      "url": "https://sive.rs/2014-02-suitcase",
-      "source": "CRAWL",
-      "targetPath": "/2014-02-suitcase",
-      "id": "55f3e510e2270c989082ffd5255093d503585dc7"
-    },
-    {
-      "url": "https://sive.rs/2014-10-yowo",
-      "source": "CRAWL",
-      "targetPath": "/2014-10-yowo",
-      "id": "f469e59285ad538c21632ca69afb2dc73d3bcbfd"
-    },
-    {
-      "url": "https://sive.rs/2015-06-start",
-      "source": "CRAWL",
-      "targetPath": "/2015-06-start",
-      "id": "41f123f5c214a53aa2689523a95493f8dad60111"
-    },
-    {
-      "url": "https://sive.rs/2015-07-forbes",
-      "source": "CRAWL",
-      "targetPath": "/2015-07-forbes",
-      "id": "3899fe2616d1d31b26987b703e519ec5cbb61c90"
-    },
-    {
-      "url": "https://sive.rs/2015-08-productive",
-      "source": "CRAWL",
-      "targetPath": "/2015-08-productive",
-      "id": "6a2472a9a9c22a7582a84ddf72099cac6a160b3a"
-    },
-    {
-      "url": "https://sive.rs/2015-09-33",
-      "source": "CRAWL",
-      "targetPath": "/2015-09-33",
-      "id": "132be84ea10a0c80757afc6e353192903e27f058"
-    },
-    {
-      "url": "https://sive.rs/2015-09-adventure",
-      "source": "CRAWL",
-      "targetPath": "/2015-09-adventure",
-      "id": "b7034e0f45d06436492cc18e93fdeb565b825d6b"
-    },
-    {
-      "url": "https://sive.rs/2015-09-bucket",
-      "source": "CRAWL",
-      "targetPath": "/2015-09-bucket",
-      "id": "55b3811dd459d9e732ad2f9f7ef19de00f1837eb"
-    },
-    {
-      "url": "https://sive.rs/2015-09-ozeal",
-      "source": "CRAWL",
-      "targetPath": "/2015-09-ozeal",
-      "id": "7ef9a43ac9a5c7b8c49d65c1b15c66af887376f2"
-    },
-    {
-      "url": "https://sive.rs/2015-09-smile",
-      "source": "CRAWL",
-      "targetPath": "/2015-09-smile",
-      "id": "8ea468d833d267ce7785cc34b538d801e8875660"
-    },
-    {
-      "url": "https://sive.rs/2015-09-tribe",
-      "source": "CRAWL",
-      "targetPath": "/2015-09-tribe",
-      "id": "7fe87d589db084d2fe29a80162a0260529a037d5"
-    },
-    {
-      "url": "https://sive.rs/2015-09-unmistakable",
-      "source": "CRAWL",
-      "targetPath": "/2015-09-unmistakable",
-      "id": "1d9a70916be97523d353f5e48128b54e278286c5"
-    },
-    {
-      "url": "https://sive.rs/2015-09-zen",
-      "source": "CRAWL",
-      "targetPath": "/2015-09-zen",
-      "id": "f627412ccbfbd17ecfa975b4d31861f65e4b9339"
-    },
-    {
-      "url": "https://sive.rs/2015-10-boomers",
-      "source": "CRAWL",
-      "targetPath": "/2015-10-boomers",
-      "id": "65a9b9ab262f138781cc0c25f62fbcac3c4a2064"
-    },
-    {
-      "url": "https://sive.rs/2015-10-built2sell",
-      "source": "CRAWL",
-      "targetPath": "/2015-10-built2sell",
-      "id": "f11a6ca60405ad7826b4a3ef0a5d48c908da7488"
-    },
-    {
-      "url": "https://sive.rs/2015-10-hacke",
-      "source": "CRAWL",
-      "targetPath": "/2015-10-hacke",
-      "id": "2cc9ad0183f7d2e2ec15d59dfe5905459d8762d0"
-    },
-    {
-      "url": "https://sive.rs/2015-10-relaunch",
-      "source": "CRAWL",
-      "targetPath": "/2015-10-relaunch",
-      "id": "fe6679756793c6f24189e506483be02dbbd2044a"
-    },
-    {
-      "url": "https://sive.rs/2015-10-robin",
-      "source": "CRAWL",
-      "targetPath": "/2015-10-robin",
-      "id": "9b7b1e76c5286d19623d855d99a518dbb5ef7156"
-    },
-    {
-      "url": "https://sive.rs/2015-10-software",
-      "source": "CRAWL",
-      "targetPath": "/2015-10-software",
-      "id": "6ec21bd5f1bdac929fea566bd2854ca0eb596737"
-    },
-    {
-      "url": "https://sive.rs/2015-11-game",
-      "source": "CRAWL",
-      "targetPath": "/2015-11-game",
-      "id": "7f86e357a851d0ad19dcba1ca4aa0dc47a8aae79"
-    },
-    {
-      "url": "https://sive.rs/2015-11-influencer",
-      "source": "CRAWL",
-      "targetPath": "/2015-11-influencer",
-      "id": "d11d8197ebc4d8ec2e33de2824a6ee224183fb43"
-    },
-    {
-      "url": "https://sive.rs/2015-11-slowhustle",
-      "source": "CRAWL",
-      "targetPath": "/2015-11-slowhustle",
-      "id": "5baee4eb7bc97664f119ded99248d13797b4d4b3"
-    },
-    {
-      "url": "https://sive.rs/2015-12-ferriss",
-      "source": "CRAWL",
-      "targetPath": "/2015-12-ferriss",
-      "id": "d5622b553dbcc007257f680970713b5a11beb6ee"
-    },
-    {
-      "url": "https://sive.rs/2015-12-ferriss2",
-      "source": "CRAWL",
-      "targetPath": "/2015-12-ferriss2",
-      "id": "7f3525cdb084c84e61f98d8d2f90be2b2762edc2"
-    },
-    {
-      "url": "https://sive.rs/2015-12-superhuman",
-      "source": "CRAWL",
-      "targetPath": "/2015-12-superhuman",
-      "id": "6abbc572738ad055c4f618de30e684be0b56c10a"
-    },
-    {
-      "url": "https://sive.rs/2016-01-jennyblake",
-      "source": "CRAWL",
-      "targetPath": "/2016-01-jennyblake",
-      "id": "d702f23531207414337ed15e18910711c9a0cb6c"
-    },
-    {
-      "url": "https://sive.rs/2016-03-altucher",
-      "source": "CRAWL",
-      "targetPath": "/2016-03-altucher",
-      "id": "1efb2e09d83dc8292474f265c2fd4feeaf777c35"
-    },
-    {
-      "url": "https://sive.rs/2018-03-minimal",
-      "source": "CRAWL",
-      "targetPath": "/2018-03-minimal",
-      "id": "4e5be5717b4c75b228f9f5abc9cb021630550b40"
+      "url": "https://sive.rs/1s",
+      "source": "SITEMAPS",
+      "targetPath": "/1s",
+      "id": "64a6a67c7b48311d740966260cbda965616562a8"
     },
     {
       "url": "https://sive.rs/2019-08-ariel",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2019-08-ariel",
       "id": "0e986f21a379da52c41fd2aee2104c4d7aa059b1"
     },
     {
       "url": "https://sive.rs/2019-11-amyjo",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2019-11-amyjo",
       "id": "11e2beab6e5657814c6b344faf81627230fde814"
     },
     {
       "url": "https://sive.rs/2019-11-edm",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2019-11-edm",
       "id": "9cb20d59161140110d511ff34403a901a90c7755"
     },
     {
       "url": "https://sive.rs/2019-11-fitch",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2019-11-fitch",
       "id": "5966df530193b6f8dd73e62fa8e3b309b978b4d3"
     },
     {
       "url": "https://sive.rs/2019-12-cathy",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2019-12-cathy",
       "id": "9d903dfb3f80aa4ebaa066536018b3003461e6b3"
     },
     {
       "url": "https://sive.rs/2019-12-cop",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2019-12-cop",
       "id": "bda41a196c97fc85e4002e71f22018004d711e3a"
     },
     {
       "url": "https://sive.rs/2019-12-jrs",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2019-12-jrs",
       "id": "35ee612e3cd4828895ce1ec8e0541b57e741b648"
     },
     {
       "url": "https://sive.rs/2020-01-funk",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-01-funk",
       "id": "2524213a1e60462a9326a09586aa190e091a60b4"
     },
     {
       "url": "https://sive.rs/2020-01-mojo",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-01-mojo",
       "id": "b12483a3abe070a5beaa7a0aea211063433a96ab"
     },
     {
       "url": "https://sive.rs/2020-02-apss",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-02-apss",
       "id": "ff2d8f8915ca12aff19c3e9c41cab35789642d00"
     },
     {
       "url": "https://sive.rs/2020-02-curio",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-02-curio",
       "id": "3a62fc9d4da57c2aefab11503197dcdee5556158"
     },
     {
       "url": "https://sive.rs/2020-02-disrupt",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-02-disrupt",
       "id": "4827d716ccc3bda6daabcb9dc386b85f5c05e2fd"
     },
     {
       "url": "https://sive.rs/2020-02-ft",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-02-ft",
       "id": "332d7f75c3406a23aff7f9600af20c9fe192afa8"
     },
     {
       "url": "https://sive.rs/2020-02-jordan",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-02-jordan",
       "id": "14cb07a2cd64ac716d44196151ab648da140bf51"
     },
     {
       "url": "https://sive.rs/2020-02-jovana",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-02-jovana",
       "id": "d77a3fafe83ea6561af7dfbfcce7fb2b337d17e9"
     },
     {
       "url": "https://sive.rs/2020-02-pp",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-02-pp",
       "id": "e3deca7e54913e958c0b629160fac311c5b15d2a"
     },
     {
       "url": "https://sive.rs/2020-03-chrisg",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-03-chrisg",
       "id": "33c6284a2bf7e409748a12907da7bd61d376fe2f"
     },
     {
       "url": "https://sive.rs/2020-03-el",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-03-el",
       "id": "261feaa9aca0b2d3c09d7a6d4b51dab8b9ddf1d0"
     },
     {
       "url": "https://sive.rs/2020-03-flow",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-03-flow",
       "id": "de55e2b91aa7cec73c73c40e9645f603463d0067"
     },
     {
       "url": "https://sive.rs/2020-03-mw",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-03-mw",
       "id": "129ca343ed43ba4e9b0ce401777ce8a66de2dae1"
     },
     {
       "url": "https://sive.rs/2020-04-dads",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-04-dads",
       "id": "79f7d5c95467eb9a038ff77e6b81a0177baa039b"
     },
     {
       "url": "https://sive.rs/2020-04-darius",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-04-darius",
       "id": "b39b93b77aa3f0820875b497f6f9a8d26f421978"
     },
     {
       "url": "https://sive.rs/2020-04-email",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-04-email",
       "id": "48f80a66d18e2aafac7d52c6568f58505a748aa0"
     },
     {
       "url": "https://sive.rs/2020-04-gap",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-04-gap",
       "id": "b43028fc77ce442ea4de4a0c1fe57a1510b9d28e"
     },
     {
       "url": "https://sive.rs/2020-04-imm",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-04-imm",
       "id": "91c795a933ed26021344632a3602b675b7763dd0"
     },
     {
       "url": "https://sive.rs/2020-04-josh",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-04-josh",
       "id": "f19f3f4136c968f21dcb1b23708c6412d0495dbe"
     },
     {
       "url": "https://sive.rs/2020-04-lym",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-04-lym",
       "id": "2d8eb1256d015ca23eea129724111958e3e2c0fe"
     },
     {
       "url": "https://sive.rs/2020-04-misfit",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-04-misfit",
       "id": "969d7f78564f0731c7d6fee29c674a3136830b28"
     },
     {
       "url": "https://sive.rs/2020-04-money",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-04-money",
       "id": "ea3c702dc8499c501f237959cd655dcc24b6f427"
     },
     {
-      "url": "https://sive.rs/2020-04-pasricha",
-      "source": "CRAWL",
-      "targetPath": "/2020-04-pasricha",
-      "id": "f7c2dfcfcd5b5da002b5a1c1510fdedf89b6550d"
-    },
-    {
       "url": "https://sive.rs/2020-04-pause",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-04-pause",
       "id": "e08c7c3487fad0e1a09e618035b1f67dd804e270"
     },
     {
       "url": "https://sive.rs/2020-04-sbm",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-04-sbm",
       "id": "b7e99032ca353b6f94e6c11b23c54334b8e6bc65"
     },
     {
-      "url": "https://sive.rs/2020-04-sbr",
-      "source": "CRAWL",
-      "targetPath": "/2020-04-sbr",
-      "id": "5bf73ef6194ab86307eda6955790b86e313ff5cc"
-    },
-    {
       "url": "https://sive.rs/2020-04-ss",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-04-ss",
       "id": "9c6b620db00f56b18b08af20a79fd29a52c965cf"
     },
     {
       "url": "https://sive.rs/2020-04-vj",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-04-vj",
       "id": "fa1178e35c85e4a473ca4d2ba9e30ba51b8f28bb"
     },
     {
       "url": "https://sive.rs/2020-04-wild",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-04-wild",
       "id": "8cc5fbf35023176db75e85b9bf0c0e2bc9d51d27"
     },
     {
       "url": "https://sive.rs/2020-05-ali",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-05-ali",
       "id": "bc742f491bc2e438887c78cf5b422b4c1087fba1"
     },
     {
       "url": "https://sive.rs/2020-05-de",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-05-de",
       "id": "0a4d30c9795051e6aca670dd5b5ed9bd2c62e625"
     },
     {
       "url": "https://sive.rs/2020-05-dubber",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-05-dubber",
       "id": "b2d0e1e638e96d16bfa1b312879bf1fe03fd38dc"
     },
     {
       "url": "https://sive.rs/2020-05-farout",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-05-farout",
       "id": "d8fa2e6c09f92904f203dd9ee737f2291d9189dc"
     },
     {
       "url": "https://sive.rs/2020-05-ff",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-05-ff",
       "id": "3e339b9b9e4acc22fc4f452613575aa957366a7f"
     },
     {
       "url": "https://sive.rs/2020-05-ie",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-05-ie",
       "id": "a71dcc5964a86fbd5eb5bad8a979e404851eccaf"
     },
     {
       "url": "https://sive.rs/2020-05-jj",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-05-jj",
       "id": "b21ac79d459937d525fa595e4fcb7746089a07a7"
     },
     {
       "url": "https://sive.rs/2020-05-lb",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-05-lb",
       "id": "b7c36092c59e8b174b2ce0ac8ba21fcf60bcef58"
     },
     {
       "url": "https://sive.rs/2020-05-learn",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-05-learn",
       "id": "e56a4bfdc30b6908186d2105dde41c598cef25d0"
     },
     {
-      "url": "https://sive.rs/2020-05-ll",
-      "source": "CRAWL",
-      "targetPath": "/2020-05-ll",
-      "id": "90ddf3194e947b22a54a82b1fa4173acfcf33f15"
-    },
-    {
       "url": "https://sive.rs/2020-05-mv",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-05-mv",
       "id": "4084e04a985b5f3288edeb8fd2984b17c1027de6"
     },
     {
       "url": "https://sive.rs/2020-05-techy",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-05-techy",
       "id": "7536792fb9cdb90bd02fc27912df4a4c01450213"
     },
     {
       "url": "https://sive.rs/2020-05-tj",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-05-tj",
       "id": "d113a4e4f9e2337df8042e5987a37c4cc62fdf76"
     },
     {
       "url": "https://sive.rs/2020-05-yo",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-05-yo",
       "id": "a80370d6dcb79fab3c3ae9905fa32ef50ffbe6d7"
     },
     {
       "url": "https://sive.rs/2020-05-yoga",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-05-yoga",
       "id": "1916a76e463c26e1d73742d9803efe096c99253e"
     },
     {
       "url": "https://sive.rs/2020-06-erno",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-06-erno",
       "id": "7ff3ae2c51fac6423a51b78936e7e56c2cd7ad13"
     },
     {
       "url": "https://sive.rs/2020-06-fs",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2020-06-fs",
       "id": "107e9cb59e992bd3f022a002b6b125d759f0a5e4"
     },
     {
-      "url": "https://sive.rs/2020-09-mortgage",
-      "source": "CRAWL",
-      "targetPath": "/2020-09-mortgage",
-      "id": "2be291a58eea63e53f2803912f3e059620c47411"
-    },
-    {
-      "url": "https://sive.rs/2020-09-rhodium",
-      "source": "CRAWL",
-      "targetPath": "/2020-09-rhodium",
-      "id": "dd173df83bfb6e4da511f2c3daeab0ba136bc673"
-    },
-    {
-      "url": "https://sive.rs/2020-10-stoa",
-      "source": "CRAWL",
-      "targetPath": "/2020-10-stoa",
-      "id": "3675a8ad60a491e74565002fd10b103c2d26c043"
-    },
-    {
-      "url": "https://sive.rs/2021-11-roam",
-      "source": "CRAWL",
-      "targetPath": "/2021-11-roam",
-      "id": "4c3ff0bb338c89e8d7ffeff834d619e78aa24993"
-    },
-    {
-      "url": "https://sive.rs/2021-11-writers",
-      "source": "CRAWL",
-      "targetPath": "/2021-11-writers",
-      "id": "50d341fbbb092b054b83d745fb0d6f3160cc203d"
-    },
-    {
-      "url": "https://sive.rs/2022-02-genius",
-      "source": "CRAWL",
-      "targetPath": "/2022-02-genius",
-      "id": "ce47ee62bd9cbda7e39d2ca5f19a1275d2a68052"
-    },
-    {
-      "url": "https://sive.rs/2022-04-penn",
-      "source": "CRAWL",
-      "targetPath": "/2022-04-penn",
-      "id": "4485bbadd9291eccf47123c106d485f07e992cb4"
-    },
-    {
-      "url": "https://sive.rs/2022-05-cooltools",
-      "source": "CRAWL",
-      "targetPath": "/2022-05-cooltools",
-      "id": "1cdf69b9c72b0ac1a67b7f4990925b563750580b"
-    },
-    {
-      "url": "https://sive.rs/2022-06-moby",
-      "source": "CRAWL",
-      "targetPath": "/2022-06-moby",
-      "id": "645372a44aa36549fbc95c905e5f26996ea0c19b"
-    },
-    {
-      "url": "https://sive.rs/2022-07-built",
-      "source": "CRAWL",
-      "targetPath": "/2022-07-built",
-      "id": "5676fd8c5223f09394a3f89f26743b8b94d5c68b"
-    },
-    {
-      "url": "https://sive.rs/2022-07-chiwi",
-      "source": "CRAWL",
-      "targetPath": "/2022-07-chiwi",
-      "id": "b6f96d5572797de33f1ff02e6755534feb3835f1"
-    },
-    {
-      "url": "https://sive.rs/2022-07-nebinksi",
-      "source": "CRAWL",
-      "targetPath": "/2022-07-nebinksi",
-      "id": "7c5f50fa80390c35233ff2bf76b5ced8cf7c3547"
-    },
-    {
-      "url": "https://sive.rs/2022-08-creative",
-      "source": "CRAWL",
-      "targetPath": "/2022-08-creative",
-      "id": "c14a3535d4d32555dbaf3c0f1ad367b73238b9b5"
-    },
-    {
-      "url": "https://sive.rs/2022-08-landgeek",
-      "source": "CRAWL",
-      "targetPath": "/2022-08-landgeek",
-      "id": "32cbf15785345dbaab8f22cff8f8767db00c3189"
-    },
-    {
-      "url": "https://sive.rs/2022-08-miranda",
-      "source": "CRAWL",
-      "targetPath": "/2022-08-miranda",
-      "id": "113f4944dc9e21600c437907335c18e85aac4f15"
-    },
-    {
-      "url": "https://sive.rs/2022-08-music",
-      "source": "CRAWL",
-      "targetPath": "/2022-08-music",
-      "id": "09542f241a801e84baad2f44b4fc37e16bfd6abe"
-    },
-    {
-      "url": "https://sive.rs/2022-09-bd",
-      "source": "CRAWL",
-      "targetPath": "/2022-09-bd",
-      "id": "bdac98771193e0ae2ecd80b5ec4d37dccf02625b"
-    },
-    {
-      "url": "https://sive.rs/2022-09-deepdive",
-      "source": "CRAWL",
-      "targetPath": "/2022-09-deepdive",
-      "id": "c6ee4dbc9fa2eb733a84926bd49c2c2a9001a62f"
-    },
-    {
-      "url": "https://sive.rs/2022-09-lf",
-      "source": "CRAWL",
-      "targetPath": "/2022-09-lf",
-      "id": "6a6dc76bec50678a1a7bd24c9ec867a7e0b47334"
-    },
-    {
-      "url": "https://sive.rs/2022-09-perell",
-      "source": "CRAWL",
-      "targetPath": "/2022-09-perell",
-      "id": "5ebe92462486433f2c2e03364885464310fcb96f"
-    },
-    {
-      "url": "https://sive.rs/2022-10-aero",
-      "source": "CRAWL",
-      "targetPath": "/2022-10-aero",
-      "id": "834adc26920b3cf6f31290a2913173d8a87ae47b"
-    },
-    {
-      "url": "https://sive.rs/2022-10-bla",
-      "source": "CRAWL",
-      "targetPath": "/2022-10-bla",
-      "id": "dac5be70f02e3e7cbaace5de20f60d744ff20cd4"
-    },
-    {
-      "url": "https://sive.rs/2022-10-dermody",
-      "source": "CRAWL",
-      "targetPath": "/2022-10-dermody",
-      "id": "93166c6deb5bb59fe00813ffc06c26405416696b"
-    },
-    {
-      "url": "https://sive.rs/2022-10-super",
-      "source": "CRAWL",
-      "targetPath": "/2022-10-super",
-      "id": "6565992f0883561917dc8881136e3a3e4208a67e"
-    },
-    {
-      "url": "https://sive.rs/2022-11-ca",
-      "source": "CRAWL",
-      "targetPath": "/2022-11-ca",
-      "id": "e70b464997ea43c9989dec63f675a3e2c7956d3e"
-    },
-    {
-      "url": "https://sive.rs/2022-11-chesser",
-      "source": "CRAWL",
-      "targetPath": "/2022-11-chesser",
-      "id": "dcf7dcb007d43980fd433cdd196e23ca7d90e2ae"
-    },
-    {
-      "url": "https://sive.rs/2022-11-guy",
-      "source": "CRAWL",
-      "targetPath": "/2022-11-guy",
-      "id": "f0d7f45d51f1407083c65c64a44cec97ff1bbdc4"
-    },
-    {
-      "url": "https://sive.rs/2022-11-london",
-      "source": "CRAWL",
-      "targetPath": "/2022-11-london",
-      "id": "f663cc2a6af00d2fc89826f5da9d0faf3c00a81b"
-    },
-    {
-      "url": "https://sive.rs/2022-11-music",
-      "source": "CRAWL",
-      "targetPath": "/2022-11-music",
-      "id": "51ba59c2dfea9c68e66e59ff970c753e5e6185e7"
-    },
-    {
-      "url": "https://sive.rs/2022-11-travel",
-      "source": "CRAWL",
-      "targetPath": "/2022-11-travel",
-      "id": "e67e0750f9d67faecb82e31b08a9ef543f244d68"
-    },
-    {
-      "url": "https://sive.rs/2022-12-ldd",
-      "source": "CRAWL",
-      "targetPath": "/2022-12-ldd",
-      "id": "74368442236b269eec86b305b4b55e9c47e7ed9c"
-    },
-    {
-      "url": "https://sive.rs/2022-12-levelup",
-      "source": "CRAWL",
-      "targetPath": "/2022-12-levelup",
-      "id": "6322f57230d34316b14ad8f6d1968f1f6c3c5ea4"
-    },
-    {
-      "url": "https://sive.rs/2022-12-pi",
-      "source": "CRAWL",
-      "targetPath": "/2022-12-pi",
-      "id": "67c6fbcb9711f37ab6b1a5d8edeb5118a1793bce"
-    },
-    {
-      "url": "https://sive.rs/2023-01-path",
-      "source": "CRAWL",
-      "targetPath": "/2023-01-path",
-      "id": "9fc1676033582543d36584b318c758b4dd1e8181"
-    },
-    {
-      "url": "https://sive.rs/2023-01-ruby",
-      "source": "CRAWL",
-      "targetPath": "/2023-01-ruby",
-      "id": "cc75f1fb6acab249142331e564b2327bf9a282f5"
-    },
-    {
-      "url": "https://sive.rs/2023-02-people",
-      "source": "CRAWL",
-      "targetPath": "/2023-02-people",
-      "id": "fd21437c867e520629c62175a798fee1ebcf7fd6"
-    },
-    {
-      "url": "https://sive.rs/2023-02-tss",
-      "source": "CRAWL",
-      "targetPath": "/2023-02-tss",
-      "id": "ef46d2769959db9171b6ca018e053897557ab29f"
-    },
-    {
-      "url": "https://sive.rs/2023-02-wdb",
-      "source": "CRAWL",
-      "targetPath": "/2023-02-wdb",
-      "id": "1f85bccf413d147ca3ee8fb41f35dbf1628c43f9"
-    },
-    {
-      "url": "https://sive.rs/2023-03-ferriss",
-      "source": "CRAWL",
-      "targetPath": "/2023-03-ferriss",
-      "id": "44eb8ebb00dba7296eca32c084002966e1775bc6"
-    },
-    {
-      "url": "https://sive.rs/2023-03-hacks",
-      "source": "CRAWL",
-      "targetPath": "/2023-03-hacks",
-      "id": "f93c321ce1b7e29899aff707088989b27a584137"
-    },
-    {
-      "url": "https://sive.rs/2023-03-mm",
-      "source": "CRAWL",
-      "targetPath": "/2023-03-mm",
-      "id": "208f853ce60026ba05b01aeb4bb68d68003e6b9e"
-    },
-    {
-      "url": "https://sive.rs/2023-03-nydla",
-      "source": "CRAWL",
-      "targetPath": "/2023-03-nydla",
-      "id": "76967c46e50ae728379d0e9971c57d71c29345e3"
-    },
-    {
-      "url": "https://sive.rs/2023-04-1pct",
-      "source": "CRAWL",
-      "targetPath": "/2023-04-1pct",
-      "id": "f252e981dc29b8d5b13e458f3ed4d07b432f6395"
-    },
-    {
-      "url": "https://sive.rs/2023-04-jgs",
-      "source": "CRAWL",
-      "targetPath": "/2023-04-jgs",
-      "id": "fa0190d6cd3100980f468928429896c510b6d2e3"
-    },
-    {
-      "url": "https://sive.rs/2023-05-bouris",
-      "source": "CRAWL",
-      "targetPath": "/2023-05-bouris",
-      "id": "cfd8dba12b2d4b8c676cbe480010c258faab7124"
-    },
-    {
-      "url": "https://sive.rs/2023-05-fail",
-      "source": "CRAWL",
-      "targetPath": "/2023-05-fail",
-      "id": "ce788c1e7ec08697c74b811711cfd28fca447da7"
-    },
-    {
-      "url": "https://sive.rs/2023-05-rnz",
-      "source": "CRAWL",
-      "targetPath": "/2023-05-rnz",
-      "id": "4f6fc6805cdafe6d1802c419e6b6741a328e1fed"
-    },
-    {
-      "url": "https://sive.rs/2023-05-wgyt",
-      "source": "CRAWL",
-      "targetPath": "/2023-05-wgyt",
-      "id": "4f0e5f58c1259d6fb759bd9ba78b497dc8e4ec39"
-    },
-    {
-      "url": "https://sive.rs/2023-05-wisdom",
-      "source": "CRAWL",
-      "targetPath": "/2023-05-wisdom",
-      "id": "9f224e435516cc766cb416873bed32def0e55980"
-    },
-    {
-      "url": "https://sive.rs/2023-06-cc",
-      "source": "CRAWL",
-      "targetPath": "/2023-06-cc",
-      "id": "067d7a73cd561d16c6e0a66a15303a3a19aced62"
-    },
-    {
-      "url": "https://sive.rs/2023-06-yct",
-      "source": "CRAWL",
-      "targetPath": "/2023-06-yct",
-      "id": "1ef187a7a23e916d75dae238c8eaa7ef0e7eb804"
-    },
-    {
-      "url": "https://sive.rs/2023-07-pyw2b",
-      "source": "CRAWL",
-      "targetPath": "/2023-07-pyw2b",
-      "id": "45b1c416b4bf768ae9f6d834ada9bf1f9df041b8"
-    },
-    {
-      "url": "https://sive.rs/2023-08-curious",
-      "source": "CRAWL",
-      "targetPath": "/2023-08-curious",
-      "id": "e7fb9b7089aefa05ccdabd2bc37cc0b0a46cb917"
-    },
-    {
-      "url": "https://sive.rs/2023-08-decode",
-      "source": "CRAWL",
-      "targetPath": "/2023-08-decode",
-      "id": "cb70602e90e7bcc73b325f6e95e873af50c611cc"
-    },
-    {
-      "url": "https://sive.rs/2023-08-drager",
-      "source": "CRAWL",
-      "targetPath": "/2023-08-drager",
-      "id": "1c9e7ae33d5db5490035d679492938913fb8e4b4"
-    },
-    {
-      "url": "https://sive.rs/2023-08-mind",
-      "source": "CRAWL",
-      "targetPath": "/2023-08-mind",
-      "id": "527b1edb9ad14857efe70f3afd7f3f6fbbeca814"
-    },
-    {
-      "url": "https://sive.rs/2023-08-rfl",
-      "source": "CRAWL",
-      "targetPath": "/2023-08-rfl",
-      "id": "8072555d53248fd7e0015ae8a7ca57ad4662e011"
-    },
-    {
-      "url": "https://sive.rs/2023-08-zen",
-      "source": "CRAWL",
-      "targetPath": "/2023-08-zen",
-      "id": "08750440feed9e85367325baf8107f3a48040f31"
-    },
-    {
-      "url": "https://sive.rs/2023-09-il1",
-      "source": "CRAWL",
-      "targetPath": "/2023-09-il1",
-      "id": "0f0250083ce24b1ab02ea8b963eb61286b83655a"
-    },
-    {
-      "url": "https://sive.rs/2023-09-manson",
-      "source": "CRAWL",
-      "targetPath": "/2023-09-manson",
-      "id": "610f45c45f1c6970f54e64d39ca15415224a5ef8"
-    },
-    {
-      "url": "https://sive.rs/2023-10-il2",
-      "source": "CRAWL",
-      "targetPath": "/2023-10-il2",
-      "id": "719c6d2885ab1c4a3e0d32197b110b3966069a16"
-    },
-    {
-      "url": "https://sive.rs/2023-11-bounce",
-      "source": "CRAWL",
-      "targetPath": "/2023-11-bounce",
-      "id": "658b6d9b3accfd487e1e8a75d945ec6600946192"
-    },
-    {
-      "url": "https://sive.rs/2023-11-brews",
-      "source": "CRAWL",
-      "targetPath": "/2023-11-brews",
-      "id": "25d24f72f96a547acc3ec89f11dc73c0e9bebb32"
-    },
-    {
-      "url": "https://sive.rs/2023-11-clearer",
-      "source": "CRAWL",
-      "targetPath": "/2023-11-clearer",
-      "id": "89b5cc2c98c5f988e50c886f71c3c09d395a9ee0"
-    },
-    {
-      "url": "https://sive.rs/2023-11-harper",
-      "source": "CRAWL",
-      "targetPath": "/2023-11-harper",
-      "id": "5769205fae021fb63e1c972a4689afa480e2c20c"
-    },
-    {
-      "url": "https://sive.rs/2023-11-tribe",
-      "source": "CRAWL",
-      "targetPath": "/2023-11-tribe",
-      "id": "9c0d9957130c06944d75c5f129633ab961cf76ff"
-    },
-    {
-      "url": "https://sive.rs/2024-01-manson",
-      "source": "CRAWL",
-      "targetPath": "/2024-01-manson",
-      "id": "712c729d8361fa57046dc17a766e516329cfaa32"
-    },
-    {
-      "url": "https://sive.rs/2024-02-htl",
-      "source": "CRAWL",
-      "targetPath": "/2024-02-htl",
-      "id": "534003ed72fb07411847053f9f016d302ecf5417"
-    },
-    {
-      "url": "https://sive.rs/2024-03-adamcole",
-      "source": "CRAWL",
-      "targetPath": "/2024-03-adamcole",
-      "id": "e89e122fb0579dde365a546bb3f5d9cbcf074b1a"
-    },
-    {
-      "url": "https://sive.rs/2024-03-empire",
-      "source": "CRAWL",
-      "targetPath": "/2024-03-empire",
-      "id": "7349c99397b2e2a5909ba6195d8de4122be244cf"
-    },
-    {
-      "url": "https://sive.rs/2024-03-htgsd",
-      "source": "CRAWL",
-      "targetPath": "/2024-03-htgsd",
-      "id": "913b4d506446ecc27638c0dbe64b21082c70c356"
-    },
-    {
-      "url": "https://sive.rs/2024-03-nari",
-      "source": "CRAWL",
-      "targetPath": "/2024-03-nari",
-      "id": "f218cce35465b02caab3ac78a5dafb172c7dd449"
-    },
-    {
-      "url": "https://sive.rs/2024-03-north",
-      "source": "CRAWL",
-      "targetPath": "/2024-03-north",
-      "id": "14cc9c5baf29230d7a2824da1a90a78fa7d57fca"
-    },
-    {
-      "url": "https://sive.rs/2024-04-flamingo",
-      "source": "CRAWL",
-      "targetPath": "/2024-04-flamingo",
-      "id": "1bed5e9151fe7616ea97d2b87fd1061918150c21"
-    },
-    {
-      "url": "https://sive.rs/2024-04-seekers",
-      "source": "CRAWL",
-      "targetPath": "/2024-04-seekers",
-      "id": "cda06ab021817042fac3bbe4250d2f1e95d7a333"
-    },
-    {
-      "url": "https://sive.rs/2024-05-lsm",
-      "source": "CRAWL",
-      "targetPath": "/2024-05-lsm",
-      "id": "4c43f933e759e071cc292d736d08988c9b428309"
-    },
-    {
-      "url": "https://sive.rs/2024-05-mentally",
-      "source": "CRAWL",
-      "targetPath": "/2024-05-mentally",
-      "id": "172b961cae5776d5ac553e918473e527579d6d2b"
-    },
-    {
-      "url": "https://sive.rs/2024-05-riffe",
-      "source": "CRAWL",
-      "targetPath": "/2024-05-riffe",
-      "id": "db9f16d011ba1cd0fb65ecf8c2cf3a02dfa61314"
-    },
-    {
-      "url": "https://sive.rs/2024-05-skidmore",
-      "source": "CRAWL",
-      "targetPath": "/2024-05-skidmore",
-      "id": "953781a92ce2908340ae08b9d000982cec149283"
-    },
-    {
-      "url": "https://sive.rs/2024-05-talking",
-      "source": "CRAWL",
-      "targetPath": "/2024-05-talking",
-      "id": "65161edcd2ac803bbf098bd2a5b51dac0f355fd1"
-    },
-    {
-      "url": "https://sive.rs/2024-05-weare",
-      "source": "CRAWL",
-      "targetPath": "/2024-05-weare",
-      "id": "72f73fb69c73789a491ebc8e71c651add665c59d"
-    },
-    {
-      "url": "https://sive.rs/2024-05-wfh",
-      "source": "CRAWL",
-      "targetPath": "/2024-05-wfh",
-      "id": "c7615ff846ff60557020af5fd0029a49272ba623"
-    },
-    {
-      "url": "https://sive.rs/2024-06-curated",
-      "source": "CRAWL",
-      "targetPath": "/2024-06-curated",
-      "id": "f6f4f1ec55afb648b2f32297d12e71c33df82148"
-    },
-    {
-      "url": "https://sive.rs/2024-06-lucas",
-      "source": "CRAWL",
-      "targetPath": "/2024-06-lucas",
-      "id": "b8d865bf658d09fc30606a40a55a723cbdbd81c8"
-    },
-    {
-      "url": "https://sive.rs/2024-06-mba",
-      "source": "CRAWL",
-      "targetPath": "/2024-06-mba",
-      "id": "c00eb179a47230ba4f48d9a3d19b55afa408000a"
-    },
-    {
-      "url": "https://sive.rs/2024-06-mike",
-      "source": "CRAWL",
-      "targetPath": "/2024-06-mike",
-      "id": "67a6a58552df22aecb9c36bf9f8f03318f6f2508"
-    },
-    {
-      "url": "https://sive.rs/2024-06-novoa",
-      "source": "CRAWL",
-      "targetPath": "/2024-06-novoa",
-      "id": "fcddcf690d7c20e65aeee2b68b243e3ff50f4727"
-    },
-    {
-      "url": "https://sive.rs/2024-06-stolaroid",
-      "source": "CRAWL",
-      "targetPath": "/2024-06-stolaroid",
-      "id": "35311638df794de4539d822b6265ae3cc9636269"
-    },
-    {
-      "url": "https://sive.rs/2024-06-strings",
-      "source": "CRAWL",
-      "targetPath": "/2024-06-strings",
-      "id": "e8543dedfa95bb895d480cc23c14f883942a6774"
-    },
-    {
-      "url": "https://sive.rs/2024-06-unfolding",
-      "source": "CRAWL",
-      "targetPath": "/2024-06-unfolding",
-      "id": "1ec919b45569c48650fbeb06fd583e771d852120"
-    },
-    {
-      "url": "https://sive.rs/2024-06-vibrant",
-      "source": "CRAWL",
-      "targetPath": "/2024-06-vibrant",
-      "id": "e745a5600f8b6c8bbf49668b6d7d392fbaa0e52b"
-    },
-    {
-      "url": "https://sive.rs/2024-06-wilkinson",
-      "source": "CRAWL",
-      "targetPath": "/2024-06-wilkinson",
-      "id": "699f5adca5a9b7fcad97389fadb35611a93863ac"
-    },
-    {
-      "url": "https://sive.rs/2024-08-built",
-      "source": "CRAWL",
-      "targetPath": "/2024-08-built",
-      "id": "71aa7bcdd555c948db3ebf8b0c90267909b63e36"
-    },
-    {
-      "url": "https://sive.rs/2024-08-dad",
-      "source": "CRAWL",
-      "targetPath": "/2024-08-dad",
-      "id": "b34db708deaf2816ad94b0e23cc768eee693f90c"
-    },
-    {
-      "url": "https://sive.rs/2024-08-goodlife",
-      "source": "CRAWL",
-      "targetPath": "/2024-08-goodlife",
-      "id": "7a41b6694733a0d52327329b309316e694181b35"
-    },
-    {
-      "url": "https://sive.rs/2024-08-he",
-      "source": "CRAWL",
-      "targetPath": "/2024-08-he",
-      "id": "e7e14b65a67530d8b98f477364b7c506fefe98fe"
-    },
-    {
-      "url": "https://sive.rs/2024-08-inner",
-      "source": "CRAWL",
-      "targetPath": "/2024-08-inner",
-      "id": "08c1bffdd3e8e0e744afebe33fa6cac985da220f"
-    },
-    {
-      "url": "https://sive.rs/2024-08-revamped",
-      "source": "CRAWL",
-      "targetPath": "/2024-08-revamped",
-      "id": "22c2db34c9fb32b93b9f710aaf4d2329075bd03c"
-    },
-    {
-      "url": "https://sive.rs/2024-08-uu",
-      "source": "CRAWL",
-      "targetPath": "/2024-08-uu",
-      "id": "529e8745326ded7976ff02a7cb450f5ba67e8941"
-    },
-    {
-      "url": "https://sive.rs/2024-09-billions",
-      "source": "CRAWL",
-      "targetPath": "/2024-09-billions",
-      "id": "ae762fc9eed70ca5f7c13ca661f873e211cfb4d1"
-    },
-    {
-      "url": "https://sive.rs/2024-09-levin",
-      "source": "CRAWL",
-      "targetPath": "/2024-09-levin",
-      "id": "d2f0465b7de985cd858a822a99daec3e6eb8ede2"
-    },
-    {
-      "url": "https://sive.rs/2024-09-mistake",
-      "source": "CRAWL",
-      "targetPath": "/2024-09-mistake",
-      "id": "07ccc2890108d0dfc5e644d8510af81628bbf64b"
-    },
-    {
-      "url": "https://sive.rs/2024-09-neuralzen",
-      "source": "CRAWL",
-      "targetPath": "/2024-09-neuralzen",
-      "id": "80d7c1d62595f6b2c2185a8b5b8d7eed00581ee5"
-    },
-    {
-      "url": "https://sive.rs/2024-09-tyson",
-      "source": "CRAWL",
-      "targetPath": "/2024-09-tyson",
-      "id": "974c3058d4188df8ac9f5e900f8cd0adc0c8bacb"
-    },
-    {
-      "url": "https://sive.rs/2024-09-whm",
-      "source": "CRAWL",
-      "targetPath": "/2024-09-whm",
-      "id": "047cc7cff11b4f17a3dd01ac401fdea7275c7c5c"
-    },
-    {
-      "url": "https://sive.rs/2024-09-wisdom",
-      "source": "CRAWL",
-      "targetPath": "/2024-09-wisdom",
-      "id": "4c226bb2a08b0bd3cec631f0922f2974e21318d5"
-    },
-    {
-      "url": "https://sive.rs/2024-10-alchemist",
-      "source": "CRAWL",
-      "targetPath": "/2024-10-alchemist",
-      "id": "7ba29ba910526105f8fc542930ec5cee50de975b"
-    },
-    {
-      "url": "https://sive.rs/2024-10-ferriss",
-      "source": "CRAWL",
-      "targetPath": "/2024-10-ferriss",
-      "id": "40640dd8eddae78f4881e5db30ff0576115a8124"
-    },
-    {
-      "url": "https://sive.rs/2024-11-btp",
-      "source": "CRAWL",
-      "targetPath": "/2024-11-btp",
-      "id": "b2bfe080703d48fc80192d2cd3b6a5518d81c533"
-    },
-    {
-      "url": "https://sive.rs/2024-11-kindsight",
-      "source": "CRAWL",
-      "targetPath": "/2024-11-kindsight",
-      "id": "6db5c30e4b654e45c40b22e6f950495d196cdb1c"
-    },
-    {
-      "url": "https://sive.rs/2024-11-lerner",
-      "source": "CRAWL",
-      "targetPath": "/2024-11-lerner",
-      "id": "3902475dc1f5d5131aea1254614fd09c6e0187d6"
-    },
-    {
-      "url": "https://sive.rs/2024-11-manson",
-      "source": "CRAWL",
-      "targetPath": "/2024-11-manson",
-      "id": "bc0fc58d0f73028210788df9ce2d2c7412354289"
-    },
-    {
-      "url": "https://sive.rs/2025-02-anna",
-      "source": "CRAWL",
-      "targetPath": "/2025-02-anna",
-      "id": "650e310230e27024d9ac2645bb436899456f09ab"
-    },
-    {
-      "url": "https://sive.rs/2025-02-niall",
-      "source": "CRAWL",
-      "targetPath": "/2025-02-niall",
-      "id": "fa20a95b1daba25bcd9c212e118a5ee13df108f1"
-    },
-    {
-      "url": "https://sive.rs/2025-02-riley",
-      "source": "CRAWL",
-      "targetPath": "/2025-02-riley",
-      "id": "ac5cf4dad2357dce5758353748d3268b64535bd5"
-    },
-    {
-      "url": "https://sive.rs/2025-02-vasily",
-      "source": "CRAWL",
-      "targetPath": "/2025-02-vasily",
-      "id": "11037a18292f80b5537ef03f8ef2b6c5d6d16781"
-    },
-    {
-      "url": "https://sive.rs/2025-02-vidal",
-      "source": "CRAWL",
-      "targetPath": "/2025-02-vidal",
-      "id": "6c3c6637d55fd86882925843757cbab435e991dd"
-    },
-    {
-      "url": "https://sive.rs/2025-03-mckeown",
-      "source": "CRAWL",
-      "targetPath": "/2025-03-mckeown",
-      "id": "fe0be08c75e9cd962b103e9f954878f46ce30e47"
-    },
-    {
       "url": "https://sive.rs/232",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/232",
       "id": "9c3453677259aaf686c2e32b95fff6ced0138809"
     },
     {
+      "url": "https://sive.rs/250k",
+      "source": "SITEMAPS",
+      "targetPath": "/250k",
+      "id": "cf673a6f2b776134e387de09f56c7659c7dfcdab"
+    },
+    {
       "url": "https://sive.rs/2c",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/2c",
       "id": "d45c990e6ed4dd74fc19a02d26b5b8ef859c2471"
     },
     {
+      "url": "https://sive.rs/2do",
+      "source": "SITEMAPS",
+      "targetPath": "/2do",
+      "id": "77a34f4270b2ceabbd3c6ba709ecfd73641d055a"
+    },
+    {
+      "url": "https://sive.rs/360",
+      "source": "SITEMAPS",
+      "targetPath": "/360",
+      "id": "2a3c4c8ff639a727c98fb6206d76a2643a42d43b"
+    },
+    {
       "url": "https://sive.rs/3in",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/3in",
       "id": "ce018f539d51b1804bf9a5800dbfa42330266c83"
     },
     {
+      "url": "https://sive.rs/4",
+      "source": "SITEMAPS",
+      "targetPath": "/4",
+      "id": "57c6052a389ad589356a1c273b5b8e9683b2c3b3"
+    },
+    {
+      "url": "https://sive.rs/7",
+      "source": "SITEMAPS",
+      "targetPath": "/7",
+      "id": "f1d2ee456e696ca86ab0fb7098938bf9b785207d"
+    },
+    {
       "url": "https://sive.rs/a",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/a",
       "id": "f2f164348d99c6047aeff67923bc1b2eb0074bcf"
     },
     {
+      "url": "https://sive.rs/a3",
+      "source": "SITEMAPS",
+      "targetPath": "/a3",
+      "id": "b595b54f77af1e27b871472925a3875137df5015"
+    },
+    {
       "url": "https://sive.rs/abdicate",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/abdicate",
       "id": "5235df0f0a387649c0339bc5998ae5649e535ea8"
     },
     {
+      "url": "https://sive.rs/abio",
+      "source": "SITEMAPS",
+      "targetPath": "/abio",
+      "id": "60939dd5709c351d23f5cb3e2643e53bc0109b14"
+    },
+    {
       "url": "https://sive.rs/about",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/about",
       "id": "270ab88f3d6414ee25c0e6e4c165d689699fccd2"
     },
     {
+      "url": "https://sive.rs/accch",
+      "source": "SITEMAPS",
+      "targetPath": "/accch",
+      "id": "fdec1689b19ba8e433cc096d82ab8138535961d8"
+    },
+    {
+      "url": "https://sive.rs/accents",
+      "source": "SITEMAPS",
+      "targetPath": "/accents",
+      "id": "9180f92dcf0fb3435d1b9a774e7e0c3c55e25dc5"
+    },
+    {
       "url": "https://sive.rs/actid",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/actid",
       "id": "c992ae315234e94ec5fdc115b62804f8e86f50ed"
     },
     {
+      "url": "https://sive.rs/action-reaction",
+      "source": "SITEMAPS",
+      "targetPath": "/action-reaction",
+      "id": "8e4db1313d082e4020d45b10d268394b26e567ae"
+    },
+    {
       "url": "https://sive.rs/actors",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/actors",
       "id": "1234ed804ce8681cef7085291d7df9a69b9a1d39"
     },
     {
       "url": "https://sive.rs/advice",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/advice",
       "id": "017c73549a6a11e8ca062340640b3653530c2c2a"
     },
     {
       "url": "https://sive.rs/afford",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/afford",
       "id": "e409ec7dfb082c7dc62cd82d317d9809e9116c61"
     },
     {
-      "url": "https://sive.rs/ai",
-      "source": "CRAWL",
-      "targetPath": "/ai",
-      "id": "ac0a5267e2649dbbb02a1ca0d2ebf5cc8e40e733"
+      "url": "https://sive.rs/aimee-mullins",
+      "source": "SITEMAPS",
+      "targetPath": "/aimee-mullins",
+      "id": "025ebca93ab29634ff098caa81d499e0f73bd971"
+    },
+    {
+      "url": "https://sive.rs/ald",
+      "source": "SITEMAPS",
+      "targetPath": "/ald",
+      "id": "440cf74a738f72118f2ca26b97364abc588bf90b"
     },
     {
       "url": "https://sive.rs/andor",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/andor",
       "id": "ccfa2a7ed2393c0e93f4c422057cdeea2f34dda6"
     },
     {
+      "url": "https://sive.rs/antic",
+      "source": "SITEMAPS",
+      "targetPath": "/antic",
+      "id": "c636a31649d76b44dead236e9e728be63e327006"
+    },
+    {
+      "url": "https://sive.rs/anything",
+      "source": "SITEMAPS",
+      "targetPath": "/anything",
+      "id": "b0b29b552ce718db5c3cb801962f1dc8cd4dd0b4"
+    },
+    {
+      "url": "https://sive.rs/aopv",
+      "source": "SITEMAPS",
+      "targetPath": "/aopv",
+      "id": "24c98ff59744158b48778673b7493afff51ad5ba"
+    },
+    {
+      "url": "https://sive.rs/aos",
+      "source": "SITEMAPS",
+      "targetPath": "/aos",
+      "id": "af31987985bd6e49ebfad70267fd7b402417de5b"
+    },
+    {
+      "url": "https://sive.rs/api01",
+      "source": "SITEMAPS",
+      "targetPath": "/api01",
+      "id": "c453c070121d01fb3c12991d75613581a29189eb"
+    },
+    {
+      "url": "https://sive.rs/aq",
+      "source": "SITEMAPS",
+      "targetPath": "/aq",
+      "id": "a462009b43e07aa25caa938095b61586aea47cb4"
+    },
+    {
       "url": "https://sive.rs/arv",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/arv",
       "id": "2bb4b112b1f86d4d7b708dae85917ee3e0f6210d"
     },
     {
       "url": "https://sive.rs/asking",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/asking",
       "id": "756a2ecac74cb273cec2ec25910436ac171de5f1"
     },
     {
+      "url": "https://sive.rs/autom",
+      "source": "SITEMAPS",
+      "targetPath": "/autom",
+      "id": "2a3af43d59ed1f97251a9f592f4fe1b940fb721b"
+    },
+    {
+      "url": "https://sive.rs/ayw",
+      "source": "SITEMAPS",
+      "targetPath": "/ayw",
+      "id": "a00b8d32ee4aba7cd3d5dec5ab05b938d860106a"
+    },
+    {
       "url": "https://sive.rs/ayw1",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/ayw1",
       "id": "1c2feed2400966758da4e5e5bd9e6d5e598e0099"
     },
     {
       "url": "https://sive.rs/ayw2",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/ayw2",
       "id": "130320a98e8a2f017d564f7dc7a0a356a7a840f4"
     },
     {
       "url": "https://sive.rs/ayw3",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/ayw3",
       "id": "2e089e894f086e16168a46e33b9e960a10d22284"
     },
     {
       "url": "https://sive.rs/ayw4",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/ayw4",
       "id": "dea6f99f3392425faec44a2ac9ff2d4dada163b9"
     },
     {
       "url": "https://sive.rs/ayw5",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/ayw5",
       "id": "63449882c320f968889623a34bce11292ca7fd6f"
     },
     {
       "url": "https://sive.rs/ayw6",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/ayw6",
       "id": "63b40558197a0dc684d3d87d20b3f5a6ca50870b"
     },
     {
       "url": "https://sive.rs/ayw7",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/ayw7",
       "id": "e5bee2b876493d8c8d16d9f288ae2debd24749d6"
     },
     {
       "url": "https://sive.rs/ayw8",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/ayw8",
       "id": "58d73abe6280782091c94e7d8525dddeecc8eeeb"
     },
     {
       "url": "https://sive.rs/bad",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/bad",
       "id": "a3848406a5975f5bb550ad4b1f7835c7eb18c4f5"
     },
     {
       "url": "https://sive.rs/balance",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/balance",
       "id": "c4842651f489d942cbb856e61415f1c18116fac1"
     },
     {
       "url": "https://sive.rs/barking",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/barking",
       "id": "8aa2f0756e31a9dcf0a4d442a71485249cb3e26c"
     },
     {
       "url": "https://sive.rs/being",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/being",
       "id": "f57a318cea647c2afa341cf92a567f6a64e49e7a"
     },
     {
       "url": "https://sive.rs/below-average",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/below-average",
       "id": "03a3f6f07d1c6d7c03ef08d92a14a67833dc1781"
     },
     {
       "url": "https://sive.rs/berklee",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/berklee",
       "id": "36d0ba2c904ef15fe52d830c870cfc4d5e2925e4"
     },
     {
+      "url": "https://sive.rs/berklee6",
+      "source": "SITEMAPS",
+      "targetPath": "/berklee6",
+      "id": "14c65a9bf65b8cb2c291f31fee14b5debc01a417"
+    },
+    {
+      "url": "https://sive.rs/bfaq",
+      "source": "SITEMAPS",
+      "targetPath": "/bfaq",
+      "id": "f356dbb5bba2effeb923d379bb2dab4e9e729317"
+    },
+    {
+      "url": "https://sive.rs/biking",
+      "source": "SITEMAPS",
+      "targetPath": "/biking",
+      "id": "780a39b29d398463d2692423d72e9c401d45ce84"
+    },
+    {
+      "url": "https://sive.rs/bilbo",
+      "source": "SITEMAPS",
+      "targetPath": "/bilbo",
+      "id": "0f5a53a9b4c0418ceb5f1b22b950b1135ba42e27"
+    },
+    {
       "url": "https://sive.rs/bizriff",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/bizriff",
       "id": "009e2f31cce72ef562c5af954ba94c53729bc9f3"
     },
     {
+      "url": "https://sive.rs/blank",
+      "source": "SITEMAPS",
+      "targetPath": "/blank",
+      "id": "2915744ad2d89f40b209ed17967bd2911c3fdfaa"
+    },
+    {
       "url": "https://sive.rs/blc",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/blc",
       "id": "e649141c30b9cd636efa7d096b647c967bad7dcb"
     },
     {
       "url": "https://sive.rs/blog",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/blog",
       "id": "84b0f2940dd53abcac2ab9815384333e10c15035"
     },
     {
       "url": "https://sive.rs/book",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/book",
       "id": "84ff53c94dc07fd4e87b6c6562a26c5538f8ba90"
     },
     {
-      "url": "https://sive.rs/book?sort=date",
-      "source": "CRAWL",
-      "targetPath": "/book",
-      "id": "ea02a5046bb979071fe1bc72433db3d2866cf861"
-    },
-    {
-      "url": "https://sive.rs/book?sort=rating",
-      "source": "CRAWL",
-      "targetPath": "/book",
-      "id": "d62820856b601c0ac54d37310ea4845ef57b5d3a"
-    },
-    {
-      "url": "https://sive.rs/book?sort=title",
-      "source": "CRAWL",
-      "targetPath": "/book",
-      "id": "e4dfe9a25caee1c21c5f501f383e1efb472c9d85"
-    },
-    {
-      "url": "https://sive.rs/book/AgainstBelief",
-      "source": "CRAWL",
-      "targetPath": "/book/againstbelief",
-      "id": "e6f490f3ba84e1d465ce188cc0e135b649a628c6"
-    },
-    {
-      "url": "https://sive.rs/book/AlterEgoEffect",
-      "source": "CRAWL",
-      "targetPath": "/book/alteregoeffect",
-      "id": "89842b2125242d0fa0cb8b4b3d706d05978ecbd9"
-    },
-    {
-      "url": "https://sive.rs/book/ArtOfLearning",
-      "source": "CRAWL",
-      "targetPath": "/book/artoflearning",
-      "id": "5e8470b6af1e0ca7b16d074a812a099fa178b71e"
-    },
-    {
-      "url": "https://sive.rs/book/AwakenGiant",
-      "source": "CRAWL",
-      "targetPath": "/book/awakengiant",
-      "id": "4d5caf4e6833b7f568556ab642f3dc2272f59383"
-    },
-    {
-      "url": "https://sive.rs/book/BeingLogical",
-      "source": "CRAWL",
-      "targetPath": "/book/beinglogical",
-      "id": "786f794666c5bd1ca764586ec308f29bfd7dc737"
-    },
-    {
-      "url": "https://sive.rs/book/BiggestBluff",
-      "source": "CRAWL",
-      "targetPath": "/book/biggestbluff",
-      "id": "750e540d5a78b94b73d1f847f43e072946fbf83d"
-    },
-    {
-      "url": "https://sive.rs/book/CBDummies",
-      "source": "CRAWL",
-      "targetPath": "/book/cbdummies",
-      "id": "78d8571922c1e398839d44fa53584120b366c868"
-    },
-    {
-      "url": "https://sive.rs/book/CBTphilo",
-      "source": "CRAWL",
-      "targetPath": "/book/cbtphilo",
-      "id": "36219579f8dcae69d4d40ff25ed23cbf12f62937"
-    },
-    {
-      "url": "https://sive.rs/book/CowsPigsWarsWitches",
-      "source": "CRAWL",
-      "targetPath": "/book/cowspigswarswitches",
-      "id": "81649b1db2b8e270ad61f9d38cd9413884e1cf2c"
-    },
-    {
       "url": "https://sive.rs/book/DeepWork",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/book/deepwork",
       "id": "82fdd5d353a861dfee4b874fc4a8894f0d72654b"
     },
     {
-      "url": "https://sive.rs/book/DoTheWork",
-      "source": "CRAWL",
-      "targetPath": "/book/dothework",
-      "id": "59bd3b2e9c56fe13644cc264bb2acc579752d5bb"
-    },
-    {
-      "url": "https://sive.rs/book/DreamingInChinese",
-      "source": "CRAWL",
-      "targetPath": "/book/dreaminginchinese",
-      "id": "3a58d4bc8a849bfa0b04e1c695eb305f18154977"
-    },
-    {
-      "url": "https://sive.rs/book/EgoEnemy",
-      "source": "CRAWL",
-      "targetPath": "/book/egoenemy",
-      "id": "b70ebd16747f7d26db34bbfa3003e5103b3849f4"
-    },
-    {
-      "url": "https://sive.rs/book/EverythingObvious",
-      "source": "CRAWL",
-      "targetPath": "/book/everythingobvious",
-      "id": "e6ae37e5ad6bc44b8f2e0134f735636f563c74c5"
-    },
-    {
-      "url": "https://sive.rs/book/HappinessHypothesis",
-      "source": "CRAWL",
-      "targetPath": "/book/happinesshypothesis",
-      "id": "03b8f89fb510275e7e04aed66e760b46225b9471"
-    },
-    {
-      "url": "https://sive.rs/book/HowToLive",
-      "source": "CRAWL",
-      "targetPath": "/book/howtolive",
-      "id": "b6c3b1239857c748b83ec7e585a5f1c717c360a5"
-    },
-    {
-      "url": "https://sive.rs/book/HowWeDecide",
-      "source": "CRAWL",
-      "targetPath": "/book/howwedecide",
-      "id": "9ad6c6393528da6a620b63e449ed0d13f2688cce"
-    },
-    {
       "url": "https://sive.rs/book/LeanStartup",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/book/leanstartup",
       "id": "00c17dd1fea2bb018c7f959ee8117f7b9a830889"
     },
     {
-      "url": "https://sive.rs/book/LovingWhatIs",
-      "source": "CRAWL",
-      "targetPath": "/book/lovingwhatis",
-      "id": "dcfd8660f36c37487e4b4a9b3dd4921c4c09f5d8"
-    },
-    {
       "url": "https://sive.rs/book/MadeToStick",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/book/madetostick",
       "id": "1d9ac77dbf38c81aa7e20371f9765ba12729e18c"
     },
     {
-      "url": "https://sive.rs/book/Mastery",
-      "source": "CRAWL",
-      "targetPath": "/book/mastery",
-      "id": "3a5f74d8ece63f6d249f939ad9bbd6d4ca60f756"
-    },
-    {
-      "url": "https://sive.rs/book/Mindset",
-      "source": "CRAWL",
-      "targetPath": "/book/mindset",
-      "id": "dfbeb5781d36078851d1dad2792d27496bf2a8d8"
-    },
-    {
-      "url": "https://sive.rs/book/NegotiateAnything",
-      "source": "CRAWL",
-      "targetPath": "/book/negotiateanything",
-      "id": "52a8fb21a1ab5bf4695381694eb475c3593ff041"
-    },
-    {
-      "url": "https://sive.rs/book/NihilismNE",
-      "source": "CRAWL",
-      "targetPath": "/book/nihilismne",
-      "id": "79d0e807761f83c54721e94310e177dc74f98d37"
-    },
-    {
-      "url": "https://sive.rs/book/NotSoSmart",
-      "source": "CRAWL",
-      "targetPath": "/book/notsosmart",
-      "id": "1533532e81dbbe72e874f3003ed74da1ab625d1a"
-    },
-    {
       "url": "https://sive.rs/book/OnWritingWell",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/book/onwritingwell",
       "id": "8eabc8088109b29616480447f1560457dc6248f9"
     },
     {
-      "url": "https://sive.rs/book/Overachievement",
-      "source": "CRAWL",
-      "targetPath": "/book/overachievement",
-      "id": "b64c279b0251a42d93763367827a0f4a35a4b742"
-    },
-    {
-      "url": "https://sive.rs/book/PhilosophyCI",
-      "source": "CRAWL",
-      "targetPath": "/book/philosophyci",
-      "id": "401583306b0f81ed85dc7678b19c9c81f03bb2d1"
-    },
-    {
-      "url": "https://sive.rs/book/Pragmatism",
-      "source": "CRAWL",
-      "targetPath": "/book/pragmatism",
-      "id": "a08c37bc1bd7328924d22a55ac3eaee8c12b46d7"
-    },
-    {
-      "url": "https://sive.rs/book/PragmatismIntro",
-      "source": "CRAWL",
-      "targetPath": "/book/pragmatismintro",
-      "id": "63ac8e3e06600179f0c64f1e45b7c4484b87c926"
-    },
-    {
-      "url": "https://sive.rs/book/PragmatismWayOfLife",
-      "source": "CRAWL",
-      "targetPath": "/book/pragmatismwayoflife",
-      "id": "28d7cb86cfa166670150f84010c6181b665fc5c6"
-    },
-    {
-      "url": "https://sive.rs/book/PragWJames",
-      "source": "CRAWL",
-      "targetPath": "/book/pragwjames",
-      "id": "c6e16e64bae0e1c401b7c9ac76bbd3b4e06c233f"
-    },
-    {
-      "url": "https://sive.rs/book/ReligionHowEvolved",
-      "source": "CRAWL",
-      "targetPath": "/book/religionhowevolved",
-      "id": "74eca970173ac6a4ca30bfc960918cbdf7a6b01a"
-    },
-    {
-      "url": "https://sive.rs/book/RighteousMind",
-      "source": "CRAWL",
-      "targetPath": "/book/righteousmind",
-      "id": "4af3f853991910038ad9e75fbc2cec314e501772"
-    },
-    {
-      "url": "https://sive.rs/book/Sapiens",
-      "source": "CRAWL",
-      "targetPath": "/book/sapiens",
-      "id": "1643738699ec1bd5244c26d25c10d3e394ec37c1"
-    },
-    {
-      "url": "https://sive.rs/book/Scepticism",
-      "source": "CRAWL",
-      "targetPath": "/book/scepticism",
-      "id": "62fecd3e0e702f4cc246c386e1f4a7bcd9bd11bd"
-    },
-    {
-      "url": "https://sive.rs/book/SoGood",
-      "source": "CRAWL",
-      "targetPath": "/book/sogood",
-      "id": "e693bae9a14b9949a59eef6c46322119fa3b298d"
-    },
-    {
       "url": "https://sive.rs/book/StoicJoy",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/book/stoicjoy",
       "id": "fb8b6dd30a000dae4be1a9fabead44a7dcd38004"
     },
     {
-      "url": "https://sive.rs/book/Switch",
-      "source": "CRAWL",
-      "targetPath": "/book/switch",
-      "id": "1c06849d0dfcd20b73ab1f5a4e275a8e54b0a5c8"
-    },
-    {
-      "url": "https://sive.rs/book/ThinkingFastAndSlow",
-      "source": "CRAWL",
-      "targetPath": "/book/thinkingfastandslow",
-      "id": "23cd9e33265c4f1052a124379b297df554be8b26"
-    },
-    {
-      "url": "https://sive.rs/book/ThinkingInBets",
-      "source": "CRAWL",
-      "targetPath": "/book/thinkinginbets",
-      "id": "81ca474ef0c3402ac3ce6f2310b159a8fc4558ca"
-    },
-    {
-      "url": "https://sive.rs/book/TimeParadox",
-      "source": "CRAWL",
-      "targetPath": "/book/timeparadox",
-      "id": "769b0369e97414707a4f6a8f0ecc6aa0a4784844"
-    },
-    {
-      "url": "https://sive.rs/book/TurningPro",
-      "source": "CRAWL",
-      "targetPath": "/book/turningpro",
-      "id": "c78c79d4992211c48b56dbe6bb73f5303205eba6"
-    },
-    {
-      "url": "https://sive.rs/book/UsefulBelief",
-      "source": "CRAWL",
-      "targetPath": "/book/usefulbelief",
-      "id": "f6f0afbecc5490abb4842b54c38127afacb85d20"
-    },
-    {
-      "url": "https://sive.rs/book/UsefulDelusions",
-      "source": "CRAWL",
-      "targetPath": "/book/usefuldelusions",
-      "id": "93528660b10b2117befaec4bf15f451b9f12713f"
-    },
-    {
-      "url": "https://sive.rs/book/WarOfArt",
-      "source": "CRAWL",
-      "targetPath": "/book/warofart",
-      "id": "3e2cb28661f0b7421cb886f3e94de0341fccdec8"
-    },
-    {
-      "url": "https://sive.rs/book/WhatGotYouThere",
-      "source": "CRAWL",
-      "targetPath": "/book/whatgotyouthere",
-      "id": "76de590a18db464f5864d8007e3752c1b7b29e67"
-    },
-    {
       "url": "https://sive.rs/book/WhenThingsFallApart",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/book/whenthingsfallapart",
       "id": "5a6007a3bbd6e9fe8d5b3cc001ffa145db238938"
     },
     {
-      "url": "https://sive.rs/book/WilliamJames",
-      "source": "CRAWL",
-      "targetPath": "/book/williamjames",
-      "id": "eebbf9e6c6604fc40173418c788e7daf02eef9ea"
-    },
-    {
       "url": "https://sive.rs/book/WisdomOfCrowds",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/book/wisdomofcrowds",
       "id": "8b6d9fa115c9cca47ea885442f4224baa4301fb7"
     },
     {
+      "url": "https://sive.rs/boring",
+      "source": "SITEMAPS",
+      "targetPath": "/boring",
+      "id": "c5437b08614b82de1009cc10887c972b12c1c9a9"
+    },
+    {
+      "url": "https://sive.rs/bp",
+      "source": "SITEMAPS",
+      "targetPath": "/bp",
+      "id": "87381c8aace0a10b0508560bd956c0b6d5b10629"
+    },
+    {
       "url": "https://sive.rs/bronze",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/bronze",
       "id": "9b2d7dc44b31af445f37e28e802746b8bb530d4d"
     },
     {
+      "url": "https://sive.rs/busk",
+      "source": "SITEMAPS",
+      "targetPath": "/busk",
+      "id": "1a291bb567ea8c8e60dd525fac8032c343cf1bf8"
+    },
+    {
       "url": "https://sive.rs/buyable",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/buyable",
       "id": "6772879bde714f4ae2b1c0201f1cfce236809cd5"
     },
     {
+      "url": "https://sive.rs/bye-bye-baby",
+      "source": "SITEMAPS",
+      "targetPath": "/bye-bye-baby",
+      "id": "324e5bdc8f005d73ae82eac470720e25e2166310"
+    },
+    {
       "url": "https://sive.rs/candles",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/candles",
       "id": "261237d0324585034e53caa7034be1aae135db95"
     },
     {
       "url": "https://sive.rs/capt",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/capt",
       "id": "bf5fca88f9e1b55ec86fcee538661a7f7e7aa285"
     },
     {
       "url": "https://sive.rs/career",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/career",
       "id": "24ab882c67b062b5c41abc80c5d52070cabad4dd"
     },
     {
       "url": "https://sive.rs/caremore",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/caremore",
       "id": "49eadb723a1d29e819c3a2e6142223a0151fb84a"
     },
     {
       "url": "https://sive.rs/casual",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/casual",
       "id": "19ae6a86bdd2652be3e40b687a765f91336be2ac"
     },
     {
       "url": "https://sive.rs/ccom",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/ccom",
       "id": "5ae27bb84f46b2c583a7ba5c8f460354e14e7100"
     },
     {
       "url": "https://sive.rs/cdbe",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/cdbe",
       "id": "02da8f2f7eacf2eed0c04a198dd2826aab01cb8f"
     },
     {
       "url": "https://sive.rs/cdbf",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/cdbf",
       "id": "733107211b19958d66a0f3bfd1b9a3d85540264a"
     },
     {
       "url": "https://sive.rs/changeplan",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/changeplan",
       "id": "ad6078f243623ac6944d7fec51892777137024cd"
     },
     {
       "url": "https://sive.rs/character",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/character",
       "id": "7df47248de8c35cf3192791905e54723fecd21f0"
     },
     {
+      "url": "https://sive.rs/chickens",
+      "source": "SITEMAPS",
+      "targetPath": "/chickens",
+      "id": "03e4bb6a798edc5ec093d2cac5df8e5fc76bd68b"
+    },
+    {
+      "url": "https://sive.rs/circles",
+      "source": "SITEMAPS",
+      "targetPath": "/circles",
+      "id": "d629f41a7c3b38637a8e626cbbf1a65fe23353c3"
+    },
+    {
       "url": "https://sive.rs/city",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/city",
       "id": "752437cae062474476fe8ad604d749931b506bcf"
     },
     {
+      "url": "https://sive.rs/clean1",
+      "source": "SITEMAPS",
+      "targetPath": "/clean1",
+      "id": "259fe9d62ed8d7b42e223342602fdccbb70400ea"
+    },
+    {
+      "url": "https://sive.rs/clothes",
+      "source": "SITEMAPS",
+      "targetPath": "/clothes",
+      "id": "c2fc5b045dab561be6f262bf884b2418928ac55f"
+    },
+    {
+      "url": "https://sive.rs/college",
+      "source": "SITEMAPS",
+      "targetPath": "/college",
+      "id": "d193eee601355a6c01f5a963ed28774e9d7de749"
+    },
+    {
+      "url": "https://sive.rs/com",
+      "source": "SITEMAPS",
+      "targetPath": "/com",
+      "id": "be4eb0e077ce123e7b882e265334bb745e35bb5c"
+    },
+    {
+      "url": "https://sive.rs/comfort",
+      "source": "SITEMAPS",
+      "targetPath": "/comfort",
+      "id": "1b2fff60fee7abd2b243816162693ea3aa264d69"
+    },
+    {
       "url": "https://sive.rs/compass",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/compass",
       "id": "2c6f1dc886eea49a2c69f85d57f8f3f1ce48b502"
     },
     {
       "url": "https://sive.rs/compensate",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/compensate",
       "id": "9ceca2ce9c3493551dbe254c529b17bf9527221f"
     },
     {
+      "url": "https://sive.rs/complainers",
+      "source": "SITEMAPS",
+      "targetPath": "/complainers",
+      "id": "aad625545085a211efbe73a32d0f5f76a21842a6"
+    },
+    {
+      "url": "https://sive.rs/confab",
+      "source": "SITEMAPS",
+      "targetPath": "/confab",
+      "id": "d02cdc12632d827a123fbbc439ab4fb461dd920b"
+    },
+    {
       "url": "https://sive.rs/conferences",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/conferences",
       "id": "a918e47ae566c25290fe1a68d278e78db6f9cdab"
     },
     {
+      "url": "https://sive.rs/confidence",
+      "source": "SITEMAPS",
+      "targetPath": "/confidence",
+      "id": "835177fe5cf8638c7a03ef3926b24304ed7351ab"
+    },
+    {
       "url": "https://sive.rs/cons",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/cons",
       "id": "db78b4f7729d5041215318f3edc8d5285d3186c1"
     },
     {
       "url": "https://sive.rs/contact",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/contact",
       "id": "0d8c6f39686831022104685a8d6f7ced40bda2f9"
     },
     {
       "url": "https://sive.rs/contrarian",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/contrarian",
       "id": "d03208d4fb415670e1e94d603f03c31d64d33dc5"
     },
     {
       "url": "https://sive.rs/contrib",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/contrib",
       "id": "e5866d72ad11423ac0a9ac2c0fffeffc6090ab89"
     },
     {
       "url": "https://sive.rs/counter",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/counter",
       "id": "a9ee280cd7d502ee5e90f8618b0a74a78b0ca600"
     },
     {
+      "url": "https://sive.rs/cs",
+      "source": "SITEMAPS",
+      "targetPath": "/cs",
+      "id": "6ca19b36fae270672242cc10bced6997402dd9ff"
+    },
+    {
       "url": "https://sive.rs/cs1",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/cs1",
       "id": "20185e4ca7ff62d6b32800e58364e504e0b74b1c"
     },
     {
       "url": "https://sive.rs/cs2",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/cs2",
       "id": "96b6b05a981392114c37084ada0372bf6d018d5f"
     },
     {
       "url": "https://sive.rs/cs3",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/cs3",
       "id": "e01f2e92a58346ca3f3574eabc641218659c32aa"
     },
     {
+      "url": "https://sive.rs/d1",
+      "source": "SITEMAPS",
+      "targetPath": "/d1",
+      "id": "bf399b57adb2e9da70018d95a5f31a6524830db3"
+    },
+    {
+      "url": "https://sive.rs/d1p",
+      "source": "SITEMAPS",
+      "targetPath": "/d1p",
+      "id": "7aa70b1b3953eb4262c4fe0442e0f6d9f42d3ee0"
+    },
+    {
+      "url": "https://sive.rs/d1r",
+      "source": "SITEMAPS",
+      "targetPath": "/d1r",
+      "id": "6d33961f93e88b05501251673fe1211205198b8d"
+    },
+    {
+      "url": "https://sive.rs/d1s",
+      "source": "SITEMAPS",
+      "targetPath": "/d1s",
+      "id": "fa9e1e6a146fcdbd2e0a31522a65c26db3df69d3"
+    },
+    {
+      "url": "https://sive.rs/d1t",
+      "source": "SITEMAPS",
+      "targetPath": "/d1t",
+      "id": "fe1f8c485009bdb745a1d89a967cd5b437cfdb38"
+    },
+    {
+      "url": "https://sive.rs/d1u",
+      "source": "SITEMAPS",
+      "targetPath": "/d1u",
+      "id": "fced2812ba4d269f77ee3aedc053a2cd5a81b1d9"
+    },
+    {
+      "url": "https://sive.rs/d1x",
+      "source": "SITEMAPS",
+      "targetPath": "/d1x",
+      "id": "972d5724b2a3f571fd80c9a61b6c2aee4795d49a"
+    },
+    {
+      "url": "https://sive.rs/d22",
+      "source": "SITEMAPS",
+      "targetPath": "/d22",
+      "id": "1930a25460e4712b8e8fc57b66d94a1e5b9b2780"
+    },
+    {
+      "url": "https://sive.rs/dance-lessons",
+      "source": "SITEMAPS",
+      "targetPath": "/dance-lessons",
+      "id": "44f0b8e77759afded702694a4213a511fb0c7961"
+    },
+    {
+      "url": "https://sive.rs/dancingguy",
+      "source": "SITEMAPS",
+      "targetPath": "/dancingguy",
+      "id": "67516492b01ef071c1ee2941075ce0c5bdbee3be"
+    },
+    {
+      "url": "https://sive.rs/daydream",
+      "source": "SITEMAPS",
+      "targetPath": "/daydream",
+      "id": "1b0226d16d8f273c9c0c6290d0b8e0a48e520cb6"
+    },
+    {
       "url": "https://sive.rs/dbt",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/dbt",
       "id": "570b48f7e18a08dfbd083f3dcc5f44274909953f"
     },
     {
       "url": "https://sive.rs/dc",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/dc",
       "id": "9b3c5946f16d252bfd19e9886fde112a6a5024ed"
     },
     {
+      "url": "https://sive.rs/ddown",
+      "source": "SITEMAPS",
+      "targetPath": "/ddown",
+      "id": "e51b2a047395d62e66af60deb7bff42cc07e80ba"
+    },
+    {
+      "url": "https://sive.rs/decaying",
+      "source": "SITEMAPS",
+      "targetPath": "/decaying",
+      "id": "80bae95626804779b7eae395b7bb2dbffbad7398"
+    },
+    {
       "url": "https://sive.rs/delegate",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/delegate",
       "id": "2ddfe302b086e9764655f04e682153493a5de7c9"
     },
     {
+      "url": "https://sive.rs/desperate",
+      "source": "SITEMAPS",
+      "targetPath": "/desperate",
+      "id": "9ba7714024eded595be57c8927f5aaef205131ef"
+    },
+    {
+      "url": "https://sive.rs/desperate2",
+      "source": "SITEMAPS",
+      "targetPath": "/desperate2",
+      "id": "01bc4d1f5ae56e322e96f7813ff42590a15bb5a4"
+    },
+    {
       "url": "https://sive.rs/destdir",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/destdir",
       "id": "ad39e5354ca3012cd3ed41631439525426e7f7da"
     },
     {
       "url": "https://sive.rs/details",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/details",
       "id": "c4559f959456691a2990c51bbcbf95bc0daf8113"
     },
     {
+      "url": "https://sive.rs/dive",
+      "source": "SITEMAPS",
+      "targetPath": "/dive",
+      "id": "efdeb4351d62611e7a85325675ca94e8bb84b1df"
+    },
+    {
       "url": "https://sive.rs/diy",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/diy",
       "id": "31c18fbc2f3068a2be6ce1053fe688569d421971"
     },
     {
+      "url": "https://sive.rs/dj",
+      "source": "SITEMAPS",
+      "targetPath": "/dj",
+      "id": "8d432b8d7dcd41ab184aea8430f65aeb509c2b91"
+    },
+    {
       "url": "https://sive.rs/done",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/done",
       "id": "972d6550ce57e9c0d6a1da026f0668bac0028550"
     },
     {
       "url": "https://sive.rs/donkey",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/donkey",
       "id": "3e85c3f70d1489306551c1d2dd0052e8da79566f"
     },
     {
+      "url": "https://sive.rs/dont-fight-it",
+      "source": "SITEMAPS",
+      "targetPath": "/dont-fight-it",
+      "id": "92f3965128a8e7d44850aca54d16a89d7ef80835"
+    },
+    {
       "url": "https://sive.rs/dontneed",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/dontneed",
       "id": "d13fbc15d018ef81f34aec44e88787906a139c74"
     },
     {
       "url": "https://sive.rs/double",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/double",
       "id": "4b866cdfcf1b9fa69d45f7435980b972ab181f11"
     },
     {
+      "url": "https://sive.rs/dq",
+      "source": "SITEMAPS",
+      "targetPath": "/dq",
+      "id": "e4932114161231ae4dedb9644dbc788f96e8346f"
+    },
+    {
       "url": "https://sive.rs/drain",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/drain",
       "id": "d4fc0b3c1c5e918393ea9a3cb16fd86dbadddf0e"
     },
     {
+      "url": "https://sive.rs/drama",
+      "source": "SITEMAPS",
+      "targetPath": "/drama",
+      "id": "4f6cdc16ce38e5bbb2ec54cf13bdbd29a7c481bb"
+    },
+    {
+      "url": "https://sive.rs/dw",
+      "source": "SITEMAPS",
+      "targetPath": "/dw",
+      "id": "181cc8ae13478d83833cc3e1825c074404af27f6"
+    },
+    {
       "url": "https://sive.rs/dym",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/dym",
       "id": "6d2e695de89f1b8477dfcac99061a7ed933fca84"
     },
     {
+      "url": "https://sive.rs/early",
+      "source": "SITEMAPS",
+      "targetPath": "/early",
+      "id": "4a555de3252d9a3deb72f2b6563703541d22bebe"
+    },
+    {
+      "url": "https://sive.rs/ebert2",
+      "source": "SITEMAPS",
+      "targetPath": "/ebert2",
+      "id": "f446b37ec442e64df6ec0808097a27e387ba65bb"
+    },
+    {
+      "url": "https://sive.rs/eg",
+      "source": "SITEMAPS",
+      "targetPath": "/eg",
+      "id": "0fb41033b886a8d857d9d89f4b77fab60b23889e"
+    },
+    {
+      "url": "https://sive.rs/ego",
+      "source": "SITEMAPS",
+      "targetPath": "/ego",
+      "id": "efda1a35f8442b66764237c9e70ac0f066a1aec1"
+    },
+    {
+      "url": "https://sive.rs/emailer",
+      "source": "SITEMAPS",
+      "targetPath": "/emailer",
+      "id": "0fbfaff40b1f443b65c428acbcf6488d4afbc2a1"
+    },
+    {
+      "url": "https://sive.rs/eml",
+      "source": "SITEMAPS",
+      "targetPath": "/eml",
+      "id": "be47dbee600a7665d15e5a90b6472564631a44db"
+    },
+    {
+      "url": "https://sive.rs/enough",
+      "source": "SITEMAPS",
+      "targetPath": "/enough",
+      "id": "17b5d3e2932a3f91a38302671ab05df6deb259ff"
+    },
+    {
+      "url": "https://sive.rs/erra",
+      "source": "SITEMAPS",
+      "targetPath": "/erra",
+      "id": "cf2a7662ea7b4514f3c3e4af33772f12f1b11d2a"
+    },
+    {
       "url": "https://sive.rs/evers",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/evers",
       "id": "360b0fa787c81705cdf2fedf6d8143a8dbaa8084"
     },
     {
+      "url": "https://sive.rs/exan",
+      "source": "SITEMAPS",
+      "targetPath": "/exan",
+      "id": "0e61641f5e50041d5c93525b84be74175f6b555b"
+    },
+    {
       "url": "https://sive.rs/exclude",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/exclude",
       "id": "d4b2a8105d6ca87c78f37899387a600f3375e6b6"
     },
     {
       "url": "https://sive.rs/exclude2",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/exclude2",
       "id": "77000b44db4af4039f5fbed91129980ff8667478"
     },
     {
+      "url": "https://sive.rs/exex",
+      "source": "SITEMAPS",
+      "targetPath": "/exex",
+      "id": "83117bf751b96235594b491b8d7798c82d974f5c"
+    },
+    {
       "url": "https://sive.rs/expire",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/expire",
       "id": "f0228383ca0a07b617d9b9369d93fce0f828fce8"
     },
     {
       "url": "https://sive.rs/ext",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/ext",
       "id": "e2504eb4ac31f5808be75f972c6c35fd97d2cbff"
     },
     {
       "url": "https://sive.rs/extremex",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/extremex",
       "id": "af28d3d7db8545cacd62db2c056b1d8c1b187467"
     },
     {
+      "url": "https://sive.rs/facebook",
+      "source": "SITEMAPS",
+      "targetPath": "/facebook",
+      "id": "9cd84ec7cb8210b6fdbe0f7dcc7e0c4255779feb"
+    },
+    {
       "url": "https://sive.rs/failure",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/failure",
       "id": "f1e3fe243f90cc72682ae7190bd33a3d4146aba8"
     },
     {
       "url": "https://sive.rs/fanwork",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/fanwork",
       "id": "326fa2161705c8322bba82ffc348b824c71fc0b4"
     },
     {
       "url": "https://sive.rs/faq",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/faq",
       "id": "98a9b391710500e2fc274c85aa58d8c123cf8e55"
     },
     {
       "url": "https://sive.rs/favors",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/favors",
       "id": "3ec8b950b2dbb3e63726fcd5f133bb6504959c37"
     },
     {
       "url": "https://sive.rs/fela",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/fela",
       "id": "94901e88da28318b5a4d161e04d79a73da3f311e"
     },
     {
+      "url": "https://sive.rs/fela-kuti",
+      "source": "SITEMAPS",
+      "targetPath": "/fela-kuti",
+      "id": "3657ea3accb8ae4208692f5e6f1a12fce4582e67"
+    },
+    {
       "url": "https://sive.rs/ff",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/ff",
       "id": "48e97bede9496bfb7f34a46c7c5b8c2a2c05c6ae"
     },
     {
+      "url": "https://sive.rs/ff2",
+      "source": "SITEMAPS",
+      "targetPath": "/ff2",
+      "id": "14e0fd597a909e84b66b49c86247ec8b3c54b2db"
+    },
+    {
       "url": "https://sive.rs/fish",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/fish",
       "id": "8bf0ace67f50889515a5f9b6bd5d06c191e5fd3b"
     },
     {
       "url": "https://sive.rs/flipstick",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/flipstick",
       "id": "7fe60a1f5df2defe237983e1b584310cf015cb21"
     },
     {
       "url": "https://sive.rs/formalities",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/formalities",
       "id": "75a41a18984b7b815d96d78a3b9f5ae6b4ef4643"
     },
     {
       "url": "https://sive.rs/fp",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/fp",
       "id": "692132bbae9350942e404b846c834fb2a044d10f"
     },
     {
+      "url": "https://sive.rs/freedom",
+      "source": "SITEMAPS",
+      "targetPath": "/freedom",
+      "id": "0467e021498b98c612341c88b679098adaeaca2b"
+    },
+    {
       "url": "https://sive.rs/friends",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/friends",
       "id": "0c7ec81ceb0061addf7dbe2b965b76991a272fa0"
     },
     {
       "url": "https://sive.rs/full",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/full",
       "id": "ad1842b87f9274dcb411179eba4dd3d4425b5dde"
     },
     {
       "url": "https://sive.rs/futures",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/futures",
       "id": "ca2145400f8ef9c710553b32fbd897330996480b"
     },
     {
+      "url": "https://sive.rs/futuretense",
+      "source": "SITEMAPS",
+      "targetPath": "/futuretense",
+      "id": "1a193e9f52a1e814e33c555fe30d26bea46a2087"
+    },
+    {
       "url": "https://sive.rs/game",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/game",
       "id": "fc798ff67e4586918e7e0ec74fc0554e25e263ab"
     },
     {
       "url": "https://sive.rs/gbp",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/gbp",
       "id": "0b95e40b2dd3c45ab1c45d2fd58fef3c234f0f5e"
     },
     {
       "url": "https://sive.rs/get-specific",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/get-specific",
       "id": "ba81dda42ca4e4fa597023d85c1096fc4e5209da"
     },
     {
       "url": "https://sive.rs/gethired",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/gethired",
       "id": "3006a61bb3116dc00d29ddd627098bb425a96428"
     },
     {
+      "url": "https://sive.rs/gifts",
+      "source": "SITEMAPS",
+      "targetPath": "/gifts",
+      "id": "3ec818712247625e2c3ece21af2af68a8043d23b"
+    },
+    {
       "url": "https://sive.rs/goals",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/goals",
       "id": "5e651847d00f23207f87ca31d817b73920720d29"
     },
     {
+      "url": "https://sive.rs/gofear",
+      "source": "SITEMAPS",
+      "targetPath": "/gofear",
+      "id": "2f92f2b71c75180f8cebfd6ed814d386edb3d75c"
+    },
+    {
       "url": "https://sive.rs/gofilt",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/gofilt",
       "id": "b63be01ca6ccd14003206e5886bb454a77b59a3c"
     },
     {
       "url": "https://sive.rs/gpers",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/gpers",
       "id": "30f1d35d5d14b6504f3a5f7017d68d4a7877deef"
     },
     {
       "url": "https://sive.rs/grade",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/grade",
       "id": "737f42c0b4be25682bc41a55d707af35bf4544a3"
     },
     {
+      "url": "https://sive.rs/grand-pursuit",
+      "source": "SITEMAPS",
+      "targetPath": "/grand-pursuit",
+      "id": "db15bcc250e9223ce4df6e0d2ae6e23a1614e41e"
+    },
+    {
       "url": "https://sive.rs/h",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/h",
       "id": "24d4148932cbec00b8ae281a84e5feedd5da76be"
     },
     {
       "url": "https://sive.rs/hate",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/hate",
       "id": "e697e3eada9d01f4dc9b1d24296f66f50839ae4c"
     },
     {
       "url": "https://sive.rs/hatenot",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/hatenot",
       "id": "0d16155946397f21c0af7552f4c217d5583c1c33"
     },
     {
       "url": "https://sive.rs/hellyeah",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/hellyeah",
       "id": "2d3e3775f49ba5ed4b551cd3465926c22d3a3025"
     },
     {
+      "url": "https://sive.rs/here",
+      "source": "SITEMAPS",
+      "targetPath": "/here",
+      "id": "99d8f99135bf59ff12914f1a8e2834c3e5d576c1"
+    },
+    {
+      "url": "https://sive.rs/heroes",
+      "source": "SITEMAPS",
+      "targetPath": "/heroes",
+      "id": "9a3757bc001b526d57d0ae32ab9a4d920219240b"
+    },
+    {
+      "url": "https://sive.rs/hf",
+      "source": "SITEMAPS",
+      "targetPath": "/hf",
+      "id": "28ec3dcb7c7f240ba7f5c403a98d9f16dc5299c0"
+    },
+    {
+      "url": "https://sive.rs/hi",
+      "source": "SITEMAPS",
+      "targetPath": "/hi",
+      "id": "3be7d81c05c2c7066afe8e00e0dcbf9a104da560"
+    },
+    {
       "url": "https://sive.rs/hillbf",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/hillbf",
       "id": "15722836b5f589d4d9e1e13d7b76e92e5f61b9c4"
     },
     {
       "url": "https://sive.rs/hitswitch",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/hitswitch",
       "id": "d3ded2a13c6278eaea843dd5fe07999ef2a3b072"
     },
     {
+      "url": "https://sive.rs/homeless",
+      "source": "SITEMAPS",
+      "targetPath": "/homeless",
+      "id": "957b628081aec44540871b84c29c5f307a4e2ea8"
+    },
+    {
+      "url": "https://sive.rs/hooky",
+      "source": "SITEMAPS",
+      "targetPath": "/hooky",
+      "id": "d4641efb654a8bbff9269e468aebca3a01ca7f4a"
+    },
+    {
       "url": "https://sive.rs/horses",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/horses",
       "id": "d23caab944f0b8256ac3a9056aff84d382b70582"
     },
     {
+      "url": "https://sive.rs/how-was-india",
+      "source": "SITEMAPS",
+      "targetPath": "/how-was-india",
+      "id": "4b53bb2cacf02d0e7fbaa61bef6720c1a01d2124"
+    },
+    {
       "url": "https://sive.rs/how2hire",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/how2hire",
       "id": "485e80d92247b9cdaede1b3049298777d71afa15"
     },
     {
       "url": "https://sive.rs/hs",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/hs",
       "id": "27da990eaa73287c2bd9df7cbf299feca7d97268"
     },
     {
       "url": "https://sive.rs/hsu",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/hsu",
       "id": "5894c51b3532e66f1174e59bd5e3a0136e946462"
     },
     {
-      "url": "https://sive.rs/htl01",
-      "source": "CRAWL",
-      "targetPath": "/htl01",
-      "id": "65dd8a3e0b810bc2615fb8e17d749ad93cd43f6d"
-    },
-    {
-      "url": "https://sive.rs/htl02",
-      "source": "CRAWL",
-      "targetPath": "/htl02",
-      "id": "ed69cb1bc7a4699fe4b7f6b30fa024bbe21a66aa"
-    },
-    {
-      "url": "https://sive.rs/htl03",
-      "source": "CRAWL",
-      "targetPath": "/htl03",
-      "id": "f10552dab6a346e4bd890a8cf7fdcdc274a40cf7"
-    },
-    {
-      "url": "https://sive.rs/htl04",
-      "source": "CRAWL",
-      "targetPath": "/htl04",
-      "id": "fe3776997eeac461bcaf7e8c4ec2824299924395"
-    },
-    {
-      "url": "https://sive.rs/htl05",
-      "source": "CRAWL",
-      "targetPath": "/htl05",
-      "id": "14f1d7c2d819dc9178b5989450a73f0ef00c57e1"
-    },
-    {
-      "url": "https://sive.rs/htl06",
-      "source": "CRAWL",
-      "targetPath": "/htl06",
-      "id": "f9625ae7a6a051f90e588e472e65293ebc499887"
-    },
-    {
-      "url": "https://sive.rs/htl07",
-      "source": "CRAWL",
-      "targetPath": "/htl07",
-      "id": "7175224b6d3b5d56fc961369497bf42bfe48dc17"
-    },
-    {
-      "url": "https://sive.rs/htl08",
-      "source": "CRAWL",
-      "targetPath": "/htl08",
-      "id": "c67c84b899ac19b9dc9536a5b794b594d7522eb3"
-    },
-    {
-      "url": "https://sive.rs/htl09",
-      "source": "CRAWL",
-      "targetPath": "/htl09",
-      "id": "44db7a3acd7e90efdeccebed6a87672fb51f3e79"
-    },
-    {
-      "url": "https://sive.rs/htl10",
-      "source": "CRAWL",
-      "targetPath": "/htl10",
-      "id": "583eca75338a365640ccaa90b212f1ba3b25f0da"
-    },
-    {
-      "url": "https://sive.rs/htl11",
-      "source": "CRAWL",
-      "targetPath": "/htl11",
-      "id": "d4e41f63dd127509358056fed191c4a98f44c77f"
-    },
-    {
-      "url": "https://sive.rs/htl12",
-      "source": "CRAWL",
-      "targetPath": "/htl12",
-      "id": "0472a9c5c359cc4aef789743217040b2b72a2d69"
-    },
-    {
-      "url": "https://sive.rs/htl13",
-      "source": "CRAWL",
-      "targetPath": "/htl13",
-      "id": "9bed9598aba3f7c6bfa4ef629beef6e8b168d079"
-    },
-    {
-      "url": "https://sive.rs/htl14",
-      "source": "CRAWL",
-      "targetPath": "/htl14",
-      "id": "fb48cf11feca034c4a5e43da850e53a07da9aa47"
-    },
-    {
-      "url": "https://sive.rs/htl15",
-      "source": "CRAWL",
-      "targetPath": "/htl15",
-      "id": "f3952759d7ba0dd1ec334a7475ea1c46945c8b28"
-    },
-    {
-      "url": "https://sive.rs/htl16",
-      "source": "CRAWL",
-      "targetPath": "/htl16",
-      "id": "fbcdeeefdfe77840cdecb8193fc677a7a260229c"
-    },
-    {
-      "url": "https://sive.rs/htl17",
-      "source": "CRAWL",
-      "targetPath": "/htl17",
-      "id": "f568c9817ea29d95e4f09e1d3664492848cf34fe"
-    },
-    {
-      "url": "https://sive.rs/htl18",
-      "source": "CRAWL",
-      "targetPath": "/htl18",
-      "id": "80497f1c83cc977cfaff4cabb6191aa4b7e53379"
-    },
-    {
-      "url": "https://sive.rs/htl19",
-      "source": "CRAWL",
-      "targetPath": "/htl19",
-      "id": "4e1f5c1bf3ef34014d0c5b89fc8962f887ef04b5"
-    },
-    {
-      "url": "https://sive.rs/htl20",
-      "source": "CRAWL",
-      "targetPath": "/htl20",
-      "id": "a2534b79318ece4df5044abe80fb47ab0569ac97"
-    },
-    {
-      "url": "https://sive.rs/htl21",
-      "source": "CRAWL",
-      "targetPath": "/htl21",
-      "id": "1a8652b82cb8a30f94d6b9a87474b68362b655c6"
-    },
-    {
-      "url": "https://sive.rs/htl22",
-      "source": "CRAWL",
-      "targetPath": "/htl22",
-      "id": "6b61fa8ed39dca8f60e5ded1fd0d926ac2727e68"
-    },
-    {
-      "url": "https://sive.rs/htl23",
-      "source": "CRAWL",
-      "targetPath": "/htl23",
-      "id": "efee9422ec215c3299fc6978b79faf416cddc14a"
-    },
-    {
-      "url": "https://sive.rs/htl24",
-      "source": "CRAWL",
-      "targetPath": "/htl24",
-      "id": "41ef821023f00146d4dde3ed5a52d80d8dd187b5"
-    },
-    {
-      "url": "https://sive.rs/htl25",
-      "source": "CRAWL",
-      "targetPath": "/htl25",
-      "id": "df73a8e2477424b2bf6099aa94452a54b931268b"
-    },
-    {
-      "url": "https://sive.rs/htl26",
-      "source": "CRAWL",
-      "targetPath": "/htl26",
-      "id": "ba4c2fb19229d6a20ef5af20b776a9f6b42f1932"
-    },
-    {
-      "url": "https://sive.rs/htl27",
-      "source": "CRAWL",
-      "targetPath": "/htl27",
-      "id": "db306dbdfd7d1e2b464f5d238454f2df9164473f"
-    },
-    {
-      "url": "https://sive.rs/htl28",
-      "source": "CRAWL",
-      "targetPath": "/htl28",
-      "id": "0cb66dbf681986c788593360e60580b96442b32d"
-    },
-    {
       "url": "https://sive.rs/hundreds",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/hundreds",
       "id": "4d9beb03e4a6f30001008612c7e80f7a1b65afbb"
     },
     {
       "url": "https://sive.rs/hy1",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/hy1",
       "id": "66b9ad44c9b00c9d1448451eb3a775fcf4514af9"
     },
     {
       "url": "https://sive.rs/hych",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/hych",
       "id": "30a31c22625081652b1b3062abe8098cac231824"
     },
     {
       "url": "https://sive.rs/hyn",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/hyn",
       "id": "b985e6ad8b00072cc266f452c278b56f18b4f5d9"
     },
     {
       "url": "https://sive.rs/i",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/i",
       "id": "3c1f6e6a44ed43e303a5614b2ed060c6ccc59262"
     },
     {
+      "url": "https://sive.rs/iceland",
+      "source": "SITEMAPS",
+      "targetPath": "/iceland",
+      "id": "c7e0314c595f59fcbdb91622e79e256bb9b409a1"
+    },
+    {
+      "url": "https://sive.rs/id14",
+      "source": "SITEMAPS",
+      "targetPath": "/id14",
+      "id": "e3f695a9715c3b8c35d8ff3611f1efefcbae8183"
+    },
+    {
+      "url": "https://sive.rs/ideas2",
+      "source": "SITEMAPS",
+      "targetPath": "/ideas2",
+      "id": "9693d30ee5ea9e06a56e597744a303255c3f13e1"
+    },
+    {
       "url": "https://sive.rs/inclev",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/inclev",
       "id": "e01389d2b2a159442cf527daa747cce1a81bcac2"
     },
     {
       "url": "https://sive.rs/infinity",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/infinity",
       "id": "3a8a552fad021c048e920321e56a5d377512778f"
     },
     {
+      "url": "https://sive.rs/inlove",
+      "source": "SITEMAPS",
+      "targetPath": "/inlove",
+      "id": "498e78b743466394c4ca3b531675e369d65ab2bc"
+    },
+    {
       "url": "https://sive.rs/insidr",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/insidr",
       "id": "e8935b1359eed6012529f195afe9ba58f991c597"
     },
     {
+      "url": "https://sive.rs/interviews",
+      "source": "SITEMAPS",
+      "targetPath": "/interviews",
+      "id": "cc2e7237fa365ec60f9e141a0101878c77ca96dd"
+    },
+    {
       "url": "https://sive.rs/io",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/io",
       "id": "7565bfee14900554c3b72fc14127017ce2cf0031"
     },
     {
+      "url": "https://sive.rs/isms",
+      "source": "SITEMAPS",
+      "targetPath": "/isms",
+      "id": "c0778389573a021ea26a1d6675f7712e9fac1d46"
+    },
+    {
       "url": "https://sive.rs/itunes",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/itunes",
       "id": "84f1eee2fd94635e877a88a1958368a60869179e"
     },
     {
+      "url": "https://sive.rs/jac",
+      "source": "SITEMAPS",
+      "targetPath": "/jac",
+      "id": "66461c1f846318c734c5e5a5e8bf591e52dcda71"
+    },
+    {
+      "url": "https://sive.rs/jadr",
+      "source": "SITEMAPS",
+      "targetPath": "/jadr",
+      "id": "b8f28d3c156bafe2fee9370892efbc146ca74884"
+    },
+    {
+      "url": "https://sive.rs/jam",
+      "source": "SITEMAPS",
+      "targetPath": "/jam",
+      "id": "80cf7edfbee2668187057f08e3d8af76d2c1abac"
+    },
+    {
+      "url": "https://sive.rs/joke",
+      "source": "SITEMAPS",
+      "targetPath": "/joke",
+      "id": "e84b774585772f077b4cbd4977bd547017a7824e"
+    },
+    {
+      "url": "https://sive.rs/jp14",
+      "source": "SITEMAPS",
+      "targetPath": "/jp14",
+      "id": "154f7122e8c7d38ae7865b51155c342d67b7ca66"
+    },
+    {
+      "url": "https://sive.rs/ketchup",
+      "source": "SITEMAPS",
+      "targetPath": "/ketchup",
+      "id": "9faad58679f72869f23e8da9a572d16358b99176"
+    },
+    {
+      "url": "https://sive.rs/kidspc",
+      "source": "SITEMAPS",
+      "targetPath": "/kidspc",
+      "id": "62a242870a519f4cd26910a5d437ec705ec0206e"
+    },
+    {
       "url": "https://sive.rs/kimo",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/kimo",
       "id": "9637eeefab1df50b6d13ff0e9cc966417c2cb287"
     },
     {
       "url": "https://sive.rs/kit",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/kit",
       "id": "0fdce60f3b078b4a232c1b44ad80239e1c6cc503"
     },
     {
+      "url": "https://sive.rs/kl",
+      "source": "SITEMAPS",
+      "targetPath": "/kl",
+      "id": "965c49a87cb50b39fda5e21df4e15ad0abfce781"
+    },
+    {
+      "url": "https://sive.rs/la",
+      "source": "SITEMAPS",
+      "targetPath": "/la",
+      "id": "6cb7916212cac067d3337fa1e018e578e0b84985"
+    },
+    {
+      "url": "https://sive.rs/label-list",
+      "source": "SITEMAPS",
+      "targetPath": "/label-list",
+      "id": "29c20043cd377c86e8f7dd69cfbe1abf5fbc7795"
+    },
+    {
       "url": "https://sive.rs/laboratory",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/laboratory",
       "id": "dbe22ef41b7d212eafe869c1d3f7dd05923977d8"
     },
     {
+      "url": "https://sive.rs/ladders",
+      "source": "SITEMAPS",
+      "targetPath": "/ladders",
+      "id": "7704629244531653bb3e7f920e1c3cf615948ddb"
+    },
+    {
+      "url": "https://sive.rs/ldn",
+      "source": "SITEMAPS",
+      "targetPath": "/ldn",
+      "id": "a1c841acb2e0e132d5b92cb7d91799a36001dc8b"
+    },
+    {
       "url": "https://sive.rs/learn-js",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/learn-js",
       "id": "8dcc92bdd5740019be9ae3e8dff6965281699462"
     },
     {
+      "url": "https://sive.rs/left",
+      "source": "SITEMAPS",
+      "targetPath": "/left",
+      "id": "ea2b0bf05ba1322a2c36cbf8f49f2c748accc5c5"
+    },
+    {
+      "url": "https://sive.rs/letmeknow",
+      "source": "SITEMAPS",
+      "targetPath": "/letmeknow",
+      "id": "fb2d682054fa6f143446fe6db54c4027f5ecd9f7"
+    },
+    {
+      "url": "https://sive.rs/letmeknow2",
+      "source": "SITEMAPS",
+      "targetPath": "/letmeknow2",
+      "id": "79cf474e7fbd03c335c9800769eb80a8ccbd9668"
+    },
+    {
+      "url": "https://sive.rs/lifeis",
+      "source": "SITEMAPS",
+      "targetPath": "/lifeis",
+      "id": "01f1597b47090a5fc13dc38d927483ca9b336244"
+    },
+    {
       "url": "https://sive.rs/lines",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/lines",
       "id": "e34060063e5a246f145bfffce5ca155b5167bfbc"
     },
     {
       "url": "https://sive.rs/livecd",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/livecd",
       "id": "68aa39730009e6772aaa87fe259a5a1ef8149099"
     },
     {
       "url": "https://sive.rs/local",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/local",
       "id": "a68171482cb7087c125bb1f4a215d5916333a33b"
     },
     {
+      "url": "https://sive.rs/lofi",
+      "source": "SITEMAPS",
+      "targetPath": "/lofi",
+      "id": "6e787e50d6f288c5555662e313a0de271f7afefa"
+    },
+    {
       "url": "https://sive.rs/loss",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/loss",
       "id": "55f72c4ec1e27f74ccb737bb3dd9549bd853ae44"
     },
     {
       "url": "https://sive.rs/lw",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/lw",
       "id": "238ffa181a78fe49733367e86e1172c2217bcb61"
     },
     {
       "url": "https://sive.rs/m",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/m",
       "id": "1fb3d8fd45f5c6232716c57723807f0e1f8da7a2"
     },
     {
       "url": "https://sive.rs/m1",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/m1",
       "id": "034f96c279eca9b4cbbf4d3d89de5cb94ec547d8"
     },
     {
       "url": "https://sive.rs/m2",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/m2",
       "id": "31539245c3ab6c0e74900aa8c7241bce201a2845"
     },
     {
+      "url": "https://sive.rs/make-you-happy",
+      "source": "SITEMAPS",
+      "targetPath": "/make-you-happy",
+      "id": "0baee0b7d1982b3b0f5655d04a08c4df0ac26b1d"
+    },
+    {
       "url": "https://sive.rs/makenew",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/makenew",
       "id": "c42e8f0e59a32ceeb88dd73edaa3760b8b425c02"
     },
     {
+      "url": "https://sive.rs/masch",
+      "source": "SITEMAPS",
+      "targetPath": "/masch",
+      "id": "d1c89b98387f0a2ccccbaa0b3aeaf558f87bd858"
+    },
+    {
+      "url": "https://sive.rs/mb",
+      "source": "SITEMAPS",
+      "targetPath": "/mb",
+      "id": "2755417d05dd9ab485849d51d6db67a3aca77a16"
+    },
+    {
       "url": "https://sive.rs/meaning",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/meaning",
       "id": "e57ff94978dd6312be5e7fb7615a7aaf2abf008e"
     },
     {
       "url": "https://sive.rs/ment",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/ment",
       "id": "32315f8a937645bcbf6e7694a9a943fc923a6100"
     },
     {
+      "url": "https://sive.rs/mentre",
+      "source": "SITEMAPS",
+      "targetPath": "/mentre",
+      "id": "323c230ac7914640d79efb2a824bc3bbfa636574"
+    },
+    {
+      "url": "https://sive.rs/metac",
+      "source": "SITEMAPS",
+      "targetPath": "/metac",
+      "id": "5d798a4d5b7c5e8813e042e05a84f2e7b8b3a10c"
+    },
+    {
       "url": "https://sive.rs/metaphor",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/metaphor",
       "id": "f33d92e6dcfa9481e18973cc6b13e181f76b63ec"
     },
     {
       "url": "https://sive.rs/mfg",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/mfg",
       "id": "260cdced8371809aa2ed814f67d99c878ede8be1"
     },
     {
+      "url": "https://sive.rs/mhost",
+      "source": "SITEMAPS",
+      "targetPath": "/mhost",
+      "id": "3fefc67004fbb848ad4ecdc564eab73e60ff7e00"
+    },
+    {
       "url": "https://sive.rs/milt",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/milt",
       "id": "90197ab5e454f6bccba6f5ebabe3d21f12a6f893"
     },
     {
       "url": "https://sive.rs/mindset",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/mindset",
       "id": "736c4abba7ab24cf43b7eb8a69bef8a15db87c9f"
     },
     {
       "url": "https://sive.rs/mirror",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/mirror",
       "id": "341183a38dce038598ce8626119ba01896ce96e5"
     },
     {
       "url": "https://sive.rs/mistake",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/mistake",
       "id": "d277b9df4acbb0d530b1b3fb44bb359dfea0a7b5"
     },
     {
       "url": "https://sive.rs/ml",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/ml",
       "id": "22eb8681e1dca97097b0302cc351b79c4d08221c"
     },
     {
       "url": "https://sive.rs/mn1",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/mn1",
       "id": "70ac1240c993cd94ec30c9d52c21ee926300c8d2"
     },
     {
+      "url": "https://sive.rs/mny",
+      "source": "SITEMAPS",
+      "targetPath": "/mny",
+      "id": "342fe38ade96cf1b9f3bd5ed4b2bdbffa681a4a4"
+    },
+    {
       "url": "https://sive.rs/more-than-one",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/more-than-one",
       "id": "2ece141a8934cfa07966bc6cf01801cca242fe7a"
     },
     {
       "url": "https://sive.rs/morepay",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/morepay",
       "id": "e13e023023e2d9d6fed3700b6d8665a27204573e"
     },
     {
       "url": "https://sive.rs/mosquito",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/mosquito",
       "id": "7faf7a1d72f2aa5400eb6037a9c5b068ddd38338"
     },
     {
       "url": "https://sive.rs/multiply",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/multiply",
       "id": "2f1d16b30bd84c8082ebb4a7e1d4e91d0edb293f"
     },
     {
       "url": "https://sive.rs/music",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/music",
       "id": "7404acca3bf4fa2d167ad73822e3e9833ec3c8cb"
     },
     {
+      "url": "https://sive.rs/musicthoughts2",
+      "source": "SITEMAPS",
+      "targetPath": "/musicthoughts2",
+      "id": "94da4eaa856e944b0d7e7fc82a71aceaabdd62c0"
+    },
+    {
       "url": "https://sive.rs/mw",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/mw",
       "id": "0743ee8efc67a474b9df9180763bd003771406a4"
     },
     {
       "url": "https://sive.rs/my-fault",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/my-fault",
       "id": "8c0d42b6e74d2d10133a633108f19f991f2576aa"
     },
     {
       "url": "https://sive.rs/mystery",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/mystery",
       "id": "37ccd2675b85bc12da197c592c43f14836a592da"
     },
     {
       "url": "https://sive.rs/n",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/n",
       "id": "e53651e4782de0bf9b0439788c9fca89a4beb465"
     },
     {
       "url": "https://sive.rs/ncorp",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/ncorp",
       "id": "057d706205a5f5e51404dd08e0b0e54b02622b10"
     },
     {
+      "url": "https://sive.rs/negz",
+      "source": "SITEMAPS",
+      "targetPath": "/negz",
+      "id": "0b3574fd41970b9c02a8a58c0f9193b7d873f57e"
+    },
+    {
+      "url": "https://sive.rs/netskill",
+      "source": "SITEMAPS",
+      "targetPath": "/netskill",
+      "id": "c4139d980c303b727c6d9e74d8b74a52cf9ed632"
+    },
+    {
       "url": "https://sive.rs/neverwait",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/neverwait",
       "id": "263b70b3c361ca9eb961b14bd5f9a180304e4464"
     },
     {
+      "url": "https://sive.rs/nextbank",
+      "source": "SITEMAPS",
+      "targetPath": "/nextbank",
+      "id": "fcc864ed8f243a42d23145685bc51a351a179568"
+    },
+    {
       "url": "https://sive.rs/no-bullseye",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/no-bullseye",
       "id": "90ff166b548695cd3e3003f083d87a1584ca0443"
     },
     {
       "url": "https://sive.rs/no-oracle",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/no-oracle",
       "id": "ab78f3f989989398298c0f4ed7af13f727c91204"
     },
     {
+      "url": "https://sive.rs/no-reward",
+      "source": "SITEMAPS",
+      "targetPath": "/no-reward",
+      "id": "658f94675b7b7a07cfe9fdf649adf37dab611446"
+    },
+    {
       "url": "https://sive.rs/no2",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/no2",
       "id": "49acec41f4b54e0116f88c87d29058eccf8c7c01"
     },
     {
       "url": "https://sive.rs/no9to5",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/no9to5",
       "id": "62d58824e704f614868e86c0ab8c27d7f5170f8e"
     },
     {
       "url": "https://sive.rs/noads",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/noads",
       "id": "7b5553198fbdb81211f980859d6a5180bf3364b4"
     },
     {
       "url": "https://sive.rs/noboss",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/noboss",
       "id": "1ab1e14172b57836e2539883a87f64248ae31207"
     },
     {
+      "url": "https://sive.rs/nod",
+      "source": "SITEMAPS",
+      "targetPath": "/nod",
+      "id": "c701199c8701f4be8bc48d72598424566bff2282"
+    },
+    {
       "url": "https://sive.rs/nofund",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/nofund",
       "id": "b359da6c8a1906546dfb6353225528431ccf0395"
     },
     {
       "url": "https://sive.rs/nolimit",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/nolimit",
       "id": "2d837768d00b66314dca704a521c39c15d41633f"
     },
     {
       "url": "https://sive.rs/nomu",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/nomu",
       "id": "0d1e974747156893211c22cb4b89a7435f8435f9"
     },
     {
       "url": "https://sive.rs/noplan",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/noplan",
       "id": "0a33b10fa6fa5801fd5189601e7430a0988171ba"
     },
     {
       "url": "https://sive.rs/nopr",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/nopr",
       "id": "04d909a8aee47c2a8bf1475c3ce5a601ac314c56"
     },
     {
       "url": "https://sive.rs/notalk",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/notalk",
       "id": "9fb201935ebbdcedfad30bd758c63e4829794fe2"
     },
     {
+      "url": "https://sive.rs/notwork",
+      "source": "SITEMAPS",
+      "targetPath": "/notwork",
+      "id": "f7822a91c83ed0362ec625e93b15d4d6892e888e"
+    },
+    {
+      "url": "https://sive.rs/novc",
+      "source": "SITEMAPS",
+      "targetPath": "/novc",
+      "id": "d22bd9f0c7ec610ec4e72d56094840e634513caa"
+    },
+    {
       "url": "https://sive.rs/novicex",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/novicex",
       "id": "2312c1b2844ae7404db9b7179c79f81d97f273bb"
     },
     {
       "url": "https://sive.rs/now",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/now",
       "id": "8f33ce8be4effd0e2e4a593b9ecc9d0cf0e3b649"
     },
     {
+      "url": "https://sive.rs/now3",
+      "source": "SITEMAPS",
+      "targetPath": "/now3",
+      "id": "6e529572a9c56a17f67764cc43ce57c00eeb3a4f"
+    },
+    {
+      "url": "https://sive.rs/nowff",
+      "source": "SITEMAPS",
+      "targetPath": "/nowff",
+      "id": "eb51cdeff315b178ba0c02930bed42360f44993a"
+    },
+    {
       "url": "https://sive.rs/nq",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/nq",
       "id": "59446c7c2b6f0ef3d17f7b7a08618abd84698ecc"
     },
     {
       "url": "https://sive.rs/obvious",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/obvious",
       "id": "482030e15b1748d0ddc37193a2ead41e08d9de6b"
     },
     {
       "url": "https://sive.rs/odds",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/odds",
       "id": "355c2c15de2291e34c1bcf8b294aa60df3be48ed"
     },
     {
       "url": "https://sive.rs/openbsd",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/openbsd",
       "id": "e549f5b2fe4f854eb354922ed1daf0e05fff8592"
     },
     {
       "url": "https://sive.rs/opposite",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/opposite",
       "id": "f496bf50dd4cbcfb3e782af6dbea5fd79187f294"
     },
     {
       "url": "https://sive.rs/options",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/options",
       "id": "225b4c6786c75524ab2bdfbd8ecd31a8f2b3a8e0"
     },
     {
+      "url": "https://sive.rs/own-nothing",
+      "source": "SITEMAPS",
+      "targetPath": "/own-nothing",
+      "id": "36e8f35a622c4ef1049a5ea9cd07754b00c3e0ae"
+    },
+    {
+      "url": "https://sive.rs/ox1",
+      "source": "SITEMAPS",
+      "targetPath": "/ox1",
+      "id": "78f9c346186338e0bb2e2d5b8bfcb10b2b8ba721"
+    },
+    {
+      "url": "https://sive.rs/oyh",
+      "source": "SITEMAPS",
+      "targetPath": "/oyh",
+      "id": "ee80967c7d59aeb2bae55542d7d83e9df2f8a5be"
+    },
+    {
       "url": "https://sive.rs/pa",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/pa",
       "id": "75b69b7eb3d2fdd8241a21ba7a19c7a926060394"
     },
     {
+      "url": "https://sive.rs/papabill",
+      "source": "SITEMAPS",
+      "targetPath": "/papabill",
+      "id": "14e02bbd53a3dc7e0785ff2b0fe1f4ce257f80ec"
+    },
+    {
       "url": "https://sive.rs/passion",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/passion",
       "id": "0166f3134fb5c7382f6be47f67c87089e29352e0"
     },
     {
+      "url": "https://sive.rs/pastit",
+      "source": "SITEMAPS",
+      "targetPath": "/pastit",
+      "id": "04a41f2f91f799c3513e638aa85aaf733b7feb7d"
+    },
+    {
+      "url": "https://sive.rs/pe",
+      "source": "SITEMAPS",
+      "targetPath": "/pe",
+      "id": "062e8fb675e571f67639052aa653e54f8d7d8258"
+    },
+    {
       "url": "https://sive.rs/pedestal",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/pedestal",
       "id": "cd83ab25866c580196eaaf3fa68e522dc62a9a58"
     },
     {
       "url": "https://sive.rs/people1",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/people1",
       "id": "cd66952ceb54b123c18ddbea4002c0216cfe936c"
     },
     {
       "url": "https://sive.rs/persistence",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/persistence",
       "id": "7f155fe39fade1f784afedac3a2422fdb12e636d"
     },
     {
+      "url": "https://sive.rs/pets",
+      "source": "SITEMAPS",
+      "targetPath": "/pets",
+      "id": "f962209e67e2dc7e3c933e1f1bacb01f5fe249db"
+    },
+    {
       "url": "https://sive.rs/pg",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/pg",
       "id": "23779f93e1197f166cb9201ed6d27bdbeb0f4693"
     },
     {
+      "url": "https://sive.rs/pg2",
+      "source": "SITEMAPS",
+      "targetPath": "/pg2",
+      "id": "cbad7a91bf0a39cf3a90739842831162de8e1ee2"
+    },
+    {
+      "url": "https://sive.rs/pigs-sharks",
+      "source": "SITEMAPS",
+      "targetPath": "/pigs-sharks",
+      "id": "f349b1041815f2d656d177ac936b1beaefd9f066"
+    },
+    {
+      "url": "https://sive.rs/pinit",
+      "source": "SITEMAPS",
+      "targetPath": "/pinit",
+      "id": "3a12270cf6ea655dfa71c08062a5bc3cd5b2ca21"
+    },
+    {
+      "url": "https://sive.rs/pinit2",
+      "source": "SITEMAPS",
+      "targetPath": "/pinit2",
+      "id": "ddb9c29f8870c4b7012bb4558120ca03142c6032"
+    },
+    {
+      "url": "https://sive.rs/plaintext",
+      "source": "SITEMAPS",
+      "targetPath": "/plaintext",
+      "id": "1f2072016d1edbbe40b714a0d4469695a4fbfadc"
+    },
+    {
+      "url": "https://sive.rs/podcast",
+      "source": "SITEMAPS",
+      "targetPath": "/podcast",
+      "id": "cf8ff94d52fc23e4145109fd771799501826b830"
+    },
+    {
+      "url": "https://sive.rs/polut",
+      "source": "SITEMAPS",
+      "targetPath": "/polut",
+      "id": "e7055939a8abf0aafef9b8873e950d384f9a4b41"
+    },
+    {
       "url": "https://sive.rs/pp",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/pp",
       "id": "7a4a319a02e92b7775ac1c2bfb26d08a26bbc61f"
     },
     {
       "url": "https://sive.rs/ppay",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/ppay",
       "id": "cdf33ffb3633d36effc4e638a23e729828dd84a2"
     },
     {
       "url": "https://sive.rs/ppweek",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/ppweek",
       "id": "161237314d68df062e17e6d0f7e68553ddc849aa"
     },
     {
       "url": "https://sive.rs/presentations",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/presentations",
       "id": "a3ab3b9ef6188486b534d7aea4a67b5ed1b5d8cd"
     },
     {
       "url": "https://sive.rs/prgrk",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/prgrk",
       "id": "5874527e682de7f6f6274fb1a152ba77c795653a"
     },
     {
+      "url": "https://sive.rs/prism",
+      "source": "SITEMAPS",
+      "targetPath": "/prism",
+      "id": "8e32a4a14dc9cb1ada858ea4215ecf7b4c21a795"
+    },
+    {
       "url": "https://sive.rs/prog",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/prog",
       "id": "632864e3dab8f5c0d906598ec66cc838767ce7c8"
     },
     {
       "url": "https://sive.rs/publicu",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/publicu",
       "id": "dc28bcc94b7cb82d8ec8397ca722285d33d21d6b"
     },
     {
       "url": "https://sive.rs/punish",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/punish",
       "id": "65202f7b50a5edb6b94e3b2151db76665c6ce8c9"
     },
     {
       "url": "https://sive.rs/purplecow",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/purplecow",
       "id": "cdef895832e77d6c33064b774efc1e085667aff9"
     },
     {
+      "url": "https://sive.rs/quality",
+      "source": "SITEMAPS",
+      "targetPath": "/quality",
+      "id": "40d30698c6e7fccde23392bbecb7814f90522bda"
+    },
+    {
+      "url": "https://sive.rs/quantity",
+      "source": "SITEMAPS",
+      "targetPath": "/quantity",
+      "id": "cc2b696de034df4a2a25fdeb8dd9022ecf7719d4"
+    },
+    {
+      "url": "https://sive.rs/quirks",
+      "source": "SITEMAPS",
+      "targetPath": "/quirks",
+      "id": "ee001d2e0c983a6d019e1488a36c16389fd0826a"
+    },
+    {
       "url": "https://sive.rs/quit",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/quit",
       "id": "e44420ba333dab10e3892d34b006c183972cba00"
     },
     {
       "url": "https://sive.rs/rails2php",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/rails2php",
       "id": "ebadcdeb1f08ea361c308f847319e7abaaf72c13"
     },
     {
-      "url": "https://sive.rs/rats",
-      "source": "CRAWL",
-      "targetPath": "/rats",
-      "id": "c1c79abb3625cdb575ba40bffe82167c16a13fc8"
+      "url": "https://sive.rs/railsconf",
+      "source": "SITEMAPS",
+      "targetPath": "/railsconf",
+      "id": "4152ef01e3bc0fcb0972ff7922d0e5c44f2e61dc"
+    },
+    {
+      "url": "https://sive.rs/rand1",
+      "source": "SITEMAPS",
+      "targetPath": "/rand1",
+      "id": "24a6e8151993f0ba88029f03482fafc168ad698f"
     },
     {
       "url": "https://sive.rs/reach",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/reach",
       "id": "20f0d6c6b113ef9bbcac0b6018ab364c9d9ce576"
     },
     {
       "url": "https://sive.rs/real",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/real",
       "id": "371f2bc380238435a8591676f60c6b8fbe8f7655"
     },
     {
-      "url": "https://sive.rs/ref",
-      "source": "CRAWL",
-      "targetPath": "/ref",
-      "id": "39f913e613a7ef4fdf8d0919a4a76e01cbcfe5f4"
+      "url": "https://sive.rs/realrebel",
+      "source": "SITEMAPS",
+      "targetPath": "/realrebel",
+      "id": "9c0336529ef77f8d39fb42313259a65309d868ab"
+    },
+    {
+      "url": "https://sive.rs/recalc",
+      "source": "SITEMAPS",
+      "targetPath": "/recalc",
+      "id": "6cc0a13f62f948c6d49bf3b7262b7043014aa994"
     },
     {
       "url": "https://sive.rs/relax",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/relax",
       "id": "2b41a2e37b64078c23b50666eabc85bae005d128"
     },
     {
       "url": "https://sive.rs/res",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/res",
       "id": "f38fd33a91752869d1b1b4e8c5cfe42b25b87bc4"
     },
     {
       "url": "https://sive.rs/restr",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/restr",
       "id": "9cf5995c032d72be30c1e6f28e2bc73b3a30656f"
     },
     {
+      "url": "https://sive.rs/reversible",
+      "source": "SITEMAPS",
+      "targetPath": "/reversible",
+      "id": "edc097bcaaae272663c6aef05d12e66880b0e6d5"
+    },
+    {
+      "url": "https://sive.rs/richand",
+      "source": "SITEMAPS",
+      "targetPath": "/richand",
+      "id": "69fa16f07cca38b7ec2681838c1165edc3414afe"
+    },
+    {
+      "url": "https://sive.rs/robust",
+      "source": "SITEMAPS",
+      "targetPath": "/robust",
+      "id": "74cb818f62a9a5bc0e84619ab5f92aed88cde8de"
+    },
+    {
       "url": "https://sive.rs/rounded",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/rounded",
       "id": "864d134b3124d0465ea3c369fb1dd807d58c14ac"
     },
     {
+      "url": "https://sive.rs/run",
+      "source": "SITEMAPS",
+      "targetPath": "/run",
+      "id": "10384fbd24f868ebe28dbc30b9c20b75b1133051"
+    },
+    {
+      "url": "https://sive.rs/run2",
+      "source": "SITEMAPS",
+      "targetPath": "/run2",
+      "id": "4ff2b6369bf7a619f75b138a6bd14e6e9e1fbd1b"
+    },
+    {
+      "url": "https://sive.rs/safety",
+      "source": "SITEMAPS",
+      "targetPath": "/safety",
+      "id": "d44cfb317ec01c3fcae64a20cbf741b9cf414f06"
+    },
+    {
       "url": "https://sive.rs/sakamoto",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/sakamoto",
       "id": "7bda7045ac692354ce819faff3857da529d9c577"
     },
     {
       "url": "https://sive.rs/sammy-cahn",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/sammy-cahn",
       "id": "102825950260c05aa0f4171bf72a0f9a5ebfa077"
     },
     {
+      "url": "https://sive.rs/sauna",
+      "source": "SITEMAPS",
+      "targetPath": "/sauna",
+      "id": "b44623f09b83b9aa11668c7fc7062e8236d6bc86"
+    },
+    {
       "url": "https://sive.rs/scares",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/scares",
       "id": "8a4a283b4b5f658c544959553ef5fa923828af5b"
     },
     {
-      "url": "https://sive.rs/search",
-      "source": "CRAWL",
-      "targetPath": "/search",
-      "id": "0baaef90b7a8e2746f28c48e45dcf5cb69eaa944"
+      "url": "https://sive.rs/see-musicthoughts",
+      "source": "SITEMAPS",
+      "targetPath": "/see-musicthoughts",
+      "id": "7744fc99aade52ec656050e13d1928305fb57181"
+    },
+    {
+      "url": "https://sive.rs/semi-expert",
+      "source": "SITEMAPS",
+      "targetPath": "/semi-expert",
+      "id": "5adfd6f0bd6e4862581fd10c9abc1ee3d847d3f2"
     },
     {
       "url": "https://sive.rs/senses",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/senses",
       "id": "6d701c0c48b956dd760dd550e0548d83c4cf7c35"
     },
     {
+      "url": "https://sive.rs/session-musician",
+      "source": "SITEMAPS",
+      "targetPath": "/session-musician",
+      "id": "a90aef77f00823c075bd25b2f867249e0922f510"
+    },
+    {
+      "url": "https://sive.rs/sg14",
+      "source": "SITEMAPS",
+      "targetPath": "/sg14",
+      "id": "86088c1fb33ee403a80d6aa8ffb8c5072b5a0ffd"
+    },
+    {
       "url": "https://sive.rs/sharing",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/sharing",
       "id": "48b9076b0270b956d580686ff9ac4d0bdc5e983d"
     },
     {
+      "url": "https://sive.rs/shc",
+      "source": "SITEMAPS",
+      "targetPath": "/shc",
+      "id": "e84a512c522048ba6da83afad83b08e43fc4e833"
+    },
+    {
       "url": "https://sive.rs/shrtd",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/shrtd",
       "id": "58227c40dddfd9f8aa0206ea9cb573bdb18ed544"
     },
     {
+      "url": "https://sive.rs/singapore",
+      "source": "SITEMAPS",
+      "targetPath": "/singapore",
+      "id": "d950dc84396de6cc5b347f58ee89d9aa806dfa1a"
+    },
+    {
       "url": "https://sive.rs/slow",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/slow",
       "id": "86a387f8f4d5d4eeda74348c4e9674f042af9a10"
     },
     {
       "url": "https://sive.rs/smgf",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/smgf",
       "id": "7ac03761c5e36e4f0f75963edcb3eb0b81523d0d"
     },
     {
+      "url": "https://sive.rs/sms",
+      "source": "SITEMAPS",
+      "targetPath": "/sms",
+      "id": "503090aed7cc8343c38fc94f7a306c1388abde80"
+    },
+    {
       "url": "https://sive.rs/solicited",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/solicited",
       "id": "96a558a6d99a4b769c3998a34d44a8ed4f995e78"
     },
     {
+      "url": "https://sive.rs/songfeedback",
+      "source": "SITEMAPS",
+      "targetPath": "/songfeedback",
+      "id": "af1bfa521979e47dddc4296b1d373c6344ee919f"
+    },
+    {
+      "url": "https://sive.rs/songtesti",
+      "source": "SITEMAPS",
+      "targetPath": "/songtesti",
+      "id": "17945ca2f9e97e8b3825da9b91fe4581ec917bf0"
+    },
+    {
+      "url": "https://sive.rs/songwriters-only",
+      "source": "SITEMAPS",
+      "targetPath": "/songwriters-only",
+      "id": "3729c7892b02ef05ef902a1cd1d5b48e9073f479"
+    },
+    {
       "url": "https://sive.rs/soso",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/soso",
       "id": "ee08654aa813844f7b72e42a7ded3e082eb85e42"
     },
     {
+      "url": "https://sive.rs/sprezzatura",
+      "source": "SITEMAPS",
+      "targetPath": "/sprezzatura",
+      "id": "5b1e8d71057f85eb6df011c8c16427bda8149d55"
+    },
+    {
       "url": "https://sive.rs/srs",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/srs",
       "id": "61cb8621c3f4dc76e535b7da5aac8e66a2a78774"
     },
     {
       "url": "https://sive.rs/ss",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/ss",
       "id": "01dfd0d2d9329767010545f6a7c279525069cfb2"
     },
     {
       "url": "https://sive.rs/stage",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/stage",
       "id": "cc96e6e46bfddc0608af6531b7fb3828f02e9b3e"
     },
     {
       "url": "https://sive.rs/startnow",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/startnow",
       "id": "e4a772a1a972f460667a6033e172c15243e2364d"
     },
     {
       "url": "https://sive.rs/starv",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/starv",
       "id": "77b774ac0d5525151fe734aa3ec31a7637636e6e"
     },
     {
       "url": "https://sive.rs/steps",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/steps",
       "id": "3c61bcdf6feda6e9f9a95bddc0bd117072816453"
     },
     {
+      "url": "https://sive.rs/su",
+      "source": "SITEMAPS",
+      "targetPath": "/su",
+      "id": "654ecdaf1ac545a1850414309b65a039b09335d8"
+    },
+    {
       "url": "https://sive.rs/subtract",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/subtract",
       "id": "56323e2e17f525454fea87b9f51abf0bf1c88a0b"
     },
     {
       "url": "https://sive.rs/success-first",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/success-first",
       "id": "b9df6cb39a3113ad79743a2d4616851e120b5429"
     },
     {
+      "url": "https://sive.rs/super-power",
+      "source": "SITEMAPS",
+      "targetPath": "/super-power",
+      "id": "691a542ca30bf0c43f0b992dde3368d7908eef31"
+    },
+    {
       "url": "https://sive.rs/sustainable",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/sustainable",
       "id": "36ae7cfb20b33ba6f9ec9019f2cf5ef049efcfb7"
     },
     {
       "url": "https://sive.rs/switch",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/switch",
       "id": "f23e29fe684d063dcf8aa4575a65e941bd8b93e0"
     },
     {
+      "url": "https://sive.rs/sxsw",
+      "source": "SITEMAPS",
+      "targetPath": "/sxsw",
+      "id": "c76b9b285d7104870cc7538ad694ad597e69539f"
+    },
+    {
       "url": "https://sive.rs/syk",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/syk",
       "id": "e510eb88430124efaed4c65abb557f6c7e9aaeb2"
     },
     {
       "url": "https://sive.rs/tarzan",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/tarzan",
       "id": "fc0934db7f683959df9096d201b40f94203588b9"
     },
     {
-      "url": "https://sive.rs/tech",
-      "source": "CRAWL",
-      "targetPath": "/tech",
-      "id": "b5e8545dfd86bdd900b8e7730816738bdd44c128"
+      "url": "https://sive.rs/tedxnus",
+      "source": "SITEMAPS",
+      "targetPath": "/tedxnus",
+      "id": "3186482daecc8df1b75b6e979fb5b722daadb466"
     },
     {
       "url": "https://sive.rs/testm",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/testm",
       "id": "d3ef6c4144986390f2eeab6ab740b26c46589bea"
     },
     {
       "url": "https://sive.rs/the-mob",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/the-mob",
       "id": "b391b274c0cf82f740081be83dc826033b9775bb"
     },
     {
+      "url": "https://sive.rs/thinking-doing",
+      "source": "SITEMAPS",
+      "targetPath": "/thinking-doing",
+      "id": "5a2215e1cb0960d51148f652d8c0c00a6d8b2140"
+    },
+    {
+      "url": "https://sive.rs/thor",
+      "source": "SITEMAPS",
+      "targetPath": "/thor",
+      "id": "81245e1d7813473df2b7cbab775bd3404ceda4a4"
+    },
+    {
+      "url": "https://sive.rs/thx",
+      "source": "SITEMAPS",
+      "targetPath": "/thx",
+      "id": "037755c1b2ac8d5417f6a319ddf327281c9ea390"
+    },
+    {
       "url": "https://sive.rs/tilt",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/tilt",
       "id": "09012eb39ecdec4eb1b6f9a4e017f4167e29f5ad"
     },
     {
       "url": "https://sive.rs/time",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/time",
       "id": "17039248eac6644ceff8f53f0ecb236c52a4b7fa"
     },
     {
-      "url": "https://sive.rs/tom-williams",
-      "source": "CRAWL",
-      "targetPath": "/tom-williams",
-      "id": "7476a450cc96569c06c21565093f8faaa39ee8d4"
+      "url": "https://sive.rs/tk",
+      "source": "SITEMAPS",
+      "targetPath": "/tk",
+      "id": "cc91d8324a1943f4b8b7f127470f10c0763004be"
+    },
+    {
+      "url": "https://sive.rs/tp1",
+      "source": "SITEMAPS",
+      "targetPath": "/tp1",
+      "id": "a3cfaee4f620ec0c9646339e680ea67454784c06"
+    },
+    {
+      "url": "https://sive.rs/tp2",
+      "source": "SITEMAPS",
+      "targetPath": "/tp2",
+      "id": "5ef87eebe74435b1fb5e790dfa6e0710ab2f8c43"
+    },
+    {
+      "url": "https://sive.rs/tp3",
+      "source": "SITEMAPS",
+      "targetPath": "/tp3",
+      "id": "bdc7a3abbc8adce9d4e69c7f2365c0f2d03f6383"
+    },
+    {
+      "url": "https://sive.rs/tra",
+      "source": "SITEMAPS",
+      "targetPath": "/tra",
+      "id": "7ed2a2801954e5444403237942bedfcb51071a52"
+    },
+    {
+      "url": "https://sive.rs/trav1",
+      "source": "SITEMAPS",
+      "targetPath": "/trav1",
+      "id": "25084bc9411695669e1812de751525cde26bb056"
+    },
+    {
+      "url": "https://sive.rs/trd",
+      "source": "SITEMAPS",
+      "targetPath": "/trd",
+      "id": "8e68eb761ca3a2ea2b9761e93ac809ad7702d0e9"
     },
     {
       "url": "https://sive.rs/trshr",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/trshr",
       "id": "d3b3b9e719cf176bcd5515ca409fbf0d10f06ada"
     },
     {
       "url": "https://sive.rs/trust",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/trust",
       "id": "4658e2a7171ce0237d35a72550aadf39729f8fe5"
     },
     {
       "url": "https://sive.rs/trustbut",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/trustbut",
       "id": "bb06b1e2d2cf5ab97a140aeda119fa626dfcf85e"
     },
     {
+      "url": "https://sive.rs/tv",
+      "source": "SITEMAPS",
+      "targetPath": "/tv",
+      "id": "6d74b495507b6698c6d34d6464fc2b6cfe2a1a3e"
+    },
+    {
       "url": "https://sive.rs/tvtest",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/tvtest",
       "id": "bc5b96cbe3990e24b70ec5e868532248d704ddca"
     },
     {
-      "url": "https://sive.rs/u",
-      "source": "CRAWL",
-      "targetPath": "/u",
-      "id": "89874d258bbd53a2f1a9fb5badfb933d222a839f"
+      "url": "https://sive.rs/tweets",
+      "source": "SITEMAPS",
+      "targetPath": "/tweets",
+      "id": "9633b9cea8bed4ac34e7fb2021f7a13fa448dc0d"
     },
     {
       "url": "https://sive.rs/unclear",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/unclear",
       "id": "77bb8a16a3dc2ef6c86cbe111f4f895145b57f62"
     },
     {
+      "url": "https://sive.rs/uncomf",
+      "source": "SITEMAPS",
+      "targetPath": "/uncomf",
+      "id": "e52053366e0af22a8651634ee2d52b4a22d369ad"
+    },
+    {
+      "url": "https://sive.rs/uncommon",
+      "source": "SITEMAPS",
+      "targetPath": "/uncommon",
+      "id": "5c09d75c2c7ed37e93b4d5c4faa67e750dd2b39c"
+    },
+    {
+      "url": "https://sive.rs/uncomparable",
+      "source": "SITEMAPS",
+      "targetPath": "/uncomparable",
+      "id": "302d15fabe89f60a07f2939d533adee1bbcfb132"
+    },
+    {
       "url": "https://sive.rs/unlearning",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/unlearning",
       "id": "20147cd008f19e67324e2619f26958a250f893ad"
     },
     {
       "url": "https://sive.rs/unmo",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/unmo",
       "id": "360133a575b9b9dd1f22d5be7b3e9b7d0cadc9b8"
     },
     {
       "url": "https://sive.rs/unun",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/unun",
       "id": "bb64bc8cd516d6cf46b5636945686c189ec54aa2"
     },
     {
       "url": "https://sive.rs/up2you",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/up2you",
       "id": "c0d1c9e2a7e389b466c5897c036803c0447cea56"
     },
     {
       "url": "https://sive.rs/useless",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/useless",
       "id": "c7efc2574ad13d2d7a451e9fc0e0a2be91ecd639"
     },
     {
+      "url": "https://sive.rs/uses",
+      "source": "SITEMAPS",
+      "targetPath": "/uses",
+      "id": "fd522755dced57252035009fd80ebea7d83e042d"
+    },
+    {
+      "url": "https://sive.rs/venuemix",
+      "source": "SITEMAPS",
+      "targetPath": "/venuemix",
+      "id": "db38d088e01b2dc880a06d0040fc36228e18abdd"
+    },
+    {
+      "url": "https://sive.rs/villain",
+      "source": "SITEMAPS",
+      "targetPath": "/villain",
+      "id": "6e1dd44ad0700916324c74ac34bca89795d58e24"
+    },
+    {
+      "url": "https://sive.rs/vls1",
+      "source": "SITEMAPS",
+      "targetPath": "/vls1",
+      "id": "9683921271483f4f15495b6e0c154658d5c966bd"
+    },
+    {
+      "url": "https://sive.rs/vn14",
+      "source": "SITEMAPS",
+      "targetPath": "/vn14",
+      "id": "ebb8d9dd39a89079c2336a3d7be059f5a8dda4f8"
+    },
+    {
       "url": "https://sive.rs/vodka",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/vodka",
       "id": "e6ec7050096f0133f44e72c7fb38da432d9fe47f"
     },
     {
       "url": "https://sive.rs/walkways",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/walkways",
       "id": "ba8a9b518541870b99094510c7db3f7a3b233a9e"
     },
     {
+      "url": "https://sive.rs/wds",
+      "source": "SITEMAPS",
+      "targetPath": "/wds",
+      "id": "d9e2c8c4d7e63c97328be1e911782b4ec5e6a0e5"
+    },
+    {
       "url": "https://sive.rs/wdtrw",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/wdtrw",
       "id": "c110dc8aae08ee6e6fadafcb2aab15348bc77436"
     },
     {
+      "url": "https://sive.rs/we14",
+      "source": "SITEMAPS",
+      "targetPath": "/we14",
+      "id": "9fa188e47f9d57423cbfa78a4416155fc59b59f2"
+    },
+    {
       "url": "https://sive.rs/why",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/why",
       "id": "2a7f84eeeffa88e1fc9d87441956d0bdd22a0ec8"
     },
     {
       "url": "https://sive.rs/whycare",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/whycare",
       "id": "da77609522f387cd3b59935dc7fd8a822495c2ae"
     },
     {
       "url": "https://sive.rs/wordsm",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/wordsm",
       "id": "a4c5af61c6b1fc79ed09f3efbed25e13ed782812"
     },
     {
       "url": "https://sive.rs/wrong",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/wrong",
       "id": "c065fdd89a2e6f6323b0cd0437ccf207bcaf530a"
     },
     {
+      "url": "https://sive.rs/ws",
+      "source": "SITEMAPS",
+      "targetPath": "/ws",
+      "id": "1e2c6bc769c61bd3f25b4de7e57f627915fe9383"
+    },
+    {
+      "url": "https://sive.rs/wtg",
+      "source": "SITEMAPS",
+      "targetPath": "/wtg",
+      "id": "12aa01c19c41f67ae6d20478ddc7da3b9d4c4eeb"
+    },
+    {
+      "url": "https://sive.rs/ww",
+      "source": "SITEMAPS",
+      "targetPath": "/ww",
+      "id": "9da08a76cb47948a7471f7916c4b48fa6498c51a"
+    },
+    {
       "url": "https://sive.rs/wwoy",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/wwoy",
       "id": "56ea0b8a916df3df48bc96a93b9d97b4e47cc68e"
     },
     {
       "url": "https://sive.rs/wysl",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/wysl",
       "id": "ba437393c474e0f05ec50aa36f6b357218384e27"
     },
     {
+      "url": "https://sive.rs/xn",
+      "source": "SITEMAPS",
+      "targetPath": "/xn",
+      "id": "ef08b477a7275a57ab986ee8740dff06c6af910f"
+    },
+    {
+      "url": "https://sive.rs/ymap",
+      "source": "SITEMAPS",
+      "targetPath": "/ymap",
+      "id": "583c9dbb4a40b9d370c3f678d8c1ff434a76a192"
+    },
+    {
       "url": "https://sive.rs/you-not-them",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/you-not-them",
       "id": "e2bc756293292236983b8340120236643a6c26fb"
     },
     {
       "url": "https://sive.rs/zipit",
-      "source": "CRAWL",
+      "source": "SITEMAPS",
       "targetPath": "/zipit",
       "id": "69f925572ef525e9e7a13fc4b4ce424c171ef994"
+    },
+    {
+      "url": "https://sive.rs/zipit2",
+      "source": "SITEMAPS",
+      "targetPath": "/zipit2",
+      "id": "f08521590b7e4733bcf530a47583154a286749c9"
     }
   ],
   "crawlOptions": {
@@ -3352,24 +3004,11 @@
     "limit": -1,
     "sameDomain": true,
     "keepHash": false,
-    "strategy": "crawl",
+    "strategy": "sitemaps",
     "logger": {},
     "strategiesAttempted": [
-      "CRAWL"
+      "SITEMAPS"
     ]
   },
-  "extractionErrors": [
-    {
-      "url": "https://sive.rs/projects",
-      "status": "307 Temporary Redirect Redirect: https://sive.rs/"
-    },
-    {
-      "url": "https://sive.rs/en.atom",
-      "status": "content type is not text/html"
-    },
-    {
-      "url": "https://sive.rs/file/DancingGuy-ff.m4v",
-      "status": "content type is not text/html"
-    }
-  ]
+  "extractionErrors": []
 }
