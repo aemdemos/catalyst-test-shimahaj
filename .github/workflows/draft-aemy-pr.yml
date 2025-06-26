@@ -46,6 +46,10 @@ jobs:
       
       - name: Toggle draft status if needed
         uses: actions/github-script@v7
+        env:
+          BLOCKING_LABELS: ${{ env.BLOCKING_LABELS }}
+          AEMY_HELP_LABEL: ${{ env.AEMY_HELP_LABEL }}
+          AEMY_MERGE_LABEL: ${{ env.AEMY_MERGE_LABEL }}
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
