@@ -35,78 +35,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: Toggle draft status if needed
-        uses: actions/github-script@v7
+      - name: Mark PR ready for review if needed
+        if: contains(github.event.pull_request.labels.*.name, 'aemy-merge') && !contains(github.event.pull_request.labels.*.name, 'aemy-running') && !contains(github.event.pull_request.labels.*.name, 'aemy-failed')
+        run: |
+          gh pr ready ${{ github.event.pull_request.number }}
+          echo "PR #${{ github.event.pull_request.number }} marked ready for review"
         env:
-          BLOCKING_LABELS: ${{ env.BLOCKING_LABELS }}
-          AEMY_HELP_LABEL: ${{ env.AEMY_HELP_LABEL }}
-          AEMY_MERGE_LABEL: ${{ env.AEMY_MERGE_LABEL }}
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const blockingLabels = process.env.BLOCKING_LABELS.split(',').map(s => s.trim());
-            const helpLabel = process.env.AEMY_HELP_LABEL.trim();
-            const mergeLabel = process.env.AEMY_MERGE_LABEL.trim();
-
-            const prNumber = context.payload.pull_request.number;
-            const owner = context.repo.owner;
-            const repo = context.repo.repo;
-
-            // Debug logging
-            core.info(`🔍 Debug: PR #${prNumber} in ${owner}/${repo}`);
-            core.info(`🔍 Debug: Blocking labels: ${JSON.stringify(blockingLabels)}`);
-            core.info(`🔍 Debug: Help label: "${helpLabel}"`);
-            core.info(`🔍 Debug: Merge label: "${mergeLabel}"`);
-            core.info(`🔍 Debug: Trigger event: ${context.eventName} - ${context.payload.action}`);
-
-            const { data: pr } = await github.rest.pulls.get({
-              owner,
-              repo,
-              pull_number: prNumber,
-            });
-
-            const currentLabels = pr.labels.map(l => l.name);
-            const hasBlocking = currentLabels.some(l => blockingLabels.includes(l));
-            const hasHelp = currentLabels.includes(helpLabel);
-            const hasMerge = currentLabels.includes(mergeLabel);
-
-            // Debug logging
-            core.info(`🔍 Debug: Current labels: ${JSON.stringify(currentLabels)}`);
-            core.info(`🔍 Debug: PR is draft: ${pr.draft}`);
-            core.info(`🔍 Debug: PR state: ${pr.state}`);
-            core.info(`🔍 Debug: PR mergeable: ${pr.mergeable}`);
-            core.info(`🔍 Debug: PR review decision: ${pr.review_decision || 'none'}`);
-            core.info(`🔍 Debug: Has blocking labels: ${hasBlocking}`);
-            core.info(`🔍 Debug: Has help label: ${hasHelp}`);
-            core.info(`🔍 Debug: Has merge label: ${hasMerge}`);
-
-            if (hasHelp && !pr.draft) {
-              core.info(`✅ Condition met: hasHelp (${hasHelp}) && !pr.draft (${!pr.draft})`);
-              core.notice(`ℹ️ PR marked as draft due to '${helpLabel}' label.`);
-              return;
-            } else if (hasHelp && pr.draft) {
-              core.info(`ℹ️ PR already draft with help label - no action needed`);
-            }
-
-            if (!hasBlocking && hasMerge && pr.draft) {
-              core.info(`✅ Condition met: !hasBlocking (${!hasBlocking}) && hasMerge (${hasMerge}) && pr.draft (${pr.draft})`);
-              try {
-                core.info(`🔄 Attempting to mark PR #${prNumber} as ready for review...`);
-                const updateResult = await github.rest.pulls.update({ 
-                  owner, 
-                  repo, 
-                  pull_number: prNumber, 
-                  draft: false 
-                });
-                core.info(`✅ Update API call successful. Status: ${updateResult.status}`);
-                core.info(`✅ PR draft state after update: ${updateResult.data.draft}`);
-                core.notice(`✅ PR marked ready for review: AEMY processing complete and merge approved.`);
-              } catch (error) {
-                core.error(`❌ Failed to mark PR as ready for review: ${error.message}`);
-                core.error(`❌ Error details: ${JSON.stringify(error.response?.data || error, null, 2)}`);
-                throw error;
-              }
-            } else {
-              core.info(`ℹ️ No draft state change needed.`);
-              core.info(`ℹ️ Conditions: !hasBlocking=${!hasBlocking}, hasMerge=${hasMerge}, pr.draft=${pr.draft}`);
-            }
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
