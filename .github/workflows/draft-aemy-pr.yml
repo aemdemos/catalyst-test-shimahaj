@@ -1,27 +1,19 @@
 # .github/workflows/draft-aemy-pr.yml
-# Production workflow for managing PR draft state during AEMY processing
-# Automatically converts PRs to draft when help is needed and back to ready when processing is complete
+# Manages PR draft state during AEMY workflow execution
+# Converts PRs to draft when AEMY is running and back to ready when AEMY completed and aemy-merge label is attached
 
 name: AEMY PR State Management
 
 on:
   pull_request:
-    types:
-      - opened
-      - reopened
-      - labeled
-      - unlabeled
-      - ready_for_review
+    types: [labeled, unlabeled]
 
-# Minimal required permissions following principle of least privilege
 permissions:
   pull-requests: write
   contents: read
 
 env:
-  # Configuration for AEMY label management
   BLOCKING_LABELS: "aemy-running,aemy-failed"
-  HELP_LABEL: "aemy-help"
   MERGE_LABEL: "aemy-merge"
 
 jobs:
@@ -29,81 +21,32 @@ jobs:
     name: Manage PR Draft State
     runs-on: ubuntu-latest
     
-    # Only run on label changes to avoid unnecessary executions
-    if: contains(fromJSON('["labeled", "unlabeled"]'), github.event.action)
-    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          # Minimal checkout for performance
-          fetch-depth: 1
-      
-      - name: Validate PR and environment
-        id: validate
+      - uses: actions/checkout@v4
+
+      - name: Convert PR to draft while AEMY is running
+        if: contains(github.event.pull_request.labels.*.name, 'aemy-running')
         run: |
-          # Validate required environment variables
-          if [[ -z "${{ env.HELP_LABEL }}" || -z "${{ env.MERGE_LABEL }}" || -z "${{ env.BLOCKING_LABELS }}" ]]; then
-            echo "❌ Missing required environment variables"
-            exit 1
-          fi
-          
-          # Validate PR number
-          if [[ ! "${{ github.event.pull_request.number }}" =~ ^[0-9]+$ ]]; then
-            echo "❌ Invalid PR number: ${{ github.event.pull_request.number }}"
-            exit 1
-          fi
-          
-          echo "✅ Environment validation passed"
-          echo "pr_number=${{ github.event.pull_request.number }}" >> $GITHUB_OUTPUT
+          gh pr ready --undo ${{ github.event.pull_request.number }} || exit 1
+          echo "✅ PR converted to draft"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: Convert PR to draft for AEMY assistance
-        if: contains(github.event.pull_request.labels.*.name, env.HELP_LABEL)
+
+      - name: Prevent merge - PR not ready due to AEMY processing
+        if: |
+          contains(github.event.pull_request.labels.*.name, 'aemy-running') ||
+          contains(github.event.pull_request.labels.*.name, 'aemy-failed')
         run: |
-          echo "🔄 Converting PR #${{ steps.validate.outputs.pr_number }} to draft (AEMY assistance requested)"
-          
-          if gh pr ready --undo ${{ steps.validate.outputs.pr_number }}; then
-            echo "✅ Successfully converted PR to draft"
-            echo "📝 PR is now in draft state to prevent accidental merging during AEMY processing"
-          else
-            echo "❌ Failed to convert PR to draft"
-            echo "🔍 This may occur if the PR is already draft, has been reviewed, or has restrictions"
-            exit 1
-          fi
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
+          echo "❌ Cannot merge: AEMY processing in progress or failed"
+          exit 1
+
       - name: Mark PR ready for review after AEMY completion
         if: |
           contains(github.event.pull_request.labels.*.name, env.MERGE_LABEL) && 
-          !contains(github.event.pull_request.labels.*.name, 'aemy-running') && 
-          !contains(github.event.pull_request.labels.*.name, 'aemy-failed') &&
-          !contains(github.event.pull_request.labels.*.name, env.HELP_LABEL)
+          !contains(github.event.pull_request.labels.*.name, 'aemy-running') &&
+          !contains(github.event.pull_request.labels.*.name, 'aemy-failed')
         run: |
-          echo "🔄 Marking PR #${{ steps.validate.outputs.pr_number }} ready for review (AEMY processing complete)"
-          
-          # Check if PR is currently in draft state
-          if gh pr view ${{ steps.validate.outputs.pr_number }} --json isDraft --jq '.isDraft' | grep -q true; then
-            if gh pr ready ${{ steps.validate.outputs.pr_number }}; then
-              echo "✅ Successfully marked PR ready for review"
-              echo "🎉 PR is now ready for review - AEMY processing completed successfully"
-            else
-              echo "❌ Failed to mark PR ready for review"
-              exit 1
-            fi
-          else
-            echo "ℹ️ PR is already ready for review - no action needed"
-          fi
+          gh pr ready ${{ github.event.pull_request.number }} || exit 1
+          echo "✅ PR ready for review"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: Log workflow completion
-        if: always()
-        run: |
-          echo "📊 Workflow Summary:"
-          echo "  - PR Number: ${{ steps.validate.outputs.pr_number }}"
-          echo "  - Trigger: ${{ github.event.action }}"
-          echo "  - Labels: ${{ join(github.event.pull_request.labels.*.name, ', ') }}"
-          echo "  - Status: ${{ job.status }}"
