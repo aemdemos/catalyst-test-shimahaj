@@ -25,6 +25,10 @@ jobs:
     name: Manage PR draft status based on AEMY labels
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        if: contains(github.event.pull_request.labels.*.name, 'aemy-help')
+        uses: actions/checkout@v4
+        
       - name: Mark PR as draft if needed
         if: contains(github.event.pull_request.labels.*.name, 'aemy-help')
         run: |
