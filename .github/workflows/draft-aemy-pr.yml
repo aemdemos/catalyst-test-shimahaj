@@ -10,8 +10,8 @@ on:
     types: [labeled, unlabeled, opened, reopened, synchronize]
 
 permissions:
+  contents: write
   pull-requests: write
-  contents: read
 
 env:
   BLOCKING_LABELS: "aemy-running,aemy-failed"
@@ -49,7 +49,7 @@ jobs:
 
       - name: Mark PR ready for review after AEMY completion
         if: |
-          contains(github.event.pull_request.labels.*.name, env.MERGE_LABEL) && 
+          contains(github.event.pull_request.labels.*.name, 'aemy-merge') && 
           !contains(github.event.pull_request.labels.*.name, 'aemy-running') &&
           !contains(github.event.pull_request.labels.*.name, 'aemy-failed')
         run: |
