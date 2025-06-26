@@ -7,7 +7,7 @@ name: aemy-pr-readiness-check
 
 on:
   pull_request:
-    types: [labeled, unlabeled]
+    types: [labeled, unlabeled, opened, reopened, synchronize]
 
 permissions:
   pull-requests: write
@@ -24,6 +24,12 @@ jobs:
     
     steps:
       - uses: actions/checkout@v4
+
+      - name: Debug - Show current labels
+        run: |
+          echo "🔍 Current PR labels:"
+          echo "${{ join(github.event.pull_request.labels.*.name, ', ') }}"
+          echo "🔍 Event type: ${{ github.event.action }}"
 
       - name: Convert PR to draft while AEMY is running
         if: contains(github.event.pull_request.labels.*.name, 'aemy-running')
