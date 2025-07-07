@@ -1,7 +1,9 @@
 # .github/workflows/draft-aemy-pr.yml
-# AEMY processing readiness check - prevents merging during AEMY workflow execution
-# Converts PR to draft when AEMY starts, acts as status check that fails while AEMY runs/fails
-# Allows merge and marks PR ready when AEMY completes successfully with aemy-merge label
+# AEMY PR Readiness Status Check
+#
+# - If 'aemy-running' is present → PR is draft, merge blocked
+# - If 'aemy-failed' is present → merge blocked
+# - If 'aemy-merge' is present and neither of the above → PR is ready
 
 name: aemy-pr-readiness-check
 
@@ -9,51 +11,54 @@ on:
   pull_request:
     types: [labeled, unlabeled, opened, reopened, synchronize]
 
+concurrency:
+  group: aemy-pr-readiness-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
   pull-requests: write
 
-env:
-  BLOCKING_LABELS: "aemy-running,aemy-failed"
-  MERGE_LABEL: "aemy-merge"
-
 jobs:
   manage-pr-state:
-    name: Manage PR Draft State
+    name: Manage PR State
     runs-on: ubuntu-latest
     
     steps:
       - uses: actions/checkout@v4
 
-      - name: Debug - Show current labels
-        run: |
-          echo "🔍 Current PR labels:"
-          echo "${{ join(github.event.pull_request.labels.*.name, ', ') }}"
-          echo "🔍 Event type: ${{ github.event.action }}"
-
-      - name: Convert PR to draft while AEMY is running
-        if: contains(github.event.pull_request.labels.*.name, 'aemy-running')
-        run: |
-          gh pr ready --undo ${{ github.event.pull_request.number }} || exit 1
-          echo "✅ PR converted to draft"
+      - name: Fetch live PR labels
+        id: current-labels
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Prevent merge - PR not ready due to AEMY processing
-        if: |
-          contains(github.event.pull_request.labels.*.name, 'aemy-running') ||
-          contains(github.event.pull_request.labels.*.name, 'aemy-failed')
         run: |
-          echo "❌ Cannot merge: AEMY processing in progress or failed"
+          LABELS=$(gh pr view ${{ github.event.pull_request.number }} --json labels --jq '.labels[].name' | paste -sd ',' -)
+          echo "labels=$LABELS" >> "$GITHUB_OUTPUT"
+          echo "Live labels: $LABELS"
+
+      - name: Convert PR to draft while AEMY is running
+        if: contains(steps.current-labels.outputs.labels, 'aemy-running')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr ready --undo ${{ github.event.pull_request.number }} || true
+          echo "✅ PR converted to draft"
+
+      - name: Prevent merge - AEMY running or failed
+        if: |
+          contains(steps.current-labels.outputs.labels, 'aemy-running') ||
+          contains(steps.current-labels.outputs.labels, 'aemy-failed')
+        run: |
+          echo "❌ Cannot merge: AEMY is still running or failed"
           exit 1
 
       - name: Mark PR ready for review after AEMY completion
         if: |
-          contains(github.event.pull_request.labels.*.name, 'aemy-merge') && 
-          !contains(github.event.pull_request.labels.*.name, 'aemy-running') &&
-          !contains(github.event.pull_request.labels.*.name, 'aemy-failed')
-        run: |
-          gh pr ready ${{ github.event.pull_request.number }} || exit 1
-          echo "✅ PR ready for review"
+          contains(steps.current-labels.outputs.labels, 'aemy-merge') && 
+          !contains(steps.current-labels.outputs.labels, 'aemy-running') &&
+          !contains(steps.current-labels.outputs.labels, 'aemy-failed')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr ready ${{ github.event.pull_request.number }} || true
+          echo "✅ PR marked ready for review"
