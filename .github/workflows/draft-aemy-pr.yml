@@ -1,8 +1,8 @@
 # AEMY PR Readiness Status Check
 #
-# - If 'aemy-running' is present → merge blocked
+# - If 'aemy-running' is present → PR is converted to draft, merge blocked
 # - If 'aemy-failed' is present → merge blocked
-# - If 'aemy-done' is present → PR is ready
+# - If 'aemy-done' is present (and 'aemy-running' is NOT) → PR is ready
 
 name: aemy-pr-readiness-check
 
@@ -22,7 +22,7 @@ jobs:
   manage-pr-state:
     name: Manage PR State
     runs-on: ubuntu-latest
-    
+
     steps:
       - uses: actions/checkout@v4
 
@@ -35,6 +35,14 @@ jobs:
           echo "labels=$LABELS" >> "$GITHUB_OUTPUT"
           echo "Live labels: $LABELS"
 
+      - name: Convert PR to draft while AEMY is running
+        if: contains(steps.current-labels.outputs.labels, 'aemy-running')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr ready --undo ${{ github.event.pull_request.number }} || true
+          echo "✅ PR converted to draft (AEMY running)"
+
       - name: Prevent merge - AEMY running or failed
         if: |
           contains(steps.current-labels.outputs.labels, 'aemy-running') ||
@@ -44,9 +52,11 @@ jobs:
           exit 1
 
       - name: Mark PR ready for review after AEMY completion
-        if: contains(steps.current-labels.outputs.labels, 'aemy-done')
+        if: |
+          contains(steps.current-labels.outputs.labels, 'aemy-done') &&
+          !contains(steps.current-labels.outputs.labels, 'aemy-running')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh pr ready ${{ github.event.pull_request.number }} || true
-          echo "✅ PR marked ready for review"
+          echo "✅ PR marked ready for review (AEMY done)"
