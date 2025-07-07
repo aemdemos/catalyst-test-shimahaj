@@ -1,12 +1,1692 @@
 {
-  "originUrl": "https://motherfocaccia.com",
-  "lastCrawled": "https://motherfocaccia.com",
+  "originUrl": "https://julian.digital",
+  "lastCrawled": "https://julian.digital/",
   "urls": [
     {
-      "url": "https://motherfocaccia.com/",
-      "source": "CRAWL",
+      "url": "https://julian.digital/",
+      "source": "SITEMAPS",
       "targetPath": "/",
-      "id": "16ede60a92a5584d9c5a09362a9229b1b3237353"
+      "id": "7344eeb89683eb548aff36de3895cb4f26849171"
+    },
+    {
+      "url": "https://julian.digital/1988/01/27/124/",
+      "source": "SITEMAPS",
+      "targetPath": "/1988/01/27/124",
+      "id": "6cd76cdeac6c3680cef23e3a4d33ef73e09bc357"
+    },
+    {
+      "url": "https://julian.digital/1988/10/01/chapter-0002/",
+      "source": "SITEMAPS",
+      "targetPath": "/1988/10/01/chapter-0002",
+      "id": "6cc5e8b3513c59f37b59e680b250abc716fc032d"
+    },
+    {
+      "url": "https://julian.digital/1994/09/05/chapter-0003/",
+      "source": "SITEMAPS",
+      "targetPath": "/1994/09/05/chapter-0003",
+      "id": "9f21df55745388a56e2f3d396f28d06c22dbbfae"
+    },
+    {
+      "url": "https://julian.digital/2007/06/30/chapter-0004/",
+      "source": "SITEMAPS",
+      "targetPath": "/2007/06/30/chapter-0004",
+      "id": "410b4a8c16a45ae9728ea4fcea133ed13c7ed8e9"
+    },
+    {
+      "url": "https://julian.digital/2011/09/05/chapter-0005/",
+      "source": "SITEMAPS",
+      "targetPath": "/2011/09/05/chapter-0005",
+      "id": "8c9083d4909ba0295f0e1e465097550735de4485"
+    },
+    {
+      "url": "https://julian.digital/2013/10/18/chapter-0006/",
+      "source": "SITEMAPS",
+      "targetPath": "/2013/10/18/chapter-0006",
+      "id": "1597f8d8b77329e5c68e4bae9eddbfdcff23152f"
+    },
+    {
+      "url": "https://julian.digital/2014/01/04/chapter-0007/",
+      "source": "SITEMAPS",
+      "targetPath": "/2014/01/04/chapter-0007",
+      "id": "4498737a8c202345bd739c664f69d63b4429bb84"
+    },
+    {
+      "url": "https://julian.digital/2016/01/01/list-of-things-i-want-to-do-in-2017/",
+      "source": "SITEMAPS",
+      "targetPath": "/2016/01/01/list-of-things-i-want-to-do-in-2017",
+      "id": "a9a76b382290a0fc120eb9be6c63b816a776be7a"
+    },
+    {
+      "url": "https://julian.digital/2017/01/21/208/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/01/21/208",
+      "id": "1480a38d0e53db9948113dab05ada82a65b97e7f"
+    },
+    {
+      "url": "https://julian.digital/2017/02/16/205/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/02/16/205",
+      "id": "e484628e5058b5a57ebdccceacdb5bab6d876e21"
+    },
+    {
+      "url": "https://julian.digital/2017/02/16/32-hours-in-linz/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/02/16/32-hours-in-linz",
+      "id": "e11a4bb559dc8f3532d71eaa6a73cc8157eb9020"
+    },
+    {
+      "url": "https://julian.digital/2017/04/01/chapter-0008/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/04/01/chapter-0008",
+      "id": "953c7b19f16e0fcb8dfb9524168f94ac3ce3a5be"
+    },
+    {
+      "url": "https://julian.digital/2017/04/02/202/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/04/02/202",
+      "id": "e745e0dbd8f7f6eb289f86a2b1751fd4309a3626"
+    },
+    {
+      "url": "https://julian.digital/2017/04/02/446/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/04/02/446",
+      "id": "115a8bdd787c40177bcc993cff8dbba47f688e1a"
+    },
+    {
+      "url": "https://julian.digital/2017/04/22/243/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/04/22/243",
+      "id": "040a2c337b404e410fb1348ebc0b65de1a7e34b3"
+    },
+    {
+      "url": "https://julian.digital/2017/04/25/hello-world/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/04/25/hello-world",
+      "id": "d13009900f3240786c8920ce0295574f8d70dccf"
+    },
+    {
+      "url": "https://julian.digital/2017/04/28/178/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/04/28/178",
+      "id": "95c1016e6d07ff7be61e386e642167959c681af3"
+    },
+    {
+      "url": "https://julian.digital/2017/05/01/238/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/05/01/238",
+      "id": "713986e3ea84e9473c7bb306757de61b90efdefd"
+    },
+    {
+      "url": "https://julian.digital/2017/05/10/media-consumption-april-17/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/05/10/media-consumption-april-17",
+      "id": "7f6f294efc3f78eb613af6b3d950670be213b6ee"
+    },
+    {
+      "url": "https://julian.digital/2017/05/21/386/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/05/21/386",
+      "id": "65bdbc05d11807a6df7053e59b363c87e947dc66"
+    },
+    {
+      "url": "https://julian.digital/2017/05/27/285/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/05/27/285",
+      "id": "c89124bb05a7d9936ab08f21be417af967b0b5ba"
+    },
+    {
+      "url": "https://julian.digital/2017/06/05/media-consumption-may-17/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/06/05/media-consumption-may-17",
+      "id": "99dd7eed88996f46dfdc42b315af8ef2768b5873"
+    },
+    {
+      "url": "https://julian.digital/2017/06/09/380/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/06/09/380",
+      "id": "1a34f6137990ecadde4a0580edc967da05604839"
+    },
+    {
+      "url": "https://julian.digital/2017/06/10/259/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/06/10/259",
+      "id": "15670ddb2a03b4e295c9d5f9779fcf5cb505bda5"
+    },
+    {
+      "url": "https://julian.digital/2017/06/10/lgw-%e2%9c%88%ef%b8%8f-mad/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/06/10/lgw-mad",
+      "id": "94c38f597941635b20e1f017c3aedbb663e76a8a"
+    },
+    {
+      "url": "https://julian.digital/2017/06/13/262/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/06/13/262",
+      "id": "b3ae3be24517bbaf1ba534b84a9078f81fc9f15d"
+    },
+    {
+      "url": "https://julian.digital/2017/06/16/mad-%e2%9c%88-lgw/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/06/16/mad-lgw",
+      "id": "cb5862ac678a23ae926a6383d0127985df36693d"
+    },
+    {
+      "url": "https://julian.digital/2017/06/17/265/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/06/17/265",
+      "id": "a51267539c21bd3b854307d70cc22942e498052c"
+    },
+    {
+      "url": "https://julian.digital/2017/06/17/357/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/06/17/357",
+      "id": "1fed18ee44d04d6c9efd95a4e366501aa3d09209"
+    },
+    {
+      "url": "https://julian.digital/2017/06/18/354/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/06/18/354",
+      "id": "9edf9777ec3203fe5a5ca4d1fb17b2f609ab2344"
+    },
+    {
+      "url": "https://julian.digital/2017/06/24/302/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/06/24/302",
+      "id": "08a775f94bd4e6d0a20b0188c68826083641be79"
+    },
+    {
+      "url": "https://julian.digital/2017/06/25/276/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/06/25/276",
+      "id": "fb79e56f037a8e2c028d4f5e864b2769e09e476a"
+    },
+    {
+      "url": "https://julian.digital/2017/06/25/295/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/06/25/295",
+      "id": "460968ab08b27685bc5a88c9c07dd4c8af2b5d89"
+    },
+    {
+      "url": "https://julian.digital/2017/06/30/3-months-london/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/06/30/3-months-london",
+      "id": "fa18f8b5b59962a09f378c7a69c2d7e7cb9b2d36"
+    },
+    {
+      "url": "https://julian.digital/2017/06/30/stn-%e2%9c%88-dub/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/06/30/stn-dub",
+      "id": "9cae0f110bbae204bbc45b18b7fffc735e468759"
+    },
+    {
+      "url": "https://julian.digital/2017/07/12/media-consumption-june-17/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/07/12/media-consumption-june-17",
+      "id": "759d1dc9a2775c80f4cfafbd7256e320eab229e8"
+    },
+    {
+      "url": "https://julian.digital/2017/07/21/dub-%e2%9c%88-lis/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/07/21/dub-lis",
+      "id": "182d57e71adce5679620d3fdf0020117a5d2dc04"
+    },
+    {
+      "url": "https://julian.digital/2017/07/23/351/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/07/23/351",
+      "id": "ddc3d8ffbaaf8c5a0dfe80071947c6e3e4826aaa"
+    },
+    {
+      "url": "https://julian.digital/2017/07/29/329/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/07/29/329",
+      "id": "4e8a70068f417ffdfc0fc42634c68d4d5ce0cde8"
+    },
+    {
+      "url": "https://julian.digital/2017/07/29/332/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/07/29/332",
+      "id": "9a32a2a45c367fd51076cb5a81e78e7a379d5335"
+    },
+    {
+      "url": "https://julian.digital/2017/07/29/347/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/07/29/347",
+      "id": "a8d4471c60303b71dad720a54e43bc2887829ab2"
+    },
+    {
+      "url": "https://julian.digital/2017/07/31/120-hours-in-lisbon/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/07/31/120-hours-in-lisbon",
+      "id": "e70e1f7decfcd3525a8b38d3c67ade065d1e638b"
+    },
+    {
+      "url": "https://julian.digital/2017/07/31/lis-%e2%9c%88-dub/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/07/31/lis-dub",
+      "id": "11a6c7533b77043642ab996fc5bd29536cf47aed"
+    },
+    {
+      "url": "https://julian.digital/2017/08/05/media-consumption-july-17/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/08/05/media-consumption-july-17",
+      "id": "3d10cc7a7173bb2b11aebf79e170818dbf288e0c"
+    },
+    {
+      "url": "https://julian.digital/2017/08/11/dub-%e2%9c%88-bts/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/08/11/dub-bts",
+      "id": "0dce0e9e2bed72d95267ff92b71e0525cc465753"
+    },
+    {
+      "url": "https://julian.digital/2017/08/18/meditation-progress/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/08/18/meditation-progress",
+      "id": "1b3692da2b34aca0c14f67f78aac545a8126b641"
+    },
+    {
+      "url": "https://julian.digital/2017/08/22/vie-%e2%9c%88-dub/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/08/22/vie-dub",
+      "id": "5eda2b01a5603e8cb290f9775a1189d47f92a3a5"
+    },
+    {
+      "url": "https://julian.digital/2017/09/01/media-consumption-august-17/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/09/01/media-consumption-august-17",
+      "id": "a77627d9fb1673029d853bc55f6e701e61479b8e"
+    },
+    {
+      "url": "https://julian.digital/2017/09/04/thoughts-on-no-ads-subscriptions/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/09/04/thoughts-on-no-ads-subscriptions",
+      "id": "8801a6413af454495bed8e34c80f6c143a3b173f"
+    },
+    {
+      "url": "https://julian.digital/2017/09/17/form-vs-functionality/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/09/17/form-vs-functionality",
+      "id": "6b2cd5c436242826d39e4139d43128acc846a88b"
+    },
+    {
+      "url": "https://julian.digital/2017/09/18/437/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/09/18/437",
+      "id": "9d55168855a8121a3a81c897f2a50ebc302beadc"
+    },
+    {
+      "url": "https://julian.digital/2017/09/19/442/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/09/19/442",
+      "id": "91aaaa8ab097938b7e62259c3ad31b322a157768"
+    },
+    {
+      "url": "https://julian.digital/2017/09/23/463/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/09/23/463",
+      "id": "6e4e26733c8f57ec63a004a7840e917020c56c29"
+    },
+    {
+      "url": "https://julian.digital/2017/10/01/477/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/10/01/477",
+      "id": "8bfb109ef4620df4baaaf59d3c16432ce51250e0"
+    },
+    {
+      "url": "https://julian.digital/2017/10/02/dub-%e2%9c%88-sxf/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/10/02/dub-sxf",
+      "id": "536d81ecaa67aae0d65766d959065284403aba17"
+    },
+    {
+      "url": "https://julian.digital/2017/10/08/berlin-%f0%9f%9a%8c-vienna/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/10/08/berlin-vienna",
+      "id": "57c7aff4bf694b8e563548b754bfac41306a36d3"
+    },
+    {
+      "url": "https://julian.digital/2017/10/08/berlin-moves-data/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/10/08/berlin-moves-data",
+      "id": "ba2cae6e44ca0c40a720b794d3b79c6d9c781767"
+    },
+    {
+      "url": "https://julian.digital/2017/10/12/570/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/10/12/570",
+      "id": "135bb10802f55644ef9de2b9b00f4fd2b7d17ec7"
+    },
+    {
+      "url": "https://julian.digital/2017/10/13/vienna-%f0%9f%9a%8c-budapest/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/10/13/vienna-budapest",
+      "id": "e71b1cfaa7af1f1f153859c2dc1478b1c86e613f"
+    },
+    {
+      "url": "https://julian.digital/2017/10/13/vienna-moves-data/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/10/13/vienna-moves-data",
+      "id": "6931b8344ccb2a770eba0b835eab1e166e03503b"
+    },
+    {
+      "url": "https://julian.digital/2017/10/15/%f0%9f%91%8b/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/10/15/",
+      "id": "62a6ee2d43ea56d870887715ce5e6e6fe4e7d2e3"
+    },
+    {
+      "url": "https://julian.digital/2017/10/16/media-consumption-september-17/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/10/16/media-consumption-september-17",
+      "id": "6fde67365a14fe46fdd191620aa0c34c22997409"
+    },
+    {
+      "url": "https://julian.digital/2017/10/22/548/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/10/22/548",
+      "id": "a4f67604c1d3aada30e0006e757c87ca52ccde50"
+    },
+    {
+      "url": "https://julian.digital/2017/10/26/budapest-metro/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/10/26/budapest-metro",
+      "id": "e21c7497723a675279030e9c06e5c251a45155ca"
+    },
+    {
+      "url": "https://julian.digital/2017/10/27/budapest-%f0%9f%9a%8c-vienna/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/10/27/budapest-vienna",
+      "id": "0425ff9fc4c6ddd5e0b627aae509447d559eb8ed"
+    },
+    {
+      "url": "https://julian.digital/2017/10/27/budapest-logs/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/10/27/budapest-logs",
+      "id": "0707e5d62600d82700814cdc27d9bb476fbd8fb6"
+    },
+    {
+      "url": "https://julian.digital/2017/10/27/notes-on-budapest/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/10/27/notes-on-budapest",
+      "id": "f519e73d4276ff6b76c2ba2b3f84531f33e4b2e6"
+    },
+    {
+      "url": "https://julian.digital/2017/11/03/media-consumption-october-17/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/11/03/media-consumption-october-17",
+      "id": "c6a401e171112152a2804d67e01362311667ad97"
+    },
+    {
+      "url": "https://julian.digital/2017/11/10/vie-%e2%9c%88-fco/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/11/10/vie-fco",
+      "id": "2c26d8863304ac0d92e0132f04973330e4abb396"
+    },
+    {
+      "url": "https://julian.digital/2017/11/10/vienna-logs/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/11/10/vienna-logs",
+      "id": "09d3103faf0a8142bfbae49d9c30495d53ccd5ff"
+    },
+    {
+      "url": "https://julian.digital/2017/11/18/fco-%e2%9c%88-tlv/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/11/18/fco-tlv",
+      "id": "4f3cd7c0158d8abb4299098880c774b8c3718730"
+    },
+    {
+      "url": "https://julian.digital/2017/11/18/rome-logs/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/11/18/rome-logs",
+      "id": "eac825af40195a97c577ce35a49884209344f756"
+    },
+    {
+      "url": "https://julian.digital/2017/11/27/tlv-%e2%9c%88-saw/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/11/27/tlv-saw",
+      "id": "710cd65e57ff85b00b5994ed696805aec2654316"
+    },
+    {
+      "url": "https://julian.digital/2017/11/27/tlv-logs/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/11/27/tlv-logs",
+      "id": "40ab45efa386e288ed563eb75cd4d07190b944c0"
+    },
+    {
+      "url": "https://julian.digital/2017/12/05/media-consumption-december-17/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/12/05/media-consumption-december-17",
+      "id": "87e5adb0af27af61ba0a1a74a3aa744b5f0ee5ea"
+    },
+    {
+      "url": "https://julian.digital/2017/12/06/ist-%e2%9c%88-ham/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/12/06/ist-ham",
+      "id": "c855cc079e5cd6eb1bdf9a0443757fc9076925c9"
+    },
+    {
+      "url": "https://julian.digital/2017/12/06/istanbul-logs/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/12/06/istanbul-logs",
+      "id": "235220955738c7bc8333dd8952b0b7f8c5a3ff86"
+    },
+    {
+      "url": "https://julian.digital/2017/12/07/hamburg-gottingen/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/12/07/hamburg-gottingen",
+      "id": "ef464dbbcae8b72aaa782230e3b3bac6c3271de5"
+    },
+    {
+      "url": "https://julian.digital/2017/12/10/gottingen-basel/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/12/10/gottingen-basel",
+      "id": "71f8d0232d969d5c94707532e6d6a357aa908155"
+    },
+    {
+      "url": "https://julian.digital/2017/12/29/basel-hamburg/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/12/29/basel-hamburg",
+      "id": "3f0ae332cf31900b2161f026426dcef25e57244d"
+    },
+    {
+      "url": "https://julian.digital/2017/12/31/list-of-things-i-want-to-do-in-2018/",
+      "source": "SITEMAPS",
+      "targetPath": "/2017/12/31/list-of-things-i-want-to-do-in-2018",
+      "id": "c8c5ace4c9a7a06084751b2a66ab053bcce948fd"
+    },
+    {
+      "url": "https://julian.digital/2018/01/02/hamburg-berlin/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/01/02/hamburg-berlin",
+      "id": "d62c8159b3c76c75e9a8826de68da31f66aa6670"
+    },
+    {
+      "url": "https://julian.digital/2018/01/02/life-event-moved-to-berlin-today/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/01/02/life-event-moved-to-berlin-today",
+      "id": "7ccad6ab717193b76192d711c202fa5016036442"
+    },
+    {
+      "url": "https://julian.digital/2018/01/05/media-consumption-december-17-2/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/01/05/media-consumption-december-17-2",
+      "id": "ac817a261d61c97fff10b7852ea5622f333279cd"
+    },
+    {
+      "url": "https://julian.digital/2018/01/27/life-event-turned-30-today/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/01/27/life-event-turned-30-today",
+      "id": "ca0fc93814d0399a39dd07e9328c46b19cc12798"
+    },
+    {
+      "url": "https://julian.digital/2018/02/01/media-consumption-january-18/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/02/01/media-consumption-january-18",
+      "id": "c48784d45fee539988b798336aa59a39edef1c94"
+    },
+    {
+      "url": "https://julian.digital/2018/02/07/list-of-interesting-food-i-recently-tried-for-the-first-time/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/02/07/list-of-interesting-food-i-recently-tried-for-the-first-time",
+      "id": "11c517831a11087b6340b648ddd1889eb75462cc"
+    },
+    {
+      "url": "https://julian.digital/2018/02/15/emojis-as-a-platform-moat/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/02/15/emojis-as-a-platform-moat",
+      "id": "e3a85b0524d20538620386b300edf0be5407c742"
+    },
+    {
+      "url": "https://julian.digital/2018/02/16/streaks/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/02/16/streaks",
+      "id": "f40741c1b14a9fa50fa6efe9b3f759ba043d7f28"
+    },
+    {
+      "url": "https://julian.digital/2018/02/21/698/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/02/21/698",
+      "id": "a48efe3883817a1acbbe5c3237d64513b161e76e"
+    },
+    {
+      "url": "https://julian.digital/2018/03/01/media-consumption-february-18/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/03/01/media-consumption-february-18",
+      "id": "5e424d98b11d6e6a8ee1a3bb8a6c7eb4d9222606"
+    },
+    {
+      "url": "https://julian.digital/2018/03/20/736/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/03/20/736",
+      "id": "e5048d8a6c0b560d79ee98d82540b34acd4c39b5"
+    },
+    {
+      "url": "https://julian.digital/2018/03/28/introducing-monote/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/03/28/introducing-monote",
+      "id": "6620c1bd0fe7dba3aeb4aa36720a69240b46651f"
+    },
+    {
+      "url": "https://julian.digital/2018/03/31/787/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/03/31/787",
+      "id": "616ab8febcee215c8679c6a6895777cfb615d534"
+    },
+    {
+      "url": "https://julian.digital/2018/04/02/media-consumption-mar-2018/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/04/02/media-consumption-mar-2018",
+      "id": "146dca28a6cfdc4007662fedaf8558fdcd2941e1"
+    },
+    {
+      "url": "https://julian.digital/2018/05/01/media-consumption-apr-2018/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/05/01/media-consumption-apr-2018",
+      "id": "e07699e1e10c90a854d9c0ba341b935f7171b43a"
+    },
+    {
+      "url": "https://julian.digital/2018/06/03/media-consumption-may-2018/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/06/03/media-consumption-may-2018",
+      "id": "0373b4723398dc36fd2bc2f8592f5b05a3df6d9b"
+    },
+    {
+      "url": "https://julian.digital/2018/06/15/953/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/06/15/953",
+      "id": "bf89252435ddb010da816feb8b6ad1440f94dd78"
+    },
+    {
+      "url": "https://julian.digital/2018/07/04/media-consumption-june-2018/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/07/04/media-consumption-june-2018",
+      "id": "6c3cd5fc97a6aaf24f53ebd60c6d4fd73b7efe39"
+    },
+    {
+      "url": "https://julian.digital/2018/07/14/989/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/07/14/989",
+      "id": "fc13c824fb9f09a56d6dfd44077fb2d6d0a5d1f8"
+    },
+    {
+      "url": "https://julian.digital/2018/08/11/media-consumption-july-2018/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/08/11/media-consumption-july-2018",
+      "id": "194c64a6d706f56511140bfa9e6e1291b41b581d"
+    },
+    {
+      "url": "https://julian.digital/2018/09/01/media-consumption-august-2018/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/09/01/media-consumption-august-2018",
+      "id": "c34ea586c025f1d1ae0b799b8d3f7d43ab18790a"
+    },
+    {
+      "url": "https://julian.digital/2018/09/15/1008/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/09/15/1008",
+      "id": "d02a843787356913806519e663ce2f35204101d0"
+    },
+    {
+      "url": "https://julian.digital/2018/10/03/media-consumption-september-2018/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/10/03/media-consumption-september-2018",
+      "id": "44b4c42d5e309f160478d30d835425b5d7e5a9b4"
+    },
+    {
+      "url": "https://julian.digital/2018/11/17/media-consumption-oct-2018/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/11/17/media-consumption-oct-2018",
+      "id": "9123b985b3208de553f200da791c613be004adfd"
+    },
+    {
+      "url": "https://julian.digital/2018/12/02/media-consumption-nov-2018/",
+      "source": "SITEMAPS",
+      "targetPath": "/2018/12/02/media-consumption-nov-2018",
+      "id": "757a08dd40deeb1764cf0b46b82c4f0613a91ea5"
+    },
+    {
+      "url": "https://julian.digital/2019/01/01/list-of-things-i-want-to-do-in-2019/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/01/01/list-of-things-i-want-to-do-in-2019",
+      "id": "e856e9d32628d9496132282000e58fd96a9fb9a9"
+    },
+    {
+      "url": "https://julian.digital/2019/01/02/review-of-my-2018-goals/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/01/02/review-of-my-2018-goals",
+      "id": "53d58cd06e7001f336f88713e416a6f2dcea5750"
+    },
+    {
+      "url": "https://julian.digital/2019/01/08/media-consumption-dec-2018/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/01/08/media-consumption-dec-2018",
+      "id": "70f459e3bde36ac64c4cc70c2eb869678c9f0347"
+    },
+    {
+      "url": "https://julian.digital/2019/01/13/my-current-old-fashioned-recipe/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/01/13/my-current-old-fashioned-recipe",
+      "id": "13ebc72b87d72a82670d92fab116fd32e5aa8cf5"
+    },
+    {
+      "url": "https://julian.digital/2019/02/15/media-consumption-jan-2019/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/02/15/media-consumption-jan-2019",
+      "id": "96939802a6c8b0b1173decd4428af8d924ca1b66"
+    },
+    {
+      "url": "https://julian.digital/2019/03/07/1254/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/03/07/1254",
+      "id": "0ad68c33fbd6df3c62127c92b6e2ebec839155ea"
+    },
+    {
+      "url": "https://julian.digital/2019/03/10/media-consumption-feb-2019/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/03/10/media-consumption-feb-2019",
+      "id": "da04abb735bcb45e69ad9f4313b9c057dea91fd9"
+    },
+    {
+      "url": "https://julian.digital/2019/04/09/media-consumption-mar-2019/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/04/09/media-consumption-mar-2019",
+      "id": "a80bffb1f3bf73b7d2133f425c7eec8920e60086"
+    },
+    {
+      "url": "https://julian.digital/2019/04/16/quantified-julian-2018/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/04/16/quantified-julian-2018",
+      "id": "c12962098af9b053e1ca09b2e191cc138d3cfc69"
+    },
+    {
+      "url": "https://julian.digital/2019/04/25/1389/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/04/25/1389",
+      "id": "8e3fda7b8e843627428280ae6aa68f784cb4fec5"
+    },
+    {
+      "url": "https://julian.digital/2019/05/16/media-consumption-apr-2018-2/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/05/16/media-consumption-apr-2018-2",
+      "id": "c7d4c9c1a0d3ab9c0e39332d865a61f03e41a2ab"
+    },
+    {
+      "url": "https://julian.digital/2019/06/11/media-consumption-may-2019/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/06/11/media-consumption-may-2019",
+      "id": "b078aeac8cd50186045f4513939b1bb9b22f532a"
+    },
+    {
+      "url": "https://julian.digital/2019/07/25/my-notion-subscription-tracker/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/07/25/my-notion-subscription-tracker",
+      "id": "45c31e3c54798005bdf6421a83906d3594abdb10"
+    },
+    {
+      "url": "https://julian.digital/2019/07/26/media-consumption-june-2019/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/07/26/media-consumption-june-2019",
+      "id": "58a18830d2097348a1ffad1b42b6cbbe2c3eac03"
+    },
+    {
+      "url": "https://julian.digital/2019/08/20/media-consumption-july-2019/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/08/20/media-consumption-july-2019",
+      "id": "f0fc245516932245990f0967e537fe44611f8ae5"
+    },
+    {
+      "url": "https://julian.digital/2019/09/06/list-of-things-i-want-to-do-in-sf/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/09/06/list-of-things-i-want-to-do-in-sf",
+      "id": "afcddc7a9792bd0359638a26b2bf6f8a1ffcabbb"
+    },
+    {
+      "url": "https://julian.digital/2019/09/07/media-consumption-aug-2019/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/09/07/media-consumption-aug-2019",
+      "id": "32b8ad7b57da71e07857e76884bbe0d94dcc1df4"
+    },
+    {
+      "url": "https://julian.digital/2019/09/21/1575/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/09/21/1575",
+      "id": "7292a5552b2eb65b6771d0515564508c91c6273c"
+    },
+    {
+      "url": "https://julian.digital/2019/10/07/current-interests-q4-19/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/10/07/current-interests-q4-19",
+      "id": "2c5bafb469b82592e7014b59b8936922ae53f0c9"
+    },
+    {
+      "url": "https://julian.digital/2019/10/13/media-consumption-sep-2019/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/10/13/media-consumption-sep-2019",
+      "id": "8f18e00953194f91b6f62a068e29db64e91afb23"
+    },
+    {
+      "url": "https://julian.digital/2019/10/21/thoughts-on-googles-hardware-event/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/10/21/thoughts-on-googles-hardware-event",
+      "id": "ae5a9b49888dbe61fe2bd4cc69e076018cb97aee"
+    },
+    {
+      "url": "https://julian.digital/2019/11/01/media-consumption-oct-2019/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/11/01/media-consumption-oct-2019",
+      "id": "2a729917c07c17371c0d091ad38f7a6c4050a31a"
+    },
+    {
+      "url": "https://julian.digital/2019/11/30/1624/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/11/30/1624",
+      "id": "2681d7c3430e36cd6a96ab6392e71819b12af181"
+    },
+    {
+      "url": "https://julian.digital/2019/12/05/first-ios-vs-android-impressions/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/12/05/first-ios-vs-android-impressions",
+      "id": "2ac9cf9e6cd234d5fbe6c897dbed01082efb4880"
+    },
+    {
+      "url": "https://julian.digital/2019/12/14/media-consumption-nov-2019/",
+      "source": "SITEMAPS",
+      "targetPath": "/2019/12/14/media-consumption-nov-2019",
+      "id": "29d4bc55474aabd8ef381843b20f6e344412e51f"
+    },
+    {
+      "url": "https://julian.digital/2020/01/01/2020-reading-list/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/01/01/2020-reading-list",
+      "id": "822776c59254a71ff4c7aa87e5cbd29e0ce94410"
+    },
+    {
+      "url": "https://julian.digital/2020/01/02/review-of-my-2019-goals/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/01/02/review-of-my-2019-goals",
+      "id": "c0891db8e9da2374b9ba4d68f48ff315a9bac786"
+    },
+    {
+      "url": "https://julian.digital/2020/01/03/list-of-goals-and-rules-for-2020/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/01/03/list-of-goals-and-rules-for-2020",
+      "id": "a78cca1668696f7521f937433b72c35a3d46a6eb"
+    },
+    {
+      "url": "https://julian.digital/2020/01/09/media-consumption-dec-2019/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/01/09/media-consumption-dec-2019",
+      "id": "df3ebef70533ba62b1955fd52779ba611c1ee1a4"
+    },
+    {
+      "url": "https://julian.digital/2020/01/17/superhuman-the-productivity-meta-layer/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/01/17/superhuman-the-productivity-meta-layer",
+      "id": "0c2a982acd46c9ffb4f78c32e2bfabef84785c7e"
+    },
+    {
+      "url": "https://julian.digital/2020/01/26/newsletters-and-alternative-trade-routes/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/01/26/newsletters-and-alternative-trade-routes",
+      "id": "014530b7259183c3f92098cd931ec96476fd3d3d"
+    },
+    {
+      "url": "https://julian.digital/2020/02/01/media-consumption-jan-2020/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/02/01/media-consumption-jan-2020",
+      "id": "92137d584ce4c785ebd61bad9fde5d0a0c8124e2"
+    },
+    {
+      "url": "https://julian.digital/2020/02/06/inventory-update/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/02/06/inventory-update",
+      "id": "525da92e9f782a82d0065710bb96a7269fcfca9b"
+    },
+    {
+      "url": "https://julian.digital/2020/02/23/my-quantified-self-setup/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/02/23/my-quantified-self-setup",
+      "id": "7ad9f30d11fa20d733ee5e6f02141b5bb3d94a1a"
+    },
+    {
+      "url": "https://julian.digital/2020/03/01/media-consumption-feb-2020/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/03/01/media-consumption-feb-2020",
+      "id": "007ee1fc4e7a9d6a728c13d15557cf4503c78e62"
+    },
+    {
+      "url": "https://julian.digital/2020/03/16/music-for-productivity/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/03/16/music-for-productivity",
+      "id": "1c146fde7d7f21cbd2a91bc21fed2053e159f1d8"
+    },
+    {
+      "url": "https://julian.digital/2020/03/28/signaling-as-a-service/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/03/28/signaling-as-a-service",
+      "id": "7474f0c473ceddfe7bc5fe1ac0c65dc6afa749d6"
+    },
+    {
+      "url": "https://julian.digital/2020/04/01/media-consumption-mar-2020/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/04/01/media-consumption-mar-2020",
+      "id": "f1ee185594697460cc693e6b91ee9831f1b0cafd"
+    },
+    {
+      "url": "https://julian.digital/2020/04/19/airpods-as-a-platform/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/04/19/airpods-as-a-platform",
+      "id": "a63f0307a1ba622d0305a4988bc7e54e6d5da3b4"
+    },
+    {
+      "url": "https://julian.digital/2020/04/27/quantified-quarantine-report/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/04/27/quantified-quarantine-report",
+      "id": "b596e8339ea708ed74dd99cd51eb4a523eb5ddb1"
+    },
+    {
+      "url": "https://julian.digital/2020/05/01/media-consumption-apr-2020/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/05/01/media-consumption-apr-2020",
+      "id": "5e1e54d96a3c69f3e88a1b7cdba408a66acd4584"
+    },
+    {
+      "url": "https://julian.digital/2020/05/09/inventory-update-q2-20/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/05/09/inventory-update-q2-20",
+      "id": "e5f2483610a764e42c1bc7d83158af97dc031b9e"
+    },
+    {
+      "url": "https://julian.digital/2020/05/17/thoughts-on-ecommerce-the-status-quo-shopify-shop-amazon/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/05/17/thoughts-on-ecommerce-the-status-quo-shopify-shop-amazon",
+      "id": "dce2b99130a519b870f5ffc54ad70b461978c9c9"
+    },
+    {
+      "url": "https://julian.digital/2020/05/28/what-shopify-and-amazon-can-learn-from-mimetic-theory/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/05/28/what-shopify-and-amazon-can-learn-from-mimetic-theory",
+      "id": "68acc9c144ac950004eda06037570356dce50150"
+    },
+    {
+      "url": "https://julian.digital/2020/06/01/media-consumption-may-20/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/06/01/media-consumption-may-20",
+      "id": "bde0ca3a7ec88374d76cdf50668b8d7565e75498"
+    },
+    {
+      "url": "https://julian.digital/2020/07/01/media-consumption-jun-2020/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/07/01/media-consumption-jun-2020",
+      "id": "57e6822d60a496e1ab7c4a0e2a73eac054c15fb7"
+    },
+    {
+      "url": "https://julian.digital/2020/07/12/a-mid-year-check-in-on-my-2020-goals/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/07/12/a-mid-year-check-in-on-my-2020-goals",
+      "id": "14a3eeed71ad333d8edf3030e30d9db81a82035a"
+    },
+    {
+      "url": "https://julian.digital/2020/08/02/media-consumption-jul-2020/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/08/02/media-consumption-jul-2020",
+      "id": "3d6a28ff6c809c706af23be51a5ef4f94b77cdd7"
+    },
+    {
+      "url": "https://julian.digital/2020/08/06/proof-of-x/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/08/06/proof-of-x",
+      "id": "53e681aaddef0a0ea366ef6457373957b2a425a8"
+    },
+    {
+      "url": "https://julian.digital/2020/09/02/media-consumption-aug-2020/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/09/02/media-consumption-aug-2020",
+      "id": "e459a699ebf8978128528d4997e6eca9dab2b0cd"
+    },
+    {
+      "url": "https://julian.digital/2020/09/04/a-meta-layer-for-notes/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/09/04/a-meta-layer-for-notes",
+      "id": "1bf9db93f15ed027b94dd5f656ca5b62bbb8bbd8"
+    },
+    {
+      "url": "https://julian.digital/2020/09/25/is-this-real-life/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/09/25/is-this-real-life",
+      "id": "f28476e51af440cb988d5e1461787ba353ebe6a4"
+    },
+    {
+      "url": "https://julian.digital/2020/10/02/media-consumption-sep-2020/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/10/02/media-consumption-sep-2020",
+      "id": "11006a44a07e8cd187f6dc1479831909f4191c17"
+    },
+    {
+      "url": "https://julian.digital/2020/10/11/inventory-update-q4-20/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/10/11/inventory-update-q4-20",
+      "id": "2d2c9aec96d7c3ca9d0de1bc5a5cceeddd77e880"
+    },
+    {
+      "url": "https://julian.digital/2020/11/01/media-consumption-oct-2020/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/11/01/media-consumption-oct-2020",
+      "id": "7ef10c8ffa363b88a28ecf7737cc39b2ca2a5088"
+    },
+    {
+      "url": "https://julian.digital/2020/11/20/chief-notion-officer/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/11/20/chief-notion-officer",
+      "id": "41555c255efb0f1921b6b524aa1b355e1b2a5e48"
+    },
+    {
+      "url": "https://julian.digital/2020/11/27/thoughts-on-fleets/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/11/27/thoughts-on-fleets",
+      "id": "638fb3dc2c4b71b57c6d60222662f6d8d58d8a29"
+    },
+    {
+      "url": "https://julian.digital/2020/12/01/media-consumption-nov-2020/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/12/01/media-consumption-nov-2020",
+      "id": "72f4a0ea2220737d7913a7cb3aeac9b2602ceaa7"
+    },
+    {
+      "url": "https://julian.digital/2020/12/03/banking-on-status/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/12/03/banking-on-status",
+      "id": "42e97f0a971f0d9a01769dcd0fc928d1e0afefd6"
+    },
+    {
+      "url": "https://julian.digital/2020/12/21/thoughts-on-clubhouse/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/12/21/thoughts-on-clubhouse",
+      "id": "bf196516468a39124456ff8fa4ac39db82d9aef8"
+    },
+    {
+      "url": "https://julian.digital/2020/12/31/review-of-my-2020-goals/",
+      "source": "SITEMAPS",
+      "targetPath": "/2020/12/31/review-of-my-2020-goals",
+      "id": "9c44348df63d939afbb84cac9ad5b14911a49e1a"
+    },
+    {
+      "url": "https://julian.digital/2021/01/01/list-of-goals-and-rules-for-2021/",
+      "source": "SITEMAPS",
+      "targetPath": "/2021/01/01/list-of-goals-and-rules-for-2021",
+      "id": "78f1e589eff6f66f1827ad7f255a8d4d6aa16d98"
+    },
+    {
+      "url": "https://julian.digital/2021/01/02/media-consumption-dec-2020/",
+      "source": "SITEMAPS",
+      "targetPath": "/2021/01/02/media-consumption-dec-2020",
+      "id": "2a611f47ff53532198dc8f83931b6303a02df9f0"
+    },
+    {
+      "url": "https://julian.digital/2021/02/01/media-consumption-jan-2021/",
+      "source": "SITEMAPS",
+      "targetPath": "/2021/02/01/media-consumption-jan-2021",
+      "id": "3d647782f09c6f9dfd0b3027f948f3373104a0d7"
+    },
+    {
+      "url": "https://julian.digital/2021/03/04/media-consumption-feb-2021/",
+      "source": "SITEMAPS",
+      "targetPath": "/2021/03/04/media-consumption-feb-2021",
+      "id": "c383489ea2261b7d483e5c6b5ed032cbca3103f2"
+    },
+    {
+      "url": "https://julian.digital/2021/04/02/media-consumption-mar-2021/",
+      "source": "SITEMAPS",
+      "targetPath": "/2021/04/02/media-consumption-mar-2021",
+      "id": "c598a25ad953ff6c1d578ca49107f4c01f3dac2b"
+    },
+    {
+      "url": "https://julian.digital/2021/05/03/media-consumption-apr-2021/",
+      "source": "SITEMAPS",
+      "targetPath": "/2021/05/03/media-consumption-apr-2021",
+      "id": "81fe80ea0801fbf6afc457fa6c4a1a3c0413bc9c"
+    },
+    {
+      "url": "https://julian.digital/2021/12/20/the-power-of-defaults/",
+      "source": "SITEMAPS",
+      "targetPath": "/2021/12/20/the-power-of-defaults",
+      "id": "1efabdb1f03f57da235ef095a74a056c49c0d1a3"
+    },
+    {
+      "url": "https://julian.digital/2023/07/06/multi-layered-calendars/",
+      "source": "SITEMAPS",
+      "targetPath": "/2023/07/06/multi-layered-calendars",
+      "id": "ded578e33b437fba3810e7095bc00a7ceaf2ee47"
+    },
+    {
+      "url": "https://julian.digital/2025/03/27/the-case-against-conversational-interfaces/",
+      "source": "SITEMAPS",
+      "targetPath": "/2025/03/27/the-case-against-conversational-interfaces",
+      "id": "6877269002c75b939d33a67bd3338e01a451b88f"
+    },
+    {
+      "url": "https://julian.digital/about/",
+      "source": "SITEMAPS",
+      "targetPath": "/about",
+      "id": "52eb3680ee62864c4cee4ff3c356abd6efc5b498"
+    },
+    {
+      "url": "https://julian.digital/activity/banking/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/banking",
+      "id": "64f5bfa586e52de7db149ffe27c82ce84565b215"
+    },
+    {
+      "url": "https://julian.digital/activity/being-born/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/being-born",
+      "id": "94b995b20a4b047d602152fca143d756ad3edf7b"
+    },
+    {
+      "url": "https://julian.digital/activity/building-habits/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/building-habits",
+      "id": "e1653a6463a914c2a9c41e479c45befa659688fd"
+    },
+    {
+      "url": "https://julian.digital/activity/building-products/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/building-products",
+      "id": "5c22d02c53ab218f6b6a514d345f248ddf986823"
+    },
+    {
+      "url": "https://julian.digital/activity/celebrating-a-birthday/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/celebrating-a-birthday",
+      "id": "f0873dc9e83d61aa078dbbf44a49806f419fabfb"
+    },
+    {
+      "url": "https://julian.digital/activity/drinking-beer/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/drinking-beer",
+      "id": "4c96d86dfd659832d944a04270c352a4f4a97e61"
+    },
+    {
+      "url": "https://julian.digital/activity/drinking-coffee/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/drinking-coffee",
+      "id": "6b34fa5d8720d60550fa302330811abf5d9f309d"
+    },
+    {
+      "url": "https://julian.digital/activity/drinking-old-fashioneds/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/drinking-old-fashioneds",
+      "id": "ebcd5ed9eff6522c15a50b55d8b7f2848b5dfadf"
+    },
+    {
+      "url": "https://julian.digital/activity/eating-ramen/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/eating-ramen",
+      "id": "55f1f5a41eb0fb648a811d8de32e6fbc35118292"
+    },
+    {
+      "url": "https://julian.digital/activity/eating-sushi/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/eating-sushi",
+      "id": "a7941688cb87c02051eaf56b13abcd5ab7adf8ee"
+    },
+    {
+      "url": "https://julian.digital/activity/eating/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/eating",
+      "id": "38209c6121fff0b40fbef005c673ced838d5583c"
+    },
+    {
+      "url": "https://julian.digital/activity/encountering-animals/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/encountering-animals",
+      "id": "4586ef5afdeccb6eb8baacfc0fd174d779632e7e"
+    },
+    {
+      "url": "https://julian.digital/activity/experiencing-a-life-event/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/experiencing-a-life-event",
+      "id": "34ab3da7fd282635e2b51d79cac0fcc3121de8d5"
+    },
+    {
+      "url": "https://julian.digital/activity/exploring/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/exploring",
+      "id": "916b10f53cadade8db23daca8f907cd7f318efee"
+    },
+    {
+      "url": "https://julian.digital/activity/flying/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/flying",
+      "id": "e25e0b540c7376f36366a895ce0cdf184fd76725"
+    },
+    {
+      "url": "https://julian.digital/activity/going-to-concerts/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/going-to-concerts",
+      "id": "2508f3611a2b1b61c1560e25df37d5229a991b4e"
+    },
+    {
+      "url": "https://julian.digital/activity/going-to-festivals/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/going-to-festivals",
+      "id": "8931fb78cef1d3d1f94da62db9ccf4094f34a3d1"
+    },
+    {
+      "url": "https://julian.digital/activity/increasing-productivity/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/increasing-productivity",
+      "id": "5e884ad298028c7f26bb6db2f5d01900c8697aa0"
+    },
+    {
+      "url": "https://julian.digital/activity/launching-products/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/launching-products",
+      "id": "0fac6fff19d3418ded3f9411fb3695e6a77be1af"
+    },
+    {
+      "url": "https://julian.digital/activity/life-logging/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/life-logging",
+      "id": "0e468a0649450ffe723ca7db656a74586c421ab9"
+    },
+    {
+      "url": "https://julian.digital/activity/listening-to-audiobooks/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/listening-to-audiobooks",
+      "id": "d93e59328cbc39dfb056740a99b1508c7c2bbe42"
+    },
+    {
+      "url": "https://julian.digital/activity/listening-to-music/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/listening-to-music",
+      "id": "45ec71d65c1c637316bb985478ab1c87d0e80370"
+    },
+    {
+      "url": "https://julian.digital/activity/listening-to-podcast/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/listening-to-podcast",
+      "id": "a82be3819ce710136288d788074b0b7ee3ab4d29"
+    },
+    {
+      "url": "https://julian.digital/activity/listening-to-podcasts/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/listening-to-podcasts",
+      "id": "d37f6305f22f4dfb52f4b4af5f435167361ecde2"
+    },
+    {
+      "url": "https://julian.digital/activity/listening/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/listening",
+      "id": "062cdf273ac8c77a00245a7a93b454c1aa72a34d"
+    },
+    {
+      "url": "https://julian.digital/activity/living-in-quarantine/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/living-in-quarantine",
+      "id": "8597038396a0f3b90c45eb0edaf473bff7550c7a"
+    },
+    {
+      "url": "https://julian.digital/activity/looking-at-architecture/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/looking-at-architecture",
+      "id": "be59bcecc7118b1c946a456e0f068c00b6c0506c"
+    },
+    {
+      "url": "https://julian.digital/activity/looking-at-art/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/looking-at-art",
+      "id": "db2ad55bb484dbc7eb7ef4e5ab291f7044e0ec6c"
+    },
+    {
+      "url": "https://julian.digital/activity/making-lists/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/making-lists",
+      "id": "58ff462bfedacc31fb8fd64bdd7deaad13f26888"
+    },
+    {
+      "url": "https://julian.digital/activity/meditating/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/meditating",
+      "id": "69b4066200333dce071586c8d56ee30194a3cefa"
+    },
+    {
+      "url": "https://julian.digital/activity/mixing-cocktails/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/mixing-cocktails",
+      "id": "fbdfe836720e79ad3f675d28b6573a81b5044f20"
+    },
+    {
+      "url": "https://julian.digital/activity/moving/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/moving",
+      "id": "5d8b848ae8d754fcaff1326235e71ec56d9acda2"
+    },
+    {
+      "url": "https://julian.digital/activity/playing-board-games/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/playing-board-games",
+      "id": "738467bf397a6a5230f8b434ec0a576efbbc1cf0"
+    },
+    {
+      "url": "https://julian.digital/activity/playing-games/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/playing-games",
+      "id": "96339dd49559a6b822431af1f7525443688d5597"
+    },
+    {
+      "url": "https://julian.digital/activity/playing-video-games/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/playing-video-games",
+      "id": "6cbddc5bf18bc1d4712ea0cada41ab92be747a94"
+    },
+    {
+      "url": "https://julian.digital/activity/reading-articles/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/reading-articles",
+      "id": "0039e6cab89a633d276963043eb36e95c94d3c16"
+    },
+    {
+      "url": "https://julian.digital/activity/reading-books/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/reading-books",
+      "id": "ce1ad2e5dee83f76c6054e5fbbdc186a0b8aecb8"
+    },
+    {
+      "url": "https://julian.digital/activity/reading/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/reading",
+      "id": "674a4886ca04c06443da31bd0dae025f49f4125a"
+    },
+    {
+      "url": "https://julian.digital/activity/reviewing-goals/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/reviewing-goals",
+      "id": "c40e2fc1b2b7f89b973928f7eafe01ba3e2f1947"
+    },
+    {
+      "url": "https://julian.digital/activity/setting-goals/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/setting-goals",
+      "id": "918026d47bb246f231de219954d28e68f66d789c"
+    },
+    {
+      "url": "https://julian.digital/activity/sleeping/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/sleeping",
+      "id": "bca26c7235be8a8a3e6b2450c0f075185e40580a"
+    },
+    {
+      "url": "https://julian.digital/activity/starting-a-company/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/starting-a-company",
+      "id": "bf5e78100408215012424f44283bbac1c2248290"
+    },
+    {
+      "url": "https://julian.digital/activity/studying/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/studying",
+      "id": "d4e79cbeb0a0581fb0b2eb74f771fe65f8498177"
+    },
+    {
+      "url": "https://julian.digital/activity/sunbathing/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/sunbathing",
+      "id": "23be822e4bcbca809a4003ac11b39ac9a2356cef"
+    },
+    {
+      "url": "https://julian.digital/activity/swimming/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/swimming",
+      "id": "d76d437605dac7f962b72cb7afc36cd27c582e3e"
+    },
+    {
+      "url": "https://julian.digital/activity/taking-pictures/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/taking-pictures",
+      "id": "8551fbe57fd3edbd0c48bf98d0019fa54004049d"
+    },
+    {
+      "url": "https://julian.digital/activity/taking-selfies/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/taking-selfies",
+      "id": "ab514a4551692f370059a21b5616f1adfc00e5ec"
+    },
+    {
+      "url": "https://julian.digital/activity/thinking-about-audio/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/thinking-about-audio",
+      "id": "37f71055e2ae87af341914718e9aa3a5f396cada"
+    },
+    {
+      "url": "https://julian.digital/activity/thinking-about-calendars/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/thinking-about-calendars",
+      "id": "27b4dc7c1d63dc43d41d1be652b2e91e45da2365"
+    },
+    {
+      "url": "https://julian.digital/activity/thinking-about-design/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/thinking-about-design",
+      "id": "c7c5db53952284b74b433d635a34bea6ce6691b3"
+    },
+    {
+      "url": "https://julian.digital/activity/thinking-about-fintech/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/thinking-about-fintech",
+      "id": "4f0f5b3548a6246e9814ed96a86df0c54a72429c"
+    },
+    {
+      "url": "https://julian.digital/activity/thinking-about-gamification/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/thinking-about-gamification",
+      "id": "902e81632bd4614399480b7227fdeba40d71cff5"
+    },
+    {
+      "url": "https://julian.digital/activity/thinking-about-knowledge-management/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/thinking-about-knowledge-management",
+      "id": "a8fbadbde0c1075596e7d438f9b487e40df92f38"
+    },
+    {
+      "url": "https://julian.digital/activity/thinking-about-productivity/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/thinking-about-productivity",
+      "id": "bed6409b37c1741f75178b10466cbe30cc875b75"
+    },
+    {
+      "url": "https://julian.digital/activity/thinking-about-reality/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/thinking-about-reality",
+      "id": "23ad29d48f9ffa9eb5a14a39a8b52c7dc6abd39b"
+    },
+    {
+      "url": "https://julian.digital/activity/thinking-about-shopping/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/thinking-about-shopping",
+      "id": "b1d451f03c5e2074b152c916353754f8f67d6e15"
+    },
+    {
+      "url": "https://julian.digital/activity/thinking-about-signaling/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/thinking-about-signaling",
+      "id": "dab00003942e85c94a24011932df10583885e29f"
+    },
+    {
+      "url": "https://julian.digital/activity/thinking-about-social-networks/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/thinking-about-social-networks",
+      "id": "d077cf85f1b748ee375af124e326ae82b4b49d51"
+    },
+    {
+      "url": "https://julian.digital/activity/thinking-about-tech/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/thinking-about-tech",
+      "id": "a7d765e1dbfc6d382395c9a609897646c400b7d1"
+    },
+    {
+      "url": "https://julian.digital/activity/tracking-data/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/tracking-data",
+      "id": "7ca9bdccc5ccc6c512851548bef7d55bd7a9ff43"
+    },
+    {
+      "url": "https://julian.digital/activity/traveling/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/traveling",
+      "id": "41219c391d57ca7ef2086a9199e854084fcbcec7"
+    },
+    {
+      "url": "https://julian.digital/activity/updating-my-inventory/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/updating-my-inventory",
+      "id": "1e1106e6958b130bddc31e9ab81bacffaa73c760"
+    },
+    {
+      "url": "https://julian.digital/activity/visualizing-data/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/visualizing-data",
+      "id": "e7ccc43c514fd3a10341e2960e88e63991a9c866"
+    },
+    {
+      "url": "https://julian.digital/activity/walking/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/walking",
+      "id": "efdfa47da7f35c4fa4f5987fe68c808644ed8ec3"
+    },
+    {
+      "url": "https://julian.digital/activity/watching-moves/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/watching-moves",
+      "id": "70db8086191d268f97720dce759f78cb29736346"
+    },
+    {
+      "url": "https://julian.digital/activity/watching-movies/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/watching-movies",
+      "id": "c165e37a23ba03f2c4710a1455d761f0373b81d3"
+    },
+    {
+      "url": "https://julian.digital/activity/watching-soccer-games/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/watching-soccer-games",
+      "id": "705d582c5d3bc098be91572afcd41cba2897088a"
+    },
+    {
+      "url": "https://julian.digital/activity/watching-tv/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/watching-tv",
+      "id": "19776f31e2ebb5b1c6a6f4947110c684348362ea"
+    },
+    {
+      "url": "https://julian.digital/activity/watchting-tv/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/watchting-tv",
+      "id": "7e00159354acc7567e33eb3e5d4a53598aa0c816"
+    },
+    {
+      "url": "https://julian.digital/activity/working/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/working",
+      "id": "9d3f3c85e6a3205034bfede1251414d11b17700b"
+    },
+    {
+      "url": "https://julian.digital/activity/writing-essays/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/writing-essays",
+      "id": "c3cec6f4453a5de10c25504f39232eddc1a40be7"
+    },
+    {
+      "url": "https://julian.digital/activity/writing/",
+      "source": "SITEMAPS",
+      "targetPath": "/activity/writing",
+      "id": "b663655bf0cbe0de2e917d211de627b5214f2844"
+    },
+    {
+      "url": "https://julian.digital/archivebylocation/",
+      "source": "SITEMAPS",
+      "targetPath": "/archivebylocation",
+      "id": "900d51a792fb6d4302140db445bb87e8a6ea8a20"
+    },
+    {
+      "url": "https://julian.digital/author/julian/",
+      "source": "SITEMAPS",
+      "targetPath": "/author/julian",
+      "id": "67f779cea59cfe7aa1eed7f2b797d013c5b25dc8"
+    },
+    {
+      "url": "https://julian.digital/imprint/",
+      "source": "SITEMAPS",
+      "targetPath": "/imprint",
+      "id": "6445ca3739e22eff92c5e24d0c412d87c2417d08"
+    },
+    {
+      "url": "https://julian.digital/location/%f0%9f%9a%85/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/",
+      "id": "ed8965e13543203828ba413686c1d7883f6ea51d"
+    },
+    {
+      "url": "https://julian.digital/location/%f0%9f%9a%8c/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/",
+      "id": "faa22d2fa65a83b0b925b53884945277c7cd426e"
+    },
+    {
+      "url": "https://julian.digital/location/basel/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/basel",
+      "id": "9c7de395f867b5443a35b22186210368e6c46f54"
+    },
+    {
+      "url": "https://julian.digital/location/berlin/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/berlin",
+      "id": "e6e469019f54e457e6deadf63cb946aeb19565eb"
+    },
+    {
+      "url": "https://julian.digital/location/brighton/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/brighton",
+      "id": "89fde5d6db972307aaae67ba86649bd13c3acb84"
+    },
+    {
+      "url": "https://julian.digital/location/budapest/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/budapest",
+      "id": "405cb2f18bfcddd313974f827f717dce905e46d5"
+    },
+    {
+      "url": "https://julian.digital/location/dublin/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/dublin",
+      "id": "c63e063cc45699d750a16d5d072e100190cf9729"
+    },
+    {
+      "url": "https://julian.digital/location/dusseldorf/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/dusseldorf",
+      "id": "0b567f3c808c5704b46d2879a6c07a91f9be541f"
+    },
+    {
+      "url": "https://julian.digital/location/ferropolis/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/ferropolis",
+      "id": "4ba2fc18aabe5d89e603639ae7ea3a0caf47502e"
+    },
+    {
+      "url": "https://julian.digital/location/flying/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/flying",
+      "id": "82599f8eab709dfbc62c4e1be661397b7d8b60ff"
+    },
+    {
+      "url": "https://julian.digital/location/gottingen/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/gottingen",
+      "id": "d94cfbae11b3628b4630da1df25c309a24211c48"
+    },
+    {
+      "url": "https://julian.digital/location/grasse/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/grasse",
+      "id": "a5fbf50c6433f27312772f5f477f334dc99d029e"
+    },
+    {
+      "url": "https://julian.digital/location/hamburg/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/hamburg",
+      "id": "eca1c6b5f0e19c747c8c54718b159ce05589d18d"
+    },
+    {
+      "url": "https://julian.digital/location/istanbul/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/istanbul",
+      "id": "32b0922e2bc9997266a74e0358963d1ccfca18ca"
+    },
+    {
+      "url": "https://julian.digital/location/linz/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/linz",
+      "id": "9f233a73b99834da52f0d1bd9834677a71cf6196"
+    },
+    {
+      "url": "https://julian.digital/location/lisbon/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/lisbon",
+      "id": "a410e204f24798934c5cda4ce07255278bf7bff2"
+    },
+    {
+      "url": "https://julian.digital/location/london/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/london",
+      "id": "1d0da87795335e1dde444060f261d32d5f4533a3"
+    },
+    {
+      "url": "https://julian.digital/location/madrid/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/madrid",
+      "id": "c753828046cd6dea84c241b22d2f3959e33ef431"
+    },
+    {
+      "url": "https://julian.digital/location/milan/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/milan",
+      "id": "f0f0ff0350ae0fd650690f3162d8feeab5ad1073"
+    },
+    {
+      "url": "https://julian.digital/location/neuruppin/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/neuruppin",
+      "id": "4cda65f4027d251a11fa7d2fe9cdc3e93884199c"
+    },
+    {
+      "url": "https://julian.digital/location/ring-of-kerry/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/ring-of-kerry",
+      "id": "d2c6b7ce07e544bb29a2e6a165e8857661f07499"
+    },
+    {
+      "url": "https://julian.digital/location/rome/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/rome",
+      "id": "f4d39fad82f398ef7adbaa42785133edc454540f"
+    },
+    {
+      "url": "https://julian.digital/location/san-francisco/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/san-francisco",
+      "id": "7c3db15873e2a6316b0442b83104393f0c65534d"
+    },
+    {
+      "url": "https://julian.digital/location/tel-aviv/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/tel-aviv",
+      "id": "3d24f72e0655506e8d4b2c97c8122b96376b8069"
+    },
+    {
+      "url": "https://julian.digital/location/tokyo/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/tokyo",
+      "id": "18caecfb4610263fd37596438c0c80f7c40d8193"
+    },
+    {
+      "url": "https://julian.digital/location/vienna/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/vienna",
+      "id": "471079c8fb80b0790c7404db6cc4ea23a268f686"
+    },
+    {
+      "url": "https://julian.digital/location/wexford/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/wexford",
+      "id": "177ef9cb10886da9091af87f0f5b47fa0c896cdd"
+    },
+    {
+      "url": "https://julian.digital/location/zurich/",
+      "source": "SITEMAPS",
+      "targetPath": "/location/zurich",
+      "id": "d1fce55dbaffe58fb3f8f255bcc4c78b559452c0"
     }
   ],
   "crawlOptions": {
@@ -16,11 +1696,10 @@
     "limit": -1,
     "sameDomain": true,
     "keepHash": false,
-    "strategy": "crawl",
+    "strategy": "sitemaps",
     "logger": {},
     "strategiesAttempted": [
-      "SITEMAPS",
-      "CRAWL"
+      "SITEMAPS"
     ]
   },
   "extractionErrors": []
