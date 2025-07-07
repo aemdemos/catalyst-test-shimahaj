@@ -2,7 +2,7 @@
 #
 # - If 'aemy-running' is present → PR is converted to draft, merge blocked
 # - If 'aemy-failed' is present → merge blocked
-# - If 'aemy-done' AND 'aemy-merge' are present (and 'aemy-running' is NOT) → PR is ready
+# - If 'aemy-done' AND 'aemy-merge' are present (and 'aemy-running' and 'aemy-failed' are NOT) → PR is ready
 
 name: aemy-pr-readiness-check
 
@@ -61,7 +61,8 @@ jobs:
         if: |
           contains(steps.current-labels.outputs.labels, env.AEMY_DONE_LABEL) &&
           contains(steps.current-labels.outputs.labels, env.AEMY_MERGE_LABEL) &&
-          !contains(steps.current-labels.outputs.labels, env.AEMY_RUNNING_LABEL)
+          !contains(steps.current-labels.outputs.labels, env.AEMY_RUNNING_LABEL) &&
+          !contains(steps.current-labels.outputs.labels, env.AEMY_FAILED_LABEL)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
