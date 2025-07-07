@@ -2,7 +2,7 @@
 #
 # - If 'aemy-running' is present → PR is converted to draft, merge blocked
 # - If 'aemy-failed' is present → merge blocked
-# - If 'aemy-done' is present (and 'aemy-running' is NOT) → PR is ready
+# - If 'aemy-done' AND 'aemy-merge' are present (and 'aemy-running' is NOT) → PR is ready
 
 name: aemy-pr-readiness-check
 
@@ -17,6 +17,12 @@ concurrency:
 permissions:
   contents: write
   pull-requests: write
+
+env:
+  AEMY_RUNNING_LABEL: "aemy-running"
+  AEMY_FAILED_LABEL: "aemy-failed"
+  AEMY_DONE_LABEL: "aemy-done"
+  AEMY_MERGE_LABEL: "aemy-merge"
 
 jobs:
   manage-pr-state:
@@ -36,7 +42,7 @@ jobs:
           echo "Live labels: $LABELS"
 
       - name: Convert PR to draft while AEMY is running
-        if: contains(steps.current-labels.outputs.labels, 'aemy-running')
+        if: contains(steps.current-labels.outputs.labels, env.AEMY_RUNNING_LABEL)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -45,18 +51,19 @@ jobs:
 
       - name: Prevent merge - AEMY running or failed
         if: |
-          contains(steps.current-labels.outputs.labels, 'aemy-running') ||
-          contains(steps.current-labels.outputs.labels, 'aemy-failed')
+          contains(steps.current-labels.outputs.labels, env.AEMY_RUNNING_LABEL) ||
+          contains(steps.current-labels.outputs.labels, env.AEMY_FAILED_LABEL)
         run: |
           echo "❌ Cannot merge: AEMY is still running or failed"
           exit 1
 
       - name: Mark PR ready for review after AEMY completion
         if: |
-          contains(steps.current-labels.outputs.labels, 'aemy-done') &&
-          !contains(steps.current-labels.outputs.labels, 'aemy-running')
+          contains(steps.current-labels.outputs.labels, env.AEMY_DONE_LABEL) &&
+          contains(steps.current-labels.outputs.labels, env.AEMY_MERGE_LABEL) &&
+          !contains(steps.current-labels.outputs.labels, env.AEMY_RUNNING_LABEL)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh pr ready ${{ github.event.pull_request.number }} || true
-          echo "✅ PR marked ready for review (AEMY done)"
+          echo "✅ PR marked ready for review (AEMY done)" 
